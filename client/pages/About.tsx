@@ -460,6 +460,295 @@ export default function About() {
         </div>
       </section>
 
+      {/* Leadership & Management Section */}
+      <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-background transition-colors duration-300 relative overflow-hidden">
+        <div className="container mx-auto px-4 sm:px-6 relative z-10">
+          <AnimatedFadeInUp className="mb-8 sm:mb-12 md:mb-16 lg:mb-24" threshold={0.2}>
+            <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 mb-3 sm:mb-4 lg:mb-6">
+              <div className="w-1 md:w-1.5 h-8 sm:h-10 lg:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black leading-tight">
+                Leadership & Management Excellence
+              </h2>
+            </div>
+            <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-3xl leading-relaxed">
+              Our organizational structure led by experienced commanders and seasoned professionals
+            </p>
+          </AnimatedFadeInUp>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12">
+            {/* Organizational Hierarchy */}
+            <AnimatedFadeInLeft threshold={0.2}>
+              <div className="space-y-4 sm:space-y-6">
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-black text-foreground mb-6 sm:mb-8 leading-tight">
+                  Organizational Hierarchy
+                </h3>
+
+                {/* CEO */}
+                <div className="flex flex-col items-center">
+                  <div className="bg-gradient-to-br from-accent/20 to-accent/10 border-2 border-accent rounded-xl p-4 sm:p-6 w-full sm:w-3/4 text-center hover:shadow-lg transition-all duration-300">
+                    <div className="text-lg sm:text-xl lg:text-2xl font-black text-foreground mb-1">
+                      MUSTABEEN ULLAH BAIG
+                    </div>
+                    <div className="text-xs sm:text-sm lg:text-base font-black text-accent">
+                      CEO
+                    </div>
+                  </div>
+                  <div className="w-1 h-6 sm:h-8 bg-border my-2 sm:my-3"></div>
+                </div>
+
+                {/* Executive Director */}
+                <div className="flex flex-col items-center">
+                  <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-xl p-4 sm:p-6 w-full sm:w-3/4 text-center hover:shadow-lg transition-all duration-300">
+                    <div className="text-base sm:text-lg lg:text-xl font-black text-foreground mb-1">
+                      MAHNOOR MUSTABEEN BAIG
+                    </div>
+                    <div className="text-xs sm:text-sm font-bold text-muted-foreground">
+                      EXECUTIVE DIRECTOR
+                    </div>
+                  </div>
+                  <div className="w-1 h-6 sm:h-8 bg-border my-2 sm:my-3"></div>
+                </div>
+
+                {/* Top Management */}
+                <div>
+                  <div className="text-xs sm:text-sm font-black text-accent uppercase tracking-widest mb-3 sm:mb-4">
+                    Top Management
+                  </div>
+                  <div className="space-y-2 sm:space-y-3">
+                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                      <div className="text-sm sm:text-base font-black text-foreground">MAJ (R) KHALID NAWAZ ABBASI</div>
+                      <div className="text-xs font-bold text-muted-foreground">GM Marketing & Operations</div>
+                    </div>
+                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                      <div className="text-sm sm:text-base font-black text-foreground">SYED REHAN WAQAR</div>
+                      <div className="text-xs font-bold text-muted-foreground">Company Secretary / Manager Admin</div>
+                    </div>
+                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                      <div className="text-sm sm:text-base font-black text-foreground">SOHAIL AMIR</div>
+                      <div className="text-xs font-bold text-muted-foreground">Chief Finance Manager</div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Operations & Regional Management */}
+                <div>
+                  <div className="text-xs sm:text-sm font-black text-accent uppercase tracking-widest mb-3 sm:mb-4">
+                    Operations & Regional Management
+                  </div>
+                  <div className="space-y-2 sm:space-y-3">
+                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                      <div className="text-sm sm:text-base font-black text-foreground">MAJ (R) ABID LATIF</div>
+                      <div className="text-xs font-bold text-muted-foreground">Regional Manager (South)</div>
+                    </div>
+                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                      <div className="text-sm sm:text-base font-black text-foreground">CAPT (R) MANSOOR</div>
+                      <div className="text-xs font-bold text-muted-foreground">Area Manager (Abdul Hakeem)</div>
+                    </div>
+                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                      <div className="text-sm sm:text-base font-black text-foreground">HON CAPT (R) MUHAMMAD QURBAN</div>
+                      <div className="text-xs font-bold text-muted-foreground">Area Manager (Karachi)</div>
+                    </div>
+                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                      <div className="text-sm sm:text-base font-black text-foreground">ZAKIR UR REHMAN</div>
+                      <div className="text-xs font-bold text-muted-foreground">Area Manager (Karachi)</div>
+                    </div>
+                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                      <div className="text-sm sm:text-base font-black text-foreground">RAHEEL AKBAR SHAH</div>
+                      <div className="text-xs font-bold text-muted-foreground">Area Manager (Quetta)</div>
+                    </div>
+                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                      <div className="text-sm sm:text-base font-black text-foreground">SALEEM MURAD</div>
+                      <div className="text-xs font-bold text-muted-foreground">Area Manager (Lahore)</div>
+                    </div>
+                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                      <div className="text-sm sm:text-base font-black text-foreground">QASER IFTIKHAR</div>
+                      <div className="text-xs font-bold text-muted-foreground">Area Manager (Gujranwala)</div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Administration & Finance */}
+                <div>
+                  <div className="text-xs sm:text-sm font-black text-accent uppercase tracking-widest mb-3 sm:mb-4">
+                    Administration & Finance
+                  </div>
+                  <div className="space-y-2 sm:space-y-3">
+                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                      <div className="text-sm sm:text-base font-black text-foreground">PERVAIZ SIAL</div>
+                      <div className="text-xs font-bold text-muted-foreground">Admin Officer</div>
+                    </div>
+                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                      <div className="text-sm sm:text-base font-black text-foreground">MANSOOR AMIN</div>
+                      <div className="text-xs font-bold text-muted-foreground">Finance Manager (South)</div>
+                    </div>
+                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                      <div className="text-sm sm:text-base font-black text-foreground">WALEED AHMED</div>
+                      <div className="text-xs font-bold text-muted-foreground">Accounts Officer (Karachi)</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </AnimatedFadeInLeft>
+
+            {/* Management Experience Table */}
+            <AnimatedFadeInRight threshold={0.2}>
+              <div>
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-black text-foreground mb-6 sm:mb-8 leading-tight">
+                  Team Experience Overview
+                </h3>
+                <div className="overflow-x-auto bg-card border border-border/50 rounded-xl">
+                  <table className="w-full text-xs sm:text-sm">
+                    <thead>
+                      <tr className="border-b border-border/50 bg-gradient-to-r from-accent/10 to-accent/5">
+                        <th className="px-3 sm:px-4 py-3 sm:py-4 text-left font-black text-foreground">S. No</th>
+                        <th className="px-3 sm:px-4 py-3 sm:py-4 text-left font-black text-foreground">City</th>
+                        <th className="px-3 sm:px-4 py-3 sm:py-4 text-left font-black text-foreground">Name</th>
+                        <th className="px-3 sm:px-4 py-3 sm:py-4 text-left font-black text-foreground">Experience</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">1</td>
+                        <td rowSpan={4} className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Islamabad</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Mustabeen Ullah Baig</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">30 Yrs</td>
+                      </tr>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4"></td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Maj (R) Khalid Nawaz Abbasi</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">15 Yrs</td>
+                      </tr>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4"></td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Syed Rehan Waqar</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">20 Yrs</td>
+                      </tr>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4"></td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sohail Amir</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">15 Yrs</td>
+                      </tr>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">2</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Chakwal</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sub (R) Muhammad Aslam</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">14 Yrs</td>
+                      </tr>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">3</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Peshawar</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Muhammad Babar</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">5 Yrs</td>
+                      </tr>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">4</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Jhelum</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Muhammad Mushtaq</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">18 Yrs</td>
+                      </tr>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">5</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Abdul Hakeem</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Saleem Murad</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">10 Yrs</td>
+                      </tr>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">6</td>
+                        <td rowSpan={2} className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Lahore</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Maj (R) Abid Latif</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">16 Yrs</td>
+                      </tr>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4"></td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Mansoor Amin</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">18 Yrs</td>
+                      </tr>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">7</td>
+                        <td rowSpan={2} className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Multan</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sub (R) Muhammad Asghar</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">6 Yrs</td>
+                      </tr>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4"></td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Capt (R) Mansoor</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">5 Yrs</td>
+                      </tr>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">8</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Gharo (Sindh)</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Mehr Khalid</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">19 Yrs</td>
+                      </tr>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">9</td>
+                        <td rowSpan={3} className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sargodha</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Muhammad Qaiser</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">2 Yrs</td>
+                      </tr>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4"></td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sub (R) Rasheed Ahmed</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">8 Yrs</td>
+                      </tr>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4"></td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sub (R) Muhammad Mushtaq</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">9 Yrs</td>
+                      </tr>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">10</td>
+                        <td rowSpan={2} className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Gujranwala</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Zakir Ur Rehman</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">30 Yrs</td>
+                      </tr>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4"></td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Waleed Ahmed</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">2 Yrs</td>
+                      </tr>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">11</td>
+                        <td rowSpan={2} className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Karachi</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">N/Sub (R) Niaz Muhammad</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">5 Yrs</td>
+                      </tr>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4"></td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Hav (R) Muhammad Bachal</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">6 Yrs</td>
+                      </tr>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">12</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Quetta</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Raheel Akbar Shah (R) Police</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">12 Yrs</td>
+                      </tr>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">13</td>
+                        <td rowSpan={3} className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">AJK</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sub (R) Muhammad Husnain</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">11 Yrs</td>
+                      </tr>
+                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4"></td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sub (R) Muhammad Iqbal</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">18 Yrs</td>
+                      </tr>
+                      <tr className="hover:bg-accent/5 transition-colors">
+                        <td className="px-3 sm:px-4 py-3 sm:py-4"></td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Capt (R) Muhammad Qurban</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">13 Yrs</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </AnimatedFadeInRight>
+          </div>
+        </div>
+      </section>
+
       {/* Expertise Summary Section */}
       <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-background transition-colors duration-300 relative overflow-hidden">
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
