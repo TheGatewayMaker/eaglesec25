@@ -312,154 +312,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* What Sets Us Apart Section */}
-      <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-gradient-to-b from-background/95 via-background to-background transition-colors duration-300 relative overflow-hidden">
-        <svg
-          className="absolute top-1/3 -left-40 w-1/2 h-2/3 opacity-35"
-          viewBox="0 0 500 600"
-          preserveAspectRatio="xMinYMid slice"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <defs>
-            <linearGradient
-              id="apartGradient"
-              x1="0%"
-              y1="0%"
-              x2="100%"
-              y2="100%"
-            >
-              <stop
-                offset="0%"
-                style={{ stopColor: "var(--accent)", stopOpacity: 0.5 }}
-              />
-              <stop
-                offset="100%"
-                style={{ stopColor: "var(--accent)", stopOpacity: 0.08 }}
-              />
-            </linearGradient>
-          </defs>
-          <path
-            d="M0,100 Q100,50 200,100 Q300,150 400,100 Q500,150 500,250 L0,250 Z"
-            fill="url(#apartGradient)"
-          />
-        </svg>
-
-        <div className="container mx-auto px-4 sm:px-6 relative z-10">
-          <AnimatedFadeInUp
-            className="mb-8 sm:mb-12 md:mb-16 lg:mb-24"
-            threshold={0.2}
-          >
-            <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 mb-3 sm:mb-4 lg:mb-6">
-              <div className="w-1 md:w-1.5 h-8 sm:h-10 lg:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black leading-tight">
-                Why Organizations Trust Eagle
-              </h2>
-            </div>
-            <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-3xl leading-relaxed">
-              Six pillars that define our competitive advantage
-            </p>
-          </AnimatedFadeInUp>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6">
-            <AnimatedFadeInUp delay={0} threshold={0.2}>
-              <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-5 sm:p-6 lg:p-8 rounded-xl transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
-                <div className="absolute -right-10 -top-10 w-28 h-28 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
-                <div className="relative z-10">
-                  <Shield className="w-8 sm:w-10 h-8 sm:h-10 text-accent mb-4 sm:mb-5" />
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-black text-foreground mb-2 sm:mb-3 leading-tight">
-                    Military Heritage
-                  </h3>
-                  <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
-                    Personnel drawn from Pakistan's elite armed forces with
-                    unparalleled training and discipline.
-                  </p>
-                </div>
-              </div>
-            </AnimatedFadeInUp>
-
-            <AnimatedFadeInUp delay={100} threshold={0.2}>
-              <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-5 sm:p-6 lg:p-8 rounded-xl transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
-                <div className="absolute -right-10 -top-10 w-28 h-28 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
-                <div className="relative z-10">
-                  <Award className="w-8 sm:w-10 h-8 sm:h-10 text-accent mb-4 sm:mb-5" />
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-black text-foreground mb-2 sm:mb-3 leading-tight">
-                    Rigorous Vetting
-                  </h3>
-                  <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
-                    Comprehensive background screening ensures only the most
-                    qualified professionals join our ranks.
-                  </p>
-                </div>
-              </div>
-            </AnimatedFadeInUp>
-
-            <AnimatedFadeInUp delay={200} threshold={0.2}>
-              <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-5 sm:p-6 lg:p-8 rounded-xl transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
-                <div className="absolute -right-10 -top-10 w-28 h-28 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
-                <div className="relative z-10">
-                  <Zap className="w-8 sm:w-10 h-8 sm:h-10 text-accent mb-4 sm:mb-5" />
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-black text-foreground mb-2 sm:mb-3 leading-tight">
-                    Rapid Response
-                  </h3>
-                  <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
-                    24/7 monitoring and immediate action protocols ensure
-                    threats are addressed swiftly and effectively.
-                  </p>
-                </div>
-              </div>
-            </AnimatedFadeInUp>
-
-            <AnimatedFadeInUp delay={300} threshold={0.2}>
-              <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-5 sm:p-6 lg:p-8 rounded-xl transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
-                <div className="absolute -right-10 -top-10 w-28 h-28 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
-                <div className="relative z-10">
-                  <Lock className="w-8 sm:w-10 h-8 sm:h-10 text-accent mb-4 sm:mb-5" />
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-black text-foreground mb-2 sm:mb-3 leading-tight">
-                    National Network
-                  </h3>
-                  <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
-                    50+ offices across Pakistan ensure rapid response and local
-                    expertise wherever you operate.
-                  </p>
-                </div>
-              </div>
-            </AnimatedFadeInUp>
-
-            <AnimatedFadeInUp delay={400} threshold={0.2}>
-              <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-5 sm:p-6 lg:p-8 rounded-xl transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
-                <div className="absolute -right-10 -top-10 w-28 h-28 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
-                <div className="relative z-10">
-                  <Headphones className="w-8 sm:w-10 h-8 sm:h-10 text-accent mb-4 sm:mb-5" />
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-black text-foreground mb-2 sm:mb-3 leading-tight">
-                    Client-Centric Approach
-                  </h3>
-                  <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
-                    Your security needs drive everything we do, with customized
-                    solutions for every scenario.
-                  </p>
-                </div>
-              </div>
-            </AnimatedFadeInUp>
-
-            <AnimatedFadeInUp delay={500} threshold={0.2}>
-              <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-5 sm:p-6 lg:p-8 rounded-xl transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
-                <div className="absolute -right-10 -top-10 w-28 h-28 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
-                <div className="relative z-10">
-                  <Briefcase className="w-8 sm:w-10 h-8 sm:h-10 text-accent mb-4 sm:mb-5" />
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-black text-foreground mb-2 sm:mb-3 leading-tight">
-                    Proven Excellence
-                  </h3>
-                  <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
-                    Trusted by government agencies, financial institutions, and
-                    Fortune 500 companies since 1992.
-                  </p>
-                </div>
-              </div>
-            </AnimatedFadeInUp>
-          </div>
-        </div>
-      </section>
-
       {/* Leadership & Management Section */}
       <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-background transition-colors duration-300 relative overflow-hidden">
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
@@ -483,15 +335,15 @@ export default function About() {
             {/* Organizational Hierarchy */}
             <AnimatedFadeInLeft threshold={0.2}>
               <div>
-                <h3 className="text-xl sm:text-2xl lg:text-3xl font-black text-foreground mb-8 sm:mb-10 lg:mb-12 leading-tight">
+                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-black text-foreground mb-8 sm:mb-10 lg:mb-12 leading-tight">
                   Organizational Hierarchy
                 </h3>
 
                 {/* Level 1: CEO */}
-                <div className="flex flex-col items-center mb-6 sm:mb-8">
+                <div className="flex flex-col items-center mb-4 sm:mb-5">
                   <div className="relative w-full max-w-xs">
-                    <div className="absolute inset-0 bg-gradient-to-r from-accent/20 to-accent/10 rounded-2xl blur-xl"></div>
-                    <div className="relative bg-gradient-to-br from-accent to-accent/80 text-accent-foreground rounded-2xl p-5 sm:p-7 text-center hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-accent/40">
+                    <div className="absolute inset-0 bg-gradient-to-r from-accent/20 to-accent/10 blur-xl"></div>
+                    <div className="relative bg-gradient-to-br from-accent to-accent/80 text-accent-foreground p-5 sm:p-7 text-center hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-accent/40">
                       <div className="text-lg sm:text-xl lg:text-2xl font-black mb-1">
                         MUSTABEEN ULLAH BAIG
                       </div>
@@ -504,10 +356,10 @@ export default function About() {
                 </div>
 
                 {/* Level 2: Executive Director */}
-                <div className="flex flex-col items-center mb-8 sm:mb-10">
+                <div className="flex flex-col items-center mb-4 sm:mb-5">
                   <div className="relative w-full max-w-sm">
-                    <div className="absolute inset-0 bg-gradient-to-r from-pk-green-main/10 to-pk-green-main/5 rounded-xl blur-lg"></div>
-                    <div className="relative bg-gradient-to-br from-pk-green-light/20 to-pk-green-light/5 border-2 border-pk-green-main rounded-xl p-4 sm:p-6 text-center hover:shadow-lg hover:scale-102 transition-all duration-300">
+                    <div className="absolute inset-0 bg-gradient-to-r from-pk-green-main/10 to-pk-green-main/5 blur-lg"></div>
+                    <div className="relative bg-gradient-to-br from-pk-green-light/20 to-pk-green-light/5 border-2 border-pk-green-main p-4 sm:p-6 text-center hover:shadow-lg hover:scale-102 transition-all duration-300">
                       <div className="text-base sm:text-lg lg:text-xl font-black text-foreground mb-1">
                         MAHNOOR MUSTABEEN BAIG
                       </div>
@@ -520,13 +372,13 @@ export default function About() {
                 </div>
 
                 {/* Level 3: Top Management - 3 Column Grid */}
-                <div className="mb-8 sm:mb-10">
-                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-6 sm:mb-8">
+                <div className="mb-4 sm:mb-5">
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-3 mb-4 sm:mb-5">
                     {/* GM Marketing & Operations */}
                     <div className="group">
                       <div className="relative h-full">
-                        <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-blue-500/5 rounded-xl blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-blue-500/10 to-blue-500/5 border-2 border-blue-500/30 group-hover:border-blue-500/60 rounded-xl p-4 sm:p-5 text-center hover:shadow-lg transition-all duration-300 h-full flex flex-col">
+                        <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-blue-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-blue-500/10 to-blue-500/5 border-2 border-blue-500/30 group-hover:border-blue-500/60 p-4 sm:p-5 text-center hover:shadow-lg transition-all duration-300 h-full flex flex-col">
                           <div className="text-sm sm:text-base font-black text-foreground mb-1">
                             MAJ (R) KHALID NAWAZ ABBASI
                           </div>
@@ -540,8 +392,8 @@ export default function About() {
                     {/* Company Secretary */}
                     <div className="group">
                       <div className="relative h-full">
-                        <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-purple-500/5 rounded-xl blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-purple-500/10 to-purple-500/5 border-2 border-purple-500/30 group-hover:border-purple-500/60 rounded-xl p-4 sm:p-5 text-center hover:shadow-lg transition-all duration-300 h-full flex flex-col">
+                        <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-purple-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-purple-500/10 to-purple-500/5 border-2 border-purple-500/30 group-hover:border-purple-500/60 p-4 sm:p-5 text-center hover:shadow-lg transition-all duration-300 h-full flex flex-col">
                           <div className="text-sm sm:text-base font-black text-foreground mb-1">
                             SYED REHAN WAQAR
                           </div>
@@ -555,8 +407,8 @@ export default function About() {
                     {/* Chief Finance Manager */}
                     <div className="group">
                       <div className="relative h-full">
-                        <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/10 to-emerald-500/5 rounded-xl blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-emerald-500/10 to-emerald-500/5 border-2 border-emerald-500/30 group-hover:border-emerald-500/60 rounded-xl p-4 sm:p-5 text-center hover:shadow-lg transition-all duration-300 h-full flex flex-col">
+                        <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/10 to-emerald-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-emerald-500/10 to-emerald-500/5 border-2 border-emerald-500/30 group-hover:border-emerald-500/60 p-4 sm:p-5 text-center hover:shadow-lg transition-all duration-300 h-full flex flex-col">
                           <div className="text-sm sm:text-base font-black text-foreground mb-1">
                             SOHAIL AMIR
                           </div>
@@ -568,21 +420,21 @@ export default function About() {
                     </div>
                   </div>
                   <div className="flex justify-center">
-                    <div className="w-0.5 h-8 sm:h-10 bg-gradient-to-b from-slate-400 to-slate-200 dark:from-slate-600 dark:to-slate-800"></div>
+                    <div className="w-0.5 h-4 sm:h-5 bg-gradient-to-b from-slate-400 to-slate-200 dark:from-slate-600 dark:to-slate-800"></div>
                   </div>
                 </div>
 
                 {/* Level 4: Operations & Regional Management */}
-                <div className="mb-6 sm:mb-8">
-                  <div className="text-xs sm:text-sm font-black text-accent uppercase tracking-widest mb-4 sm:mb-5 text-center">
+                <div className="mb-4 sm:mb-5">
+                  <div className="text-xs sm:text-sm font-black text-accent uppercase tracking-widest mb-3 sm:mb-4 text-center">
                     Operations & Regional Management
                   </div>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3">
                     {/* Regional Manager */}
                     <div className="group sm:col-span-2 sm:w-1/2 sm:mx-auto">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-orange-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-orange-500/10 to-orange-500/5 border border-orange-500/30 group-hover:border-orange-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                        <div className="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-orange-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-orange-500/10 to-orange-500/5 border border-orange-500/30 group-hover:border-orange-500/60 p-3 sm:p-4 hover:shadow-md transition-all duration-300">
                           <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
                             MAJ (R) ABID LATIF
                           </div>
@@ -596,8 +448,8 @@ export default function About() {
                     {/* Area Managers Grid */}
                     <div className="group">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 p-3 sm:p-4 hover:shadow-md transition-all duration-300">
                           <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
                             CAPT (R) MANSOOR
                           </div>
@@ -610,8 +462,8 @@ export default function About() {
 
                     <div className="group">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 p-3 sm:p-4 hover:shadow-md transition-all duration-300">
                           <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
                             HON CAPT (R) MUHAMMAD QURBAN
                           </div>
@@ -624,8 +476,8 @@ export default function About() {
 
                     <div className="group">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 p-3 sm:p-4 hover:shadow-md transition-all duration-300">
                           <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
                             ZAKIR UR REHMAN
                           </div>
@@ -638,8 +490,8 @@ export default function About() {
 
                     <div className="group">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 p-3 sm:p-4 hover:shadow-md transition-all duration-300">
                           <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
                             RAHEEL AKBAR SHAH
                           </div>
@@ -652,8 +504,8 @@ export default function About() {
 
                     <div className="group">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 p-3 sm:p-4 hover:shadow-md transition-all duration-300">
                           <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
                             SALEEM MURAD
                           </div>
@@ -666,8 +518,8 @@ export default function About() {
 
                     <div className="group">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 p-3 sm:p-4 hover:shadow-md transition-all duration-300">
                           <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
                             QASER IFTIKHAR
                           </div>
@@ -682,14 +534,14 @@ export default function About() {
 
                 {/* Level 5: Administration & Finance */}
                 <div>
-                  <div className="text-xs sm:text-sm font-black text-accent uppercase tracking-widest mb-4 sm:mb-5 text-center">
+                  <div className="text-xs sm:text-sm font-black text-accent uppercase tracking-widest mb-3 sm:mb-4 text-center">
                     Administration & Finance
                   </div>
-                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-3">
                     <div className="group">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-rose-500/10 to-rose-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-rose-500/10 to-rose-500/5 border border-rose-500/30 group-hover:border-rose-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                        <div className="absolute inset-0 bg-gradient-to-br from-rose-500/10 to-rose-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-rose-500/10 to-rose-500/5 border border-rose-500/30 group-hover:border-rose-500/60 p-3 sm:p-4 hover:shadow-md transition-all duration-300">
                           <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
                             PERVAIZ SIAL
                           </div>
@@ -702,8 +554,8 @@ export default function About() {
 
                     <div className="group">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-rose-500/10 to-rose-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-rose-500/10 to-rose-500/5 border border-rose-500/30 group-hover:border-rose-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                        <div className="absolute inset-0 bg-gradient-to-br from-rose-500/10 to-rose-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-rose-500/10 to-rose-500/5 border border-rose-500/30 group-hover:border-rose-500/60 p-3 sm:p-4 hover:shadow-md transition-all duration-300">
                           <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
                             MANSOOR AMIN
                           </div>
@@ -716,8 +568,8 @@ export default function About() {
 
                     <div className="group">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-rose-500/10 to-rose-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-rose-500/10 to-rose-500/5 border border-rose-500/30 group-hover:border-rose-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                        <div className="absolute inset-0 bg-gradient-to-br from-rose-500/10 to-rose-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-rose-500/10 to-rose-500/5 border border-rose-500/30 group-hover:border-rose-500/60 p-3 sm:p-4 hover:shadow-md transition-all duration-300">
                           <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
                             WALEED AHMED
                           </div>
@@ -732,297 +584,345 @@ export default function About() {
               </div>
             </AnimatedFadeInLeft>
 
-            {/* Management Experience Table */}
+            {/* Team Experience Overview Table */}
             <AnimatedFadeInRight threshold={0.2}>
               <div>
                 <h3 className="text-2xl sm:text-3xl lg:text-4xl font-black text-foreground mb-6 sm:mb-8 leading-tight">
                   Team Experience Overview
                 </h3>
 
-                {/* Compact Experience Grid */}
-                <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-2xl overflow-hidden">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-0 divide-x divide-y divide-border/50">
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Islamabad
+                {/* Professional Table Layout with Sharp Corners */}
+                <div className="border border-border/80 h-full min-h-screen lg:min-h-full flex flex-col">
+                  {/* Table Header */}
+                  <div className="grid grid-cols-4 bg-gradient-to-r from-accent/20 to-accent/10 border-b border-border/80 sticky top-0 z-10">
+                    <div className="px-4 sm:px-6 py-4 sm:py-5 border-r border-border/80">
+                      <p className="text-xs sm:text-sm font-black text-foreground uppercase tracking-wide">
+                        Location
                       </p>
-                      <div className="space-y-2">
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Mustabeen Ullah Baig
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            30y
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Maj (R) K. N. Abbasi
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            15y
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Syed Rehan Waqar
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            20y
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Sohail Amir
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            15y
-                          </span>
-                        </div>
+                    </div>
+                    <div className="px-4 sm:px-6 py-4 sm:py-5 border-r border-border/80">
+                      <p className="text-xs sm:text-sm font-black text-foreground uppercase tracking-wide">
+                        Team Member
+                      </p>
+                    </div>
+                    <div className="px-4 sm:px-6 py-4 sm:py-5 border-r border-border/80">
+                      <p className="text-xs sm:text-sm font-black text-foreground uppercase tracking-wide">
+                        Position
+                      </p>
+                    </div>
+                    <div className="px-4 sm:px-6 py-4 sm:py-5">
+                      <p className="text-xs sm:text-sm font-black text-foreground uppercase tracking-wide">
+                        Experience
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Table Body */}
+                  <div className="flex-1">
+                    {/* Islamabad */}
+                    <div className="grid grid-cols-4 border-b border-border/50">
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Islamabad
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Mustabeen Ullah Baig
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          CEO
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          30y
+                        </p>
                       </div>
                     </div>
 
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Chakwal
-                      </p>
-                      <div className="flex justify-between items-start gap-2">
-                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                          Sub (R) M. Aslam
-                        </span>
-                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                          14y
-                        </span>
+                    <div className="grid grid-cols-4 border-b border-border/50">
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Islamabad
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Maj (R) K. N. Abbasi
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          GM Marketing & Ops
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          15y
+                        </p>
                       </div>
                     </div>
 
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Peshawar
-                      </p>
-                      <div className="flex justify-between items-start gap-2">
-                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                          Muhammad Babar
-                        </span>
-                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                          5y
-                        </span>
+                    <div className="grid grid-cols-4 border-b border-border/50">
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Islamabad
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Syed Rehan Waqar
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Company Secretary
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          20y
+                        </p>
                       </div>
                     </div>
 
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Jhelum
-                      </p>
-                      <div className="flex justify-between items-start gap-2">
-                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                          Muhammad Mushtaq
-                        </span>
-                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                    <div className="grid grid-cols-4 border-b border-border/50">
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Islamabad
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Sohail Amir
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          CFM
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          15y
+                        </p>
+                      </div>
+                    </div>
+
+                    {/* Lahore */}
+                    <div className="grid grid-cols-4 border-b border-border/50">
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Lahore
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Maj (R) Abid Latif
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Regional Manager
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          16y
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="grid grid-cols-4 border-b border-border/50">
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Lahore
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Mansoor Amin
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Finance Manager
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4">
+                        <p className="text-xs sm:text-sm font-black text-accent">
                           18y
-                        </span>
+                        </p>
                       </div>
                     </div>
 
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Abdul Hakeem
-                      </p>
-                      <div className="flex justify-between items-start gap-2">
-                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                          Saleem Murad
-                        </span>
-                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                          10y
-                        </span>
+                    {/* Karachi */}
+                    <div className="grid grid-cols-4 border-b border-border/50">
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Karachi
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Hon Capt (R) M. Qurban
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Area Manager
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          13y
+                        </p>
                       </div>
                     </div>
 
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Lahore
-                      </p>
-                      <div className="space-y-2">
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Maj (R) Abid Latif
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            16y
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Mansoor Amin
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            18y
-                          </span>
-                        </div>
+                    <div className="grid grid-cols-4 border-b border-border/50">
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Karachi
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Zakir Ur Rehman
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Area Manager
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          30y
+                        </p>
                       </div>
                     </div>
 
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Multan
-                      </p>
-                      <div className="space-y-2">
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Sub (R) M. Asghar
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            6y
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Capt (R) Mansoor
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            5y
-                          </span>
-                        </div>
+                    {/* Multan */}
+                    <div className="grid grid-cols-4 border-b border-border/50">
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Multan
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Capt (R) Mansoor
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Area Manager
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          5y
+                        </p>
                       </div>
                     </div>
 
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Gharo (Sindh)
-                      </p>
-                      <div className="flex justify-between items-start gap-2">
-                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                          Mehr Khalid
-                        </span>
-                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                          19y
-                        </span>
+                    {/* Gujranwala */}
+                    <div className="grid grid-cols-4 border-b border-border/50">
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Gujranwala
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Qaser Iftikhar
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Area Manager
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          8y
+                        </p>
                       </div>
                     </div>
 
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Sargodha
-                      </p>
-                      <div className="space-y-2">
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Muhammad Qaiser
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            2y
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Sub (R) R. Ahmed
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            8y
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Sub (R) M. Mushtaq
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            9y
-                          </span>
-                        </div>
+                    {/* Quetta */}
+                    <div className="grid grid-cols-4 border-b border-border/50">
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Quetta
+                        </p>
                       </div>
-                    </div>
-
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Gujranwala
-                      </p>
-                      <div className="space-y-2">
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Zakir Ur Rehman
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            30y
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Waleed Ahmed
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            2y
-                          </span>
-                        </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Raheel Akbar Shah
+                        </p>
                       </div>
-                    </div>
-
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Karachi
-                      </p>
-                      <div className="space-y-2">
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            N/Sub (R) N. Muhammad
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            5y
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Hav (R) M. Bachal
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            6y
-                          </span>
-                        </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Area Manager
+                        </p>
                       </div>
-                    </div>
-
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Quetta
-                      </p>
-                      <div className="flex justify-between items-start gap-2">
-                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                          Raheel A. Shah
-                        </span>
-                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                      <div className="px-4 sm:px-6 py-3 sm:py-4">
+                        <p className="text-xs sm:text-sm font-black text-accent">
                           12y
-                        </span>
+                        </p>
                       </div>
                     </div>
 
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        AJK
-                      </p>
-                      <div className="space-y-2">
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Sub (R) M. Husnain
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            11y
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Sub (R) M. Iqbal
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            18y
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Capt (R) M. Qurban
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            13y
-                          </span>
-                        </div>
+                    {/* AJK */}
+                    <div className="grid grid-cols-4 border-b border-border/50">
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          AJK
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Sub (R) M. Iqbal
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Area Manager
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          18y
+                        </p>
+                      </div>
+                    </div>
+
+                    {/* Chakwal */}
+                    <div className="grid grid-cols-4 border-b border-border/50">
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Chakwal
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Sub (R) M. Aslam
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Regional Manager
+                        </p>
+                      </div>
+                      <div className="px-4 sm:px-6 py-3 sm:py-4">
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          14y
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -1074,39 +974,6 @@ export default function About() {
               </div>
             </div>
           </AnimatedSlideInFromBottom>
-        </div>
-      </section>
-
-      {/* Call to Action Section */}
-      <section className="relative py-12 sm:py-16 md:py-20 lg:py-32 bg-background transition-colors duration-300 overflow-hidden">
-        <div className="absolute top-0 left-0 w-96 h-96 bg-accent/10 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-accent/10 rounded-full blur-3xl translate-x-1/2 translate-y-1/2"></div>
-
-        <div className="container mx-auto px-4 sm:px-6 relative z-10 text-center">
-          <div className="max-w-2xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-foreground mb-4 sm:mb-6 md:mb-8 leading-tight">
-              Ready to Experience Eagle Security?
-            </h2>
-            <p className="text-xs sm:text-sm md:text-base lg:text-xl text-muted-foreground font-black mb-6 sm:mb-8 md:mb-10 lg:mb-14 leading-relaxed">
-              Discover how our comprehensive security solutions can protect what
-              matters most to you.
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-6 justify-center">
-              <a
-                href="/services"
-                className="bg-gradient-to-r from-accent to-blue-800 text-accent-foreground px-6 sm:px-8 md:px-10 lg:px-12 py-2.5 sm:py-3 md:py-4 lg:py-5 font-black text-xs sm:text-sm md:text-base lg:text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block rounded-lg"
-              >
-                Explore Our Services
-              </a>
-              <a
-                href="/contact"
-                className="border-2 border-accent text-accent px-6 sm:px-8 md:px-10 lg:px-12 py-2.5 sm:py-3 md:py-4 lg:py-5 font-black text-xs sm:text-sm md:text-base lg:text-lg hover:bg-accent/10 transition-all duration-300 inline-block rounded-lg"
-              >
-                Get in Touch
-              </a>
-            </div>
-          </div>
         </div>
       </section>
     </div>
