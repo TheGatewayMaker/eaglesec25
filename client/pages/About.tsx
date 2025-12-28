@@ -609,22 +609,25 @@ export default function About() {
                     <tbody>
                       <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">1</td>
-                        <td rowSpan={4} className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Islamabad</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Islamabad</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Mustabeen Ullah Baig</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">30 Yrs</td>
                       </tr>
                       <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4"></td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">1</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Islamabad</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Maj (R) Khalid Nawaz Abbasi</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">15 Yrs</td>
                       </tr>
                       <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4"></td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">1</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Islamabad</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Syed Rehan Waqar</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">20 Yrs</td>
                       </tr>
                       <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4"></td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">1</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Islamabad</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sohail Amir</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">15 Yrs</td>
                       </tr>
@@ -654,23 +657,25 @@ export default function About() {
                       </tr>
                       <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">6</td>
-                        <td rowSpan={2} className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Lahore</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Lahore</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Maj (R) Abid Latif</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">16 Yrs</td>
                       </tr>
                       <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4"></td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">6</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Lahore</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Mansoor Amin</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">18 Yrs</td>
                       </tr>
                       <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">7</td>
-                        <td rowSpan={2} className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Multan</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Multan</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sub (R) Muhammad Asghar</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">6 Yrs</td>
                       </tr>
                       <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4"></td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">7</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Multan</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Capt (R) Mansoor</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">5 Yrs</td>
                       </tr>
@@ -682,39 +687,43 @@ export default function About() {
                       </tr>
                       <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">9</td>
-                        <td rowSpan={3} className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sargodha</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sargodha</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Muhammad Qaiser</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">2 Yrs</td>
                       </tr>
                       <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4"></td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">9</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sargodha</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sub (R) Rasheed Ahmed</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">8 Yrs</td>
                       </tr>
                       <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4"></td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">9</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sargodha</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sub (R) Muhammad Mushtaq</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">9 Yrs</td>
                       </tr>
                       <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">10</td>
-                        <td rowSpan={2} className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Gujranwala</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Gujranwala</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Zakir Ur Rehman</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">30 Yrs</td>
                       </tr>
                       <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4"></td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">10</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Gujranwala</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Waleed Ahmed</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">2 Yrs</td>
                       </tr>
                       <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">11</td>
-                        <td rowSpan={2} className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Karachi</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Karachi</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">N/Sub (R) Niaz Muhammad</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">5 Yrs</td>
                       </tr>
                       <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4"></td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">11</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Karachi</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Hav (R) Muhammad Bachal</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">6 Yrs</td>
                       </tr>
@@ -726,17 +735,19 @@ export default function About() {
                       </tr>
                       <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">13</td>
-                        <td rowSpan={3} className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">AJK</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">AJK</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sub (R) Muhammad Husnain</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">11 Yrs</td>
                       </tr>
                       <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4"></td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">13</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">AJK</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sub (R) Muhammad Iqbal</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">18 Yrs</td>
                       </tr>
                       <tr className="hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4"></td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">13</td>
+                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">AJK</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Capt (R) Muhammad Qurban</td>
                         <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">13 Yrs</td>
                       </tr>
