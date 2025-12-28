@@ -488,10 +488,10 @@ export default function About() {
                 </h3>
 
                 {/* Level 1: CEO */}
-                <div className="flex flex-col items-center mb-6 sm:mb-8">
+                <div className="flex flex-col items-center mb-4 sm:mb-5">
                   <div className="relative w-full max-w-xs">
-                    <div className="absolute inset-0 bg-gradient-to-r from-accent/20 to-accent/10 rounded-2xl blur-xl"></div>
-                    <div className="relative bg-gradient-to-br from-accent to-accent/80 text-accent-foreground rounded-2xl p-5 sm:p-7 text-center hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-accent/40">
+                    <div className="absolute inset-0 bg-gradient-to-r from-accent/20 to-accent/10 blur-xl"></div>
+                    <div className="relative bg-gradient-to-br from-accent to-accent/80 text-accent-foreground p-5 sm:p-7 text-center hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-accent/40">
                       <div className="text-lg sm:text-xl lg:text-2xl font-black mb-1">
                         MUSTABEEN ULLAH BAIG
                       </div>
