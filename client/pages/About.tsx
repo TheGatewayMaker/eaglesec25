@@ -243,7 +243,7 @@ export default function About() {
             <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 mb-3 sm:mb-4 lg:mb-6">
               <div className="w-1 md:w-1.5 h-8 sm:h-10 lg:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black leading-tight">
-                The Eagle Foundation
+                Eagle Security Foundation
               </h2>
             </div>
             <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-3xl leading-relaxed">
@@ -253,7 +253,7 @@ export default function About() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5 md:gap-6 lg:gap-8 max-w-5xl">
             <AnimatedScaleInUp delay={0} threshold={0.2}>
-              <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-6 sm:p-8 lg:p-10 rounded-2xl transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
+              <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-6 sm:p-8 lg:p-10 transition-all duration-300 hover:border-2 hover:border-accent hover:shadow-lg hover:-translate-y-1">
                 <div className="absolute -right-12 -top-12 w-32 h-32 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
                 <div className="relative z-10">
                   <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4 sm:mb-6">
@@ -272,7 +272,7 @@ export default function About() {
             </AnimatedScaleInUp>
 
             <AnimatedScaleInUp delay={100} threshold={0.2}>
-              <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-6 sm:p-8 lg:p-10 rounded-2xl transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
+              <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-6 sm:p-8 lg:p-10 transition-all duration-300 hover:border-2 hover:border-accent hover:shadow-lg hover:-translate-y-1">
                 <div className="absolute -right-12 -top-12 w-32 h-32 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
                 <div className="relative z-10">
                   <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4 sm:mb-6">
@@ -291,7 +291,7 @@ export default function About() {
             </AnimatedScaleInUp>
 
             <AnimatedScaleInUp delay={200} threshold={0.2}>
-              <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-6 sm:p-8 lg:p-10 rounded-2xl transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
+              <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-6 sm:p-8 lg:p-10 transition-all duration-300 hover:border-2 hover:border-accent hover:shadow-lg hover:-translate-y-1">
                 <div className="absolute -right-12 -top-12 w-32 h-32 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
                 <div className="relative z-10">
                   <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4 sm:mb-6">
@@ -309,11 +309,352 @@ export default function About() {
               </div>
             </AnimatedScaleInUp>
           </div>
+
+          {/* Gallery Section */}
+          <div className="mt-16 sm:mt-20 md:mt-24 lg:mt-32 relative">
+            {/* Decorative Background Elements - Gallery Section */}
+            <svg
+              className="absolute -top-20 -right-40 w-1/2 h-full opacity-35"
+              viewBox="0 0 600 800"
+              preserveAspectRatio="xMaxYMid slice"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <defs>
+                <linearGradient
+                  id="galleryGradient"
+                  x1="100%"
+                  y1="0%"
+                  x2="0%"
+                  y2="100%"
+                >
+                  <stop
+                    offset="0%"
+                    style={{ stopColor: "var(--accent)", stopOpacity: 0.5 }}
+                  />
+                  <stop
+                    offset="100%"
+                    style={{ stopColor: "var(--accent)", stopOpacity: 0.1 }}
+                  />
+                </linearGradient>
+              </defs>
+              <path
+                d="M600,100 Q500,150 400,100 Q300,50 200,100 Q100,150 0,100 L0,300 Q150,250 300,300 Q450,350 600,300 Z"
+                fill="url(#galleryGradient)"
+              />
+              <circle
+                cx="500"
+                cy="200"
+                r="60"
+                fill="none"
+                stroke="var(--accent)"
+                strokeWidth="2"
+                opacity="0.25"
+              />
+              <circle
+                cx="100"
+                cy="400"
+                r="40"
+                fill="var(--accent)"
+                opacity="0.08"
+              />
+              <path
+                d="M50,500 L200,450 M150,550 L350,500"
+                stroke="var(--accent)"
+                strokeWidth="1.5"
+                opacity="0.25"
+                fill="none"
+              />
+            </svg>
+            <svg
+              className="absolute -bottom-32 -left-40 w-2/5 h-1/2 opacity-30"
+              viewBox="0 0 400 400"
+              preserveAspectRatio="xMinYMax slice"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0,200 Q100,100 200,150 Q300,200 400,100 L400,400 L0,400 Z"
+                fill="var(--accent)"
+                opacity="0.06"
+              />
+              <circle
+                cx="50"
+                cy="300"
+                r="70"
+                fill="none"
+                stroke="var(--accent)"
+                strokeWidth="2"
+                opacity="0.2"
+                strokeDasharray="5,5"
+              />
+            </svg>
+
+            <div className="relative z-10">
+              <AnimatedFadeInUp threshold={0.2}>
+                <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-foreground mb-8 sm:mb-12 leading-tight">
+                  Gallery
+                </h3>
+              </AnimatedFadeInUp>
+
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5 md:gap-6 lg:gap-7">
+                {/* Image 1 */}
+                <AnimatedFadeInUp delay={0} threshold={0.2}>
+                  <div className="overflow-hidden bg-background border border-pk-green-main">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2F5148fbbce7904d8daedf14b17119cd0f?format=webp&width=800"
+                      alt="Eagle Foundation Gallery - Security personnel"
+                      className="w-full h-40 sm:h-48 md:h-56 lg:h-64 object-cover"
+                    />
+                  </div>
+                </AnimatedFadeInUp>
+
+                {/* Image 2 */}
+                <AnimatedFadeInUp delay={50} threshold={0.2}>
+                  <div className="overflow-hidden bg-background border border-pk-green-main">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2F66d852aa6104499f8ce16d44c41297fd?format=webp&width=800"
+                      alt="Eagle Foundation Gallery - Professional team"
+                      className="w-full h-40 sm:h-48 md:h-56 lg:h-64 object-cover"
+                    />
+                  </div>
+                </AnimatedFadeInUp>
+
+                {/* Image 3 */}
+                <AnimatedFadeInUp delay={100} threshold={0.2}>
+                  <div className="overflow-hidden bg-background border border-pk-green-main">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2Fe071d3b02e6b445f976f012db6f6d3eb?format=webp&width=800"
+                      alt="Eagle Foundation Gallery - Security operations"
+                      className="w-full h-40 sm:h-48 md:h-56 lg:h-64 object-cover"
+                    />
+                  </div>
+                </AnimatedFadeInUp>
+
+                {/* Image 4 */}
+                <AnimatedFadeInUp delay={150} threshold={0.2}>
+                  <div className="overflow-hidden bg-background border border-pk-green-main">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2F81032fa35da34bb58697b3f6d97dd013?format=webp&width=800"
+                      alt="Eagle Foundation Gallery - Team formation"
+                      className="w-full h-40 sm:h-48 md:h-56 lg:h-64 object-cover"
+                    />
+                  </div>
+                </AnimatedFadeInUp>
+
+                {/* Image 5 */}
+                <AnimatedFadeInUp delay={200} threshold={0.2}>
+                  <div className="overflow-hidden bg-background border border-pk-green-main">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2Faf91213b00214bf1967bf09bf2f397f8?format=webp&width=800"
+                      alt="Eagle Foundation Gallery - Management"
+                      className="w-full h-40 sm:h-48 md:h-56 lg:h-64 object-cover"
+                    />
+                  </div>
+                </AnimatedFadeInUp>
+
+                {/* Image 6 */}
+                <AnimatedFadeInUp delay={250} threshold={0.2}>
+                  <div className="overflow-hidden bg-background border border-pk-green-main">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2F102c808b952242e2a775196c1f1aa3ed?format=webp&width=800"
+                      alt="Eagle Foundation Gallery - Office operations"
+                      className="w-full h-40 sm:h-48 md:h-56 lg:h-64 object-cover"
+                    />
+                  </div>
+                </AnimatedFadeInUp>
+
+                {/* Image 7 */}
+                <AnimatedFadeInUp delay={300} threshold={0.2}>
+                  <div className="overflow-hidden bg-background border border-pk-green-main">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2Fc0db4c9fc98f4bb89461125fd6148003?format=webp&width=800"
+                      alt="Eagle Foundation Gallery - Administrative staff"
+                      className="w-full h-40 sm:h-48 md:h-56 lg:h-64 object-cover"
+                    />
+                  </div>
+                </AnimatedFadeInUp>
+
+                {/* Image 8 */}
+                <AnimatedFadeInUp delay={350} threshold={0.2}>
+                  <div className="overflow-hidden bg-background border border-pk-green-main">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2F0eddf7d264f241e5af42d3736e13201a?format=webp&width=800"
+                      alt="Eagle Foundation Gallery - Training session"
+                      className="w-full h-40 sm:h-48 md:h-56 lg:h-64 object-cover"
+                    />
+                  </div>
+                </AnimatedFadeInUp>
+
+                {/* Image 9 */}
+                <AnimatedFadeInUp delay={400} threshold={0.2}>
+                  <div className="overflow-hidden bg-background border border-pk-green-main">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2Ff38027d9d070494385bf61d336f175e8?format=webp&width=800"
+                      alt="Eagle Foundation Gallery - Professional development"
+                      className="w-full h-40 sm:h-48 md:h-56 lg:h-64 object-cover"
+                    />
+                  </div>
+                </AnimatedFadeInUp>
+
+                {/* Image 10 */}
+                <AnimatedFadeInUp delay={450} threshold={0.2}>
+                  <div className="overflow-hidden bg-background border border-pk-green-main">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2Fafef6dbe845742bb9bf5241e3dfa1701?format=webp&width=800"
+                      alt="Eagle Foundation Gallery - Team leadership"
+                      className="w-full h-40 sm:h-48 md:h-56 lg:h-64 object-cover"
+                    />
+                  </div>
+                </AnimatedFadeInUp>
+
+                {/* Image 11 */}
+                <AnimatedFadeInUp delay={500} threshold={0.2}>
+                  <div className="overflow-hidden bg-background border border-pk-green-main">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2F7103a995d02f4f33a5ce5123c85888a0?format=webp&width=800"
+                      alt="Eagle Foundation Gallery - Field operations"
+                      className="w-full h-40 sm:h-48 md:h-56 lg:h-64 object-cover"
+                    />
+                  </div>
+                </AnimatedFadeInUp>
+
+                {/* Image 12 */}
+                <AnimatedFadeInUp delay={550} threshold={0.2}>
+                  <div className="overflow-hidden bg-background border border-pk-green-main">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2Fb6b1034c646d4ed4a48fc2aff3b4284d?format=webp&width=800"
+                      alt="Eagle Foundation Gallery - Security training"
+                      className="w-full h-40 sm:h-48 md:h-56 lg:h-64 object-cover"
+                    />
+                  </div>
+                </AnimatedFadeInUp>
+
+                {/* Image 13 */}
+                <AnimatedFadeInUp delay={600} threshold={0.2}>
+                  <div className="overflow-hidden bg-background border border-pk-green-main">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2Fa4d0fdf2f1b4461c905069da669dd8ad?format=webp&width=800"
+                      alt="Eagle Foundation Gallery - Coordination meeting"
+                      className="w-full h-40 sm:h-48 md:h-56 lg:h-64 object-cover"
+                    />
+                  </div>
+                </AnimatedFadeInUp>
+
+                {/* Image 14 */}
+                <AnimatedFadeInUp delay={650} threshold={0.2}>
+                  <div className="overflow-hidden bg-background border border-pk-green-main">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2F5a19e865f2994eaabc562c4bb95912bb?format=webp&width=800"
+                      alt="Eagle Foundation Gallery - Equipment and tools"
+                      className="w-full h-40 sm:h-48 md:h-56 lg:h-64 object-cover"
+                    />
+                  </div>
+                </AnimatedFadeInUp>
+
+                {/* Image 15 */}
+                <AnimatedFadeInUp delay={700} threshold={0.2}>
+                  <div className="overflow-hidden bg-background border border-pk-green-main">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2F0a72cc4ca25748c9abd6d662b9cff87c?format=webp&width=800"
+                      alt="Eagle Foundation Gallery - Professional standards"
+                      className="w-full h-40 sm:h-48 md:h-56 lg:h-64 object-cover"
+                    />
+                  </div>
+                </AnimatedFadeInUp>
+
+                {/* Image 16 */}
+                <AnimatedFadeInUp delay={750} threshold={0.2}>
+                  <div className="overflow-hidden bg-background border border-pk-green-main">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2F486f429f265347afa6e5abe1b7bcdd29?format=webp&width=800"
+                      alt="Eagle Foundation Gallery - Facility security"
+                      className="w-full h-40 sm:h-48 md:h-56 lg:h-64 object-cover"
+                    />
+                  </div>
+                </AnimatedFadeInUp>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* Leadership & Management Section */}
-      <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-background transition-colors duration-300 relative overflow-hidden">
+      <section className="py-8 sm:py-10 md:py-14 lg:py-20 bg-background transition-colors duration-300 relative overflow-hidden">
+        {/* Decorative Background Elements - Leadership Section */}
+        <svg
+          className="absolute top-0 right-0 w-1/2 h-full opacity-35"
+          viewBox="0 0 600 800"
+          preserveAspectRatio="xMaxYMid slice"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient
+              id="leadershipGradient"
+              x1="100%"
+              y1="0%"
+              x2="0%"
+              y2="100%"
+            >
+              <stop
+                offset="0%"
+                style={{ stopColor: "var(--accent)", stopOpacity: 0.5 }}
+              />
+              <stop
+                offset="100%"
+                style={{ stopColor: "var(--accent)", stopOpacity: 0.1 }}
+              />
+            </linearGradient>
+          </defs>
+          <path
+            d="M600,100 Q500,150 400,100 Q300,50 200,100 Q100,150 0,100 L0,300 Q150,250 300,300 Q450,350 600,300 Z"
+            fill="url(#leadershipGradient)"
+          />
+          <circle
+            cx="500"
+            cy="200"
+            r="60"
+            fill="none"
+            stroke="var(--accent)"
+            strokeWidth="2"
+            opacity="0.25"
+          />
+          <circle
+            cx="100"
+            cy="400"
+            r="40"
+            fill="var(--accent)"
+            opacity="0.08"
+          />
+          <path
+            d="M50,500 L200,450 M150,550 L350,500"
+            stroke="var(--accent)"
+            strokeWidth="1.5"
+            opacity="0.25"
+            fill="none"
+          />
+        </svg>
+        <svg
+          className="absolute bottom-0 -left-40 w-2/5 h-1/2 opacity-30"
+          viewBox="0 0 400 400"
+          preserveAspectRatio="xMinYMax slice"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0,200 Q100,100 200,150 Q300,200 400,100 L400,400 L0,400 Z"
+            fill="var(--accent)"
+            opacity="0.06"
+          />
+          <circle
+            cx="50"
+            cy="300"
+            r="70"
+            fill="none"
+            stroke="var(--accent)"
+            strokeWidth="2"
+            opacity="0.2"
+            strokeDasharray="5,5"
+          />
+        </svg>
+
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
           <AnimatedFadeInUp
             className="mb-8 sm:mb-12 md:mb-16 lg:mb-24"
@@ -964,7 +1305,7 @@ export default function About() {
                     href="/contact"
                     className="border-2 border-accent text-accent px-6 sm:px-8 lg:px-10 py-2.5 sm:py-3 lg:py-4 font-black text-xs sm:text-sm lg:text-base text-center hover:bg-accent hover:text-accent-foreground transition-all duration-300 inline-block rounded-lg"
                   >
-                    Request Consultation
+                    Get a Quote
                   </a>
                   <WhatsAppButton
                     size="md"
