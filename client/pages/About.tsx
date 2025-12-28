@@ -732,297 +732,237 @@ export default function About() {
               </div>
             </AnimatedFadeInLeft>
 
-            {/* Management Experience Table */}
+            {/* Management Experience List */}
             <AnimatedFadeInRight threshold={0.2}>
               <div>
                 <h3 className="text-2xl sm:text-3xl lg:text-4xl font-black text-foreground mb-6 sm:mb-8 leading-tight">
                   Team Experience Overview
                 </h3>
 
-                {/* Compact Experience Grid */}
-                <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-2xl overflow-hidden">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-0 divide-x divide-y divide-border/50">
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Islamabad
-                      </p>
-                      <div className="space-y-2">
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Mustabeen Ullah Baig
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            30y
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Maj (R) K. N. Abbasi
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            15y
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Syed Rehan Waqar
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            20y
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Sohail Amir
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            15y
-                          </span>
-                        </div>
+                {/* Professional List Format */}
+                <div className="space-y-4 sm:space-y-5">
+                  {/* Islamabad */}
+                  <div className="group bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-xl overflow-hidden hover:border-accent/40 hover:shadow-lg transition-all duration-300">
+                    <div className="flex items-center gap-3 sm:gap-4 bg-gradient-to-r from-accent/10 to-accent/5 px-5 sm:px-6 py-3 sm:py-4 border-b border-border/30">
+                      <MapPin className="w-5 h-5 text-accent flex-shrink-0" />
+                      <h4 className="text-base sm:text-lg font-black text-foreground">Islamabad</h4>
+                    </div>
+                    <div className="px-5 sm:px-6 py-4 sm:py-5 space-y-3 sm:space-y-3">
+                      <div className="flex justify-between items-center gap-3 pb-3 border-b border-border/30 last:border-0">
+                        <span className="text-sm sm:text-base font-black text-foreground">Mustabeen Ullah Baig</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">30y</span>
+                      </div>
+                      <div className="flex justify-between items-center gap-3 pb-3 border-b border-border/30 last:border-0">
+                        <span className="text-sm sm:text-base font-bold text-foreground">Maj (R) K. N. Abbasi</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">15y</span>
+                      </div>
+                      <div className="flex justify-between items-center gap-3 pb-3 border-b border-border/30 last:border-0">
+                        <span className="text-sm sm:text-base font-bold text-foreground">Syed Rehan Waqar</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">20y</span>
+                      </div>
+                      <div className="flex justify-between items-center gap-3">
+                        <span className="text-sm sm:text-base font-bold text-foreground">Sohail Amir</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">15y</span>
                       </div>
                     </div>
+                  </div>
 
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Chakwal
-                      </p>
-                      <div className="flex justify-between items-start gap-2">
-                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                          Sub (R) M. Aslam
-                        </span>
-                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                          14y
-                        </span>
+                  {/* Chakwal */}
+                  <div className="group bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-xl overflow-hidden hover:border-accent/40 hover:shadow-lg transition-all duration-300">
+                    <div className="flex items-center gap-3 sm:gap-4 bg-gradient-to-r from-accent/10 to-accent/5 px-5 sm:px-6 py-3 sm:py-4 border-b border-border/30">
+                      <MapPin className="w-5 h-5 text-accent flex-shrink-0" />
+                      <h4 className="text-base sm:text-lg font-black text-foreground">Chakwal</h4>
+                    </div>
+                    <div className="px-5 sm:px-6 py-4 sm:py-5">
+                      <div className="flex justify-between items-center gap-3">
+                        <span className="text-sm sm:text-base font-bold text-foreground">Sub (R) M. Aslam</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">14y</span>
                       </div>
                     </div>
+                  </div>
 
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Peshawar
-                      </p>
-                      <div className="flex justify-between items-start gap-2">
-                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                          Muhammad Babar
-                        </span>
-                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                          5y
-                        </span>
+                  {/* Peshawar */}
+                  <div className="group bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-xl overflow-hidden hover:border-accent/40 hover:shadow-lg transition-all duration-300">
+                    <div className="flex items-center gap-3 sm:gap-4 bg-gradient-to-r from-accent/10 to-accent/5 px-5 sm:px-6 py-3 sm:py-4 border-b border-border/30">
+                      <MapPin className="w-5 h-5 text-accent flex-shrink-0" />
+                      <h4 className="text-base sm:text-lg font-black text-foreground">Peshawar</h4>
+                    </div>
+                    <div className="px-5 sm:px-6 py-4 sm:py-5">
+                      <div className="flex justify-between items-center gap-3">
+                        <span className="text-sm sm:text-base font-bold text-foreground">Muhammad Babar</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">5y</span>
                       </div>
                     </div>
+                  </div>
 
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Jhelum
-                      </p>
-                      <div className="flex justify-between items-start gap-2">
-                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                          Muhammad Mushtaq
-                        </span>
-                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                          18y
-                        </span>
+                  {/* Jhelum */}
+                  <div className="group bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-xl overflow-hidden hover:border-accent/40 hover:shadow-lg transition-all duration-300">
+                    <div className="flex items-center gap-3 sm:gap-4 bg-gradient-to-r from-accent/10 to-accent/5 px-5 sm:px-6 py-3 sm:py-4 border-b border-border/30">
+                      <MapPin className="w-5 h-5 text-accent flex-shrink-0" />
+                      <h4 className="text-base sm:text-lg font-black text-foreground">Jhelum</h4>
+                    </div>
+                    <div className="px-5 sm:px-6 py-4 sm:py-5">
+                      <div className="flex justify-between items-center gap-3">
+                        <span className="text-sm sm:text-base font-bold text-foreground">Muhammad Mushtaq</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">18y</span>
                       </div>
                     </div>
+                  </div>
 
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Abdul Hakeem
-                      </p>
-                      <div className="flex justify-between items-start gap-2">
-                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                          Saleem Murad
-                        </span>
-                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                          10y
-                        </span>
+                  {/* Abdul Hakeem */}
+                  <div className="group bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-xl overflow-hidden hover:border-accent/40 hover:shadow-lg transition-all duration-300">
+                    <div className="flex items-center gap-3 sm:gap-4 bg-gradient-to-r from-accent/10 to-accent/5 px-5 sm:px-6 py-3 sm:py-4 border-b border-border/30">
+                      <MapPin className="w-5 h-5 text-accent flex-shrink-0" />
+                      <h4 className="text-base sm:text-lg font-black text-foreground">Abdul Hakeem</h4>
+                    </div>
+                    <div className="px-5 sm:px-6 py-4 sm:py-5">
+                      <div className="flex justify-between items-center gap-3">
+                        <span className="text-sm sm:text-base font-bold text-foreground">Saleem Murad</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">10y</span>
                       </div>
                     </div>
+                  </div>
 
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Lahore
-                      </p>
-                      <div className="space-y-2">
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Maj (R) Abid Latif
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            16y
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Mansoor Amin
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            18y
-                          </span>
-                        </div>
+                  {/* Lahore */}
+                  <div className="group bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-xl overflow-hidden hover:border-accent/40 hover:shadow-lg transition-all duration-300">
+                    <div className="flex items-center gap-3 sm:gap-4 bg-gradient-to-r from-accent/10 to-accent/5 px-5 sm:px-6 py-3 sm:py-4 border-b border-border/30">
+                      <MapPin className="w-5 h-5 text-accent flex-shrink-0" />
+                      <h4 className="text-base sm:text-lg font-black text-foreground">Lahore</h4>
+                    </div>
+                    <div className="px-5 sm:px-6 py-4 sm:py-5 space-y-3 sm:space-y-3">
+                      <div className="flex justify-between items-center gap-3 pb-3 border-b border-border/30 last:border-0">
+                        <span className="text-sm sm:text-base font-bold text-foreground">Maj (R) Abid Latif</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">16y</span>
+                      </div>
+                      <div className="flex justify-between items-center gap-3">
+                        <span className="text-sm sm:text-base font-bold text-foreground">Mansoor Amin</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">18y</span>
                       </div>
                     </div>
+                  </div>
 
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Multan
-                      </p>
-                      <div className="space-y-2">
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Sub (R) M. Asghar
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            6y
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Capt (R) Mansoor
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            5y
-                          </span>
-                        </div>
+                  {/* Multan */}
+                  <div className="group bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-xl overflow-hidden hover:border-accent/40 hover:shadow-lg transition-all duration-300">
+                    <div className="flex items-center gap-3 sm:gap-4 bg-gradient-to-r from-accent/10 to-accent/5 px-5 sm:px-6 py-3 sm:py-4 border-b border-border/30">
+                      <MapPin className="w-5 h-5 text-accent flex-shrink-0" />
+                      <h4 className="text-base sm:text-lg font-black text-foreground">Multan</h4>
+                    </div>
+                    <div className="px-5 sm:px-6 py-4 sm:py-5 space-y-3 sm:space-y-3">
+                      <div className="flex justify-between items-center gap-3 pb-3 border-b border-border/30 last:border-0">
+                        <span className="text-sm sm:text-base font-bold text-foreground">Sub (R) M. Asghar</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">6y</span>
+                      </div>
+                      <div className="flex justify-between items-center gap-3">
+                        <span className="text-sm sm:text-base font-bold text-foreground">Capt (R) Mansoor</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">5y</span>
                       </div>
                     </div>
+                  </div>
 
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Gharo (Sindh)
-                      </p>
-                      <div className="flex justify-between items-start gap-2">
-                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                          Mehr Khalid
-                        </span>
-                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                          19y
-                        </span>
+                  {/* Gharo (Sindh) */}
+                  <div className="group bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-xl overflow-hidden hover:border-accent/40 hover:shadow-lg transition-all duration-300">
+                    <div className="flex items-center gap-3 sm:gap-4 bg-gradient-to-r from-accent/10 to-accent/5 px-5 sm:px-6 py-3 sm:py-4 border-b border-border/30">
+                      <MapPin className="w-5 h-5 text-accent flex-shrink-0" />
+                      <h4 className="text-base sm:text-lg font-black text-foreground">Gharo (Sindh)</h4>
+                    </div>
+                    <div className="px-5 sm:px-6 py-4 sm:py-5">
+                      <div className="flex justify-between items-center gap-3">
+                        <span className="text-sm sm:text-base font-bold text-foreground">Mehr Khalid</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">19y</span>
                       </div>
                     </div>
+                  </div>
 
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Sargodha
-                      </p>
-                      <div className="space-y-2">
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Muhammad Qaiser
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            2y
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Sub (R) R. Ahmed
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            8y
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Sub (R) M. Mushtaq
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            9y
-                          </span>
-                        </div>
+                  {/* Sargodha */}
+                  <div className="group bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-xl overflow-hidden hover:border-accent/40 hover:shadow-lg transition-all duration-300">
+                    <div className="flex items-center gap-3 sm:gap-4 bg-gradient-to-r from-accent/10 to-accent/5 px-5 sm:px-6 py-3 sm:py-4 border-b border-border/30">
+                      <MapPin className="w-5 h-5 text-accent flex-shrink-0" />
+                      <h4 className="text-base sm:text-lg font-black text-foreground">Sargodha</h4>
+                    </div>
+                    <div className="px-5 sm:px-6 py-4 sm:py-5 space-y-3 sm:space-y-3">
+                      <div className="flex justify-between items-center gap-3 pb-3 border-b border-border/30 last:border-0">
+                        <span className="text-sm sm:text-base font-bold text-foreground">Muhammad Qaiser</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">2y</span>
+                      </div>
+                      <div className="flex justify-between items-center gap-3 pb-3 border-b border-border/30 last:border-0">
+                        <span className="text-sm sm:text-base font-bold text-foreground">Sub (R) R. Ahmed</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">8y</span>
+                      </div>
+                      <div className="flex justify-between items-center gap-3">
+                        <span className="text-sm sm:text-base font-bold text-foreground">Sub (R) M. Mushtaq</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">9y</span>
                       </div>
                     </div>
+                  </div>
 
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Gujranwala
-                      </p>
-                      <div className="space-y-2">
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Zakir Ur Rehman
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            30y
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Waleed Ahmed
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            2y
-                          </span>
-                        </div>
+                  {/* Gujranwala */}
+                  <div className="group bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-xl overflow-hidden hover:border-accent/40 hover:shadow-lg transition-all duration-300">
+                    <div className="flex items-center gap-3 sm:gap-4 bg-gradient-to-r from-accent/10 to-accent/5 px-5 sm:px-6 py-3 sm:py-4 border-b border-border/30">
+                      <MapPin className="w-5 h-5 text-accent flex-shrink-0" />
+                      <h4 className="text-base sm:text-lg font-black text-foreground">Gujranwala</h4>
+                    </div>
+                    <div className="px-5 sm:px-6 py-4 sm:py-5 space-y-3 sm:space-y-3">
+                      <div className="flex justify-between items-center gap-3 pb-3 border-b border-border/30 last:border-0">
+                        <span className="text-sm sm:text-base font-bold text-foreground">Zakir Ur Rehman</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">30y</span>
+                      </div>
+                      <div className="flex justify-between items-center gap-3">
+                        <span className="text-sm sm:text-base font-bold text-foreground">Waleed Ahmed</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">2y</span>
                       </div>
                     </div>
+                  </div>
 
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Karachi
-                      </p>
-                      <div className="space-y-2">
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            N/Sub (R) N. Muhammad
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            5y
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Hav (R) M. Bachal
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            6y
-                          </span>
-                        </div>
+                  {/* Karachi */}
+                  <div className="group bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-xl overflow-hidden hover:border-accent/40 hover:shadow-lg transition-all duration-300">
+                    <div className="flex items-center gap-3 sm:gap-4 bg-gradient-to-r from-accent/10 to-accent/5 px-5 sm:px-6 py-3 sm:py-4 border-b border-border/30">
+                      <MapPin className="w-5 h-5 text-accent flex-shrink-0" />
+                      <h4 className="text-base sm:text-lg font-black text-foreground">Karachi</h4>
+                    </div>
+                    <div className="px-5 sm:px-6 py-4 sm:py-5 space-y-3 sm:space-y-3">
+                      <div className="flex justify-between items-center gap-3 pb-3 border-b border-border/30 last:border-0">
+                        <span className="text-sm sm:text-base font-bold text-foreground">N/Sub (R) N. Muhammad</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">5y</span>
+                      </div>
+                      <div className="flex justify-between items-center gap-3">
+                        <span className="text-sm sm:text-base font-bold text-foreground">Hav (R) M. Bachal</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">6y</span>
                       </div>
                     </div>
+                  </div>
 
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        Quetta
-                      </p>
-                      <div className="flex justify-between items-start gap-2">
-                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                          Raheel A. Shah
-                        </span>
-                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                          12y
-                        </span>
+                  {/* Quetta */}
+                  <div className="group bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-xl overflow-hidden hover:border-accent/40 hover:shadow-lg transition-all duration-300">
+                    <div className="flex items-center gap-3 sm:gap-4 bg-gradient-to-r from-accent/10 to-accent/5 px-5 sm:px-6 py-3 sm:py-4 border-b border-border/30">
+                      <MapPin className="w-5 h-5 text-accent flex-shrink-0" />
+                      <h4 className="text-base sm:text-lg font-black text-foreground">Quetta</h4>
+                    </div>
+                    <div className="px-5 sm:px-6 py-4 sm:py-5">
+                      <div className="flex justify-between items-center gap-3">
+                        <span className="text-sm sm:text-base font-bold text-foreground">Raheel A. Shah</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">12y</span>
                       </div>
                     </div>
+                  </div>
 
-                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
-                        AJK
-                      </p>
-                      <div className="space-y-2">
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Sub (R) M. Husnain
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            11y
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Sub (R) M. Iqbal
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            18y
-                          </span>
-                        </div>
-                        <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
-                            Capt (R) M. Qurban
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
-                            13y
-                          </span>
-                        </div>
+                  {/* AJK */}
+                  <div className="group bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-xl overflow-hidden hover:border-accent/40 hover:shadow-lg transition-all duration-300">
+                    <div className="flex items-center gap-3 sm:gap-4 bg-gradient-to-r from-accent/10 to-accent/5 px-5 sm:px-6 py-3 sm:py-4 border-b border-border/30">
+                      <MapPin className="w-5 h-5 text-accent flex-shrink-0" />
+                      <h4 className="text-base sm:text-lg font-black text-foreground">AJK</h4>
+                    </div>
+                    <div className="px-5 sm:px-6 py-4 sm:py-5 space-y-3 sm:space-y-3">
+                      <div className="flex justify-between items-center gap-3 pb-3 border-b border-border/30 last:border-0">
+                        <span className="text-sm sm:text-base font-bold text-foreground">Sub (R) M. Husnain</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">11y</span>
+                      </div>
+                      <div className="flex justify-between items-center gap-3 pb-3 border-b border-border/30 last:border-0">
+                        <span className="text-sm sm:text-base font-bold text-foreground">Sub (R) M. Iqbal</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">18y</span>
+                      </div>
+                      <div className="flex justify-between items-center gap-3">
+                        <span className="text-sm sm:text-base font-bold text-foreground">Capt (R) M. Qurban</span>
+                        <span className="px-3 py-1 bg-accent/10 rounded-full text-accent font-black text-xs sm:text-sm">13y</span>
                       </div>
                     </div>
                   </div>
