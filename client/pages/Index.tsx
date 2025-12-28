@@ -778,7 +778,7 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 w-full relative z-10">
           <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6">
             {/* Experience Card */}
-            <AnimatedBounceIn delay={0} threshold={0.2}>
+            <AnimatedFadeInUp delay={0} threshold={0.2}>
               <div className="aspect-square bg-card border border-border text-foreground p-3 sm:p-4 md:p-6 lg:p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:bg-pk-green-main group cursor-pointer">
                 <div className="mb-2 sm:mb-3 md:mb-4 lg:mb-6 flex items-center justify-center h-10 sm:h-14 md:h-16 lg:h-20">
                   <AnimatedCounter
@@ -798,10 +798,10 @@ export default function Home() {
                   Protecting businesses since 1992
                 </p>
               </div>
-            </AnimatedBounceIn>
+            </AnimatedFadeInUp>
 
             {/* Personnel Card */}
-            <AnimatedBounceIn delay={100} threshold={0.2}>
+            <AnimatedFadeInUp delay={50} threshold={0.2}>
               <div className="aspect-square bg-card border border-border text-foreground p-3 sm:p-4 md:p-6 lg:p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:bg-pk-green-main group cursor-pointer">
                 <div className="mb-2 sm:mb-3 md:mb-4 lg:mb-6 flex items-center justify-center h-10 sm:h-14 md:h-16 lg:h-20">
                   <AnimatedCounter
@@ -821,10 +821,10 @@ export default function Home() {
                   Elite security professionals
                 </p>
               </div>
-            </AnimatedBounceIn>
+            </AnimatedFadeInUp>
 
             {/* Clients Card */}
-            <AnimatedBounceIn delay={200} threshold={0.2}>
+            <AnimatedFadeInUp delay={100} threshold={0.2}>
               <div className="aspect-square bg-card border border-border text-foreground p-3 sm:p-4 md:p-6 lg:p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:bg-pk-green-main group cursor-pointer">
                 <div className="mb-2 sm:mb-3 md:mb-4 lg:mb-6 flex items-center justify-center h-10 sm:h-14 md:h-16 lg:h-20">
                   <AnimatedCounter
@@ -844,10 +844,10 @@ export default function Home() {
                   Trusted by leading organizations
                 </p>
               </div>
-            </AnimatedBounceIn>
+            </AnimatedFadeInUp>
 
             {/* Total Guards Deployed Card */}
-            <AnimatedBounceIn delay={300} threshold={0.2}>
+            <AnimatedFadeInUp delay={150} threshold={0.2}>
               <div className="aspect-square bg-card border border-border text-foreground p-3 sm:p-4 md:p-6 lg:p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:bg-pk-green-main group cursor-pointer">
                 <div className="mb-2 sm:mb-3 md:mb-4 lg:mb-6 flex items-center justify-center h-10 sm:h-14 md:h-16 lg:h-20">
                   <AnimatedCounter
@@ -867,7 +867,7 @@ export default function Home() {
                   Active security personnel across Pakistan
                 </p>
               </div>
-            </AnimatedBounceIn>
+            </AnimatedFadeInUp>
           </div>
         </div>
       </section>
