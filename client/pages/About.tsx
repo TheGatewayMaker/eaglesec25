@@ -311,14 +311,91 @@ export default function About() {
           </div>
 
           {/* Gallery Section */}
-          <div className="mt-16 sm:mt-20 md:mt-24 lg:mt-32">
-            <AnimatedFadeInUp threshold={0.2}>
-              <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-foreground mb-8 sm:mb-12 leading-tight">
-                Gallery
-              </h3>
-            </AnimatedFadeInUp>
+          <div className="mt-16 sm:mt-20 md:mt-24 lg:mt-32 relative">
+            {/* Decorative Background Elements - Gallery Section */}
+            <svg
+              className="absolute -top-20 -right-40 w-1/2 h-full opacity-35"
+              viewBox="0 0 600 800"
+              preserveAspectRatio="xMaxYMid slice"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <defs>
+                <linearGradient
+                  id="galleryGradient"
+                  x1="100%"
+                  y1="0%"
+                  x2="0%"
+                  y2="100%"
+                >
+                  <stop
+                    offset="0%"
+                    style={{ stopColor: "var(--accent)", stopOpacity: 0.5 }}
+                  />
+                  <stop
+                    offset="100%"
+                    style={{ stopColor: "var(--accent)", stopOpacity: 0.1 }}
+                  />
+                </linearGradient>
+              </defs>
+              <path
+                d="M600,100 Q500,150 400,100 Q300,50 200,100 Q100,150 0,100 L0,300 Q150,250 300,300 Q450,350 600,300 Z"
+                fill="url(#galleryGradient)"
+              />
+              <circle
+                cx="500"
+                cy="200"
+                r="60"
+                fill="none"
+                stroke="var(--accent)"
+                strokeWidth="2"
+                opacity="0.25"
+              />
+              <circle
+                cx="100"
+                cy="400"
+                r="40"
+                fill="var(--accent)"
+                opacity="0.08"
+              />
+              <path
+                d="M50,500 L200,450 M150,550 L350,500"
+                stroke="var(--accent)"
+                strokeWidth="1.5"
+                opacity="0.25"
+                fill="none"
+              />
+            </svg>
+            <svg
+              className="absolute -bottom-32 -left-40 w-2/5 h-1/2 opacity-30"
+              viewBox="0 0 400 400"
+              preserveAspectRatio="xMinYMax slice"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0,200 Q100,100 200,150 Q300,200 400,100 L400,400 L0,400 Z"
+                fill="var(--accent)"
+                opacity="0.06"
+              />
+              <circle
+                cx="50"
+                cy="300"
+                r="70"
+                fill="none"
+                stroke="var(--accent)"
+                strokeWidth="2"
+                opacity="0.2"
+                strokeDasharray="5,5"
+              />
+            </svg>
 
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5 md:gap-6 lg:gap-7">
+            <div className="relative z-10">
+              <AnimatedFadeInUp threshold={0.2}>
+                <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-foreground mb-8 sm:mb-12 leading-tight">
+                  Gallery
+                </h3>
+              </AnimatedFadeInUp>
+
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5 md:gap-6 lg:gap-7">
               {/* Image 1 */}
               <AnimatedFadeInUp delay={0} threshold={0.2}>
                 <div className="overflow-hidden bg-background border border-pk-green-main">
@@ -494,6 +571,7 @@ export default function About() {
                   />
                 </div>
               </AnimatedFadeInUp>
+              </div>
             </div>
           </div>
         </div>
@@ -501,6 +579,82 @@ export default function About() {
 
       {/* Leadership & Management Section */}
       <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-background transition-colors duration-300 relative overflow-hidden">
+        {/* Decorative Background Elements - Leadership Section */}
+        <svg
+          className="absolute top-0 right-0 w-1/2 h-full opacity-35"
+          viewBox="0 0 600 800"
+          preserveAspectRatio="xMaxYMid slice"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient
+              id="leadershipGradient"
+              x1="100%"
+              y1="0%"
+              x2="0%"
+              y2="100%"
+            >
+              <stop
+                offset="0%"
+                style={{ stopColor: "var(--accent)", stopOpacity: 0.5 }}
+              />
+              <stop
+                offset="100%"
+                style={{ stopColor: "var(--accent)", stopOpacity: 0.1 }}
+              />
+            </linearGradient>
+          </defs>
+          <path
+            d="M600,100 Q500,150 400,100 Q300,50 200,100 Q100,150 0,100 L0,300 Q150,250 300,300 Q450,350 600,300 Z"
+            fill="url(#leadershipGradient)"
+          />
+          <circle
+            cx="500"
+            cy="200"
+            r="60"
+            fill="none"
+            stroke="var(--accent)"
+            strokeWidth="2"
+            opacity="0.25"
+          />
+          <circle
+            cx="100"
+            cy="400"
+            r="40"
+            fill="var(--accent)"
+            opacity="0.08"
+          />
+          <path
+            d="M50,500 L200,450 M150,550 L350,500"
+            stroke="var(--accent)"
+            strokeWidth="1.5"
+            opacity="0.25"
+            fill="none"
+          />
+        </svg>
+        <svg
+          className="absolute bottom-0 -left-40 w-2/5 h-1/2 opacity-30"
+          viewBox="0 0 400 400"
+          preserveAspectRatio="xMinYMax slice"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0,200 Q100,100 200,150 Q300,200 400,100 L400,400 L0,400 Z"
+            fill="var(--accent)"
+            opacity="0.06"
+          />
+          <circle
+            cx="50"
+            cy="300"
+            r="70"
+            fill="none"
+            stroke="var(--accent)"
+            strokeWidth="2"
+            opacity="0.2"
+            strokeDasharray="5,5"
+          />
+        </svg>
+
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
           <AnimatedFadeInUp
             className="mb-8 sm:mb-12 md:mb-16 lg:mb-24"
