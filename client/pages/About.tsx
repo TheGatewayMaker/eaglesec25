@@ -568,16 +568,16 @@ export default function About() {
                     </div>
                   </div>
                   <div className="flex justify-center">
-                    <div className="w-0.5 h-8 sm:h-10 bg-gradient-to-b from-slate-400 to-slate-200 dark:from-slate-600 dark:to-slate-800"></div>
+                    <div className="w-0.5 h-4 sm:h-5 bg-gradient-to-b from-slate-400 to-slate-200 dark:from-slate-600 dark:to-slate-800"></div>
                   </div>
                 </div>
 
                 {/* Level 4: Operations & Regional Management */}
-                <div className="mb-6 sm:mb-8">
-                  <div className="text-xs sm:text-sm font-black text-accent uppercase tracking-widest mb-4 sm:mb-5 text-center">
+                <div className="mb-4 sm:mb-5">
+                  <div className="text-xs sm:text-sm font-black text-accent uppercase tracking-widest mb-3 sm:mb-4 text-center">
                     Operations & Regional Management
                   </div>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3">
                     {/* Regional Manager */}
                     <div className="group sm:col-span-2 sm:w-1/2 sm:mx-auto">
                       <div className="relative">
