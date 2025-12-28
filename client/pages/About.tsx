@@ -731,166 +731,396 @@ export default function About() {
             {/* Management Experience Table */}
             <AnimatedFadeInRight threshold={0.2}>
               <div>
-                <h3 className="text-xl sm:text-2xl lg:text-3xl font-black text-foreground mb-6 sm:mb-8 leading-tight">
+                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-black text-foreground mb-8 sm:mb-10 lg:mb-12 leading-tight">
                   Team Experience Overview
                 </h3>
-                <div className="overflow-x-auto bg-card border border-border/50 rounded-xl">
-                  <table className="w-full text-xs sm:text-sm">
-                    <thead>
-                      <tr className="border-b border-border/50 bg-gradient-to-r from-accent/10 to-accent/5">
-                        <th className="px-3 sm:px-4 py-3 sm:py-4 text-left font-black text-foreground">S. No</th>
-                        <th className="px-3 sm:px-4 py-3 sm:py-4 text-left font-black text-foreground">City</th>
-                        <th className="px-3 sm:px-4 py-3 sm:py-4 text-left font-black text-foreground">Name</th>
-                        <th className="px-3 sm:px-4 py-3 sm:py-4 text-left font-black text-foreground">Experience</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">1</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Islamabad</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Mustabeen Ullah Baig</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">30 Yrs</td>
-                      </tr>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">1</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Islamabad</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Maj (R) Khalid Nawaz Abbasi</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">15 Yrs</td>
-                      </tr>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">1</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Islamabad</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Syed Rehan Waqar</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">20 Yrs</td>
-                      </tr>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">1</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Islamabad</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sohail Amir</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">15 Yrs</td>
-                      </tr>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">2</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Chakwal</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sub (R) Muhammad Aslam</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">14 Yrs</td>
-                      </tr>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">3</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Peshawar</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Muhammad Babar</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">5 Yrs</td>
-                      </tr>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">4</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Jhelum</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Muhammad Mushtaq</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">18 Yrs</td>
-                      </tr>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">5</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Abdul Hakeem</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Saleem Murad</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">10 Yrs</td>
-                      </tr>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">6</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Lahore</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Maj (R) Abid Latif</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">16 Yrs</td>
-                      </tr>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">6</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Lahore</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Mansoor Amin</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">18 Yrs</td>
-                      </tr>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">7</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Multan</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sub (R) Muhammad Asghar</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">6 Yrs</td>
-                      </tr>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">7</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Multan</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Capt (R) Mansoor</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">5 Yrs</td>
-                      </tr>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">8</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Gharo (Sindh)</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Mehr Khalid</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">19 Yrs</td>
-                      </tr>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">9</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sargodha</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Muhammad Qaiser</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">2 Yrs</td>
-                      </tr>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">9</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sargodha</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sub (R) Rasheed Ahmed</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">8 Yrs</td>
-                      </tr>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">9</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sargodha</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sub (R) Muhammad Mushtaq</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">9 Yrs</td>
-                      </tr>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">10</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Gujranwala</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Zakir Ur Rehman</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">30 Yrs</td>
-                      </tr>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">10</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Gujranwala</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Waleed Ahmed</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">2 Yrs</td>
-                      </tr>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">11</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Karachi</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">N/Sub (R) Niaz Muhammad</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">5 Yrs</td>
-                      </tr>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">11</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Karachi</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Hav (R) Muhammad Bachal</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">6 Yrs</td>
-                      </tr>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">12</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Quetta</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Raheel Akbar Shah (R) Police</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">12 Yrs</td>
-                      </tr>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">13</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">AJK</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sub (R) Muhammad Husnain</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">11 Yrs</td>
-                      </tr>
-                      <tr className="border-b border-border/50 hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">13</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">AJK</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Sub (R) Muhammad Iqbal</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">18 Yrs</td>
-                      </tr>
-                      <tr className="hover:bg-accent/5 transition-colors">
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">13</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">AJK</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-foreground">Capt (R) Muhammad Qurban</td>
-                        <td className="px-3 sm:px-4 py-3 sm:py-4 font-bold text-accent">13 Yrs</td>
-                      </tr>
-                    </tbody>
-                  </table>
+
+                {/* City Cards Container */}
+                <div className="space-y-5 sm:space-y-6">
+                  {/* Islamabad */}
+                  <div className="group relative bg-gradient-to-br from-blue-50/40 to-blue-50/20 dark:from-blue-950/20 dark:to-blue-950/10 border-2 border-blue-300/40 dark:border-blue-600/30 rounded-2xl p-6 sm:p-7 lg:p-8 hover:border-blue-400/60 dark:hover:border-blue-500/60 hover:shadow-xl transition-all duration-300">
+                    <div className="absolute inset-0 bg-gradient-to-br from-blue-400/5 to-blue-400/0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="relative">
+                      <h4 className="text-lg sm:text-xl lg:text-2xl font-black text-blue-900 dark:text-blue-200 mb-5 sm:mb-6 flex items-center gap-3">
+                        <span className="inline-flex items-center justify-center w-8 sm:w-9 lg:w-10 h-8 sm:h-9 lg:h-10 bg-blue-500 text-white font-black rounded-lg text-sm sm:text-base">1</span>
+                        Islamabad
+                      </h4>
+                      <div className="space-y-3 sm:space-y-4">
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-blue-200/50 dark:border-blue-700/30 hover:shadow-lg hover:border-blue-300 dark:hover:border-blue-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Mustabeen Ullah Baig</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-blue-600 dark:text-blue-400">30</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-blue-200/50 dark:border-blue-700/30 hover:shadow-lg hover:border-blue-300 dark:hover:border-blue-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Maj (R) Khalid Nawaz Abbasi</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-blue-600 dark:text-blue-400">15</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-blue-200/50 dark:border-blue-700/30 hover:shadow-lg hover:border-blue-300 dark:hover:border-blue-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Syed Rehan Waqar</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-blue-600 dark:text-blue-400">20</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-blue-200/50 dark:border-blue-700/30 hover:shadow-lg hover:border-blue-300 dark:hover:border-blue-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Sohail Amir</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-blue-600 dark:text-blue-400">15</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Chakwal */}
+                  <div className="group relative bg-gradient-to-br from-purple-50/40 to-purple-50/20 dark:from-purple-950/20 dark:to-purple-950/10 border-2 border-purple-300/40 dark:border-purple-600/30 rounded-2xl p-6 sm:p-7 lg:p-8 hover:border-purple-400/60 dark:hover:border-purple-500/60 hover:shadow-xl transition-all duration-300">
+                    <div className="absolute inset-0 bg-gradient-to-br from-purple-400/5 to-purple-400/0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="relative">
+                      <h4 className="text-lg sm:text-xl lg:text-2xl font-black text-purple-900 dark:text-purple-200 mb-5 sm:mb-6 flex items-center gap-3">
+                        <span className="inline-flex items-center justify-center w-8 sm:w-9 lg:w-10 h-8 sm:h-9 lg:h-10 bg-purple-500 text-white font-black rounded-lg text-sm sm:text-base">2</span>
+                        Chakwal
+                      </h4>
+                      <div className="space-y-3 sm:space-y-4">
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-purple-200/50 dark:border-purple-700/30 hover:shadow-lg hover:border-purple-300 dark:hover:border-purple-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Sub (R) Muhammad Aslam</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-purple-600 dark:text-purple-400">14</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Peshawar */}
+                  <div className="group relative bg-gradient-to-br from-emerald-50/40 to-emerald-50/20 dark:from-emerald-950/20 dark:to-emerald-950/10 border-2 border-emerald-300/40 dark:border-emerald-600/30 rounded-2xl p-6 sm:p-7 lg:p-8 hover:border-emerald-400/60 dark:hover:border-emerald-500/60 hover:shadow-xl transition-all duration-300">
+                    <div className="absolute inset-0 bg-gradient-to-br from-emerald-400/5 to-emerald-400/0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="relative">
+                      <h4 className="text-lg sm:text-xl lg:text-2xl font-black text-emerald-900 dark:text-emerald-200 mb-5 sm:mb-6 flex items-center gap-3">
+                        <span className="inline-flex items-center justify-center w-8 sm:w-9 lg:w-10 h-8 sm:h-9 lg:h-10 bg-emerald-500 text-white font-black rounded-lg text-sm sm:text-base">3</span>
+                        Peshawar
+                      </h4>
+                      <div className="space-y-3 sm:space-y-4">
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-emerald-200/50 dark:border-emerald-700/30 hover:shadow-lg hover:border-emerald-300 dark:hover:border-emerald-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Muhammad Babar</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-emerald-600 dark:text-emerald-400">5</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Jhelum */}
+                  <div className="group relative bg-gradient-to-br from-orange-50/40 to-orange-50/20 dark:from-orange-950/20 dark:to-orange-950/10 border-2 border-orange-300/40 dark:border-orange-600/30 rounded-2xl p-6 sm:p-7 lg:p-8 hover:border-orange-400/60 dark:hover:border-orange-500/60 hover:shadow-xl transition-all duration-300">
+                    <div className="absolute inset-0 bg-gradient-to-br from-orange-400/5 to-orange-400/0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="relative">
+                      <h4 className="text-lg sm:text-xl lg:text-2xl font-black text-orange-900 dark:text-orange-200 mb-5 sm:mb-6 flex items-center gap-3">
+                        <span className="inline-flex items-center justify-center w-8 sm:w-9 lg:w-10 h-8 sm:h-9 lg:h-10 bg-orange-500 text-white font-black rounded-lg text-sm sm:text-base">4</span>
+                        Jhelum
+                      </h4>
+                      <div className="space-y-3 sm:space-y-4">
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-orange-200/50 dark:border-orange-700/30 hover:shadow-lg hover:border-orange-300 dark:hover:border-orange-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Muhammad Mushtaq</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-orange-600 dark:text-orange-400">18</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Abdul Hakeem */}
+                  <div className="group relative bg-gradient-to-br from-rose-50/40 to-rose-50/20 dark:from-rose-950/20 dark:to-rose-950/10 border-2 border-rose-300/40 dark:border-rose-600/30 rounded-2xl p-6 sm:p-7 lg:p-8 hover:border-rose-400/60 dark:hover:border-rose-500/60 hover:shadow-xl transition-all duration-300">
+                    <div className="absolute inset-0 bg-gradient-to-br from-rose-400/5 to-rose-400/0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="relative">
+                      <h4 className="text-lg sm:text-xl lg:text-2xl font-black text-rose-900 dark:text-rose-200 mb-5 sm:mb-6 flex items-center gap-3">
+                        <span className="inline-flex items-center justify-center w-8 sm:w-9 lg:w-10 h-8 sm:h-9 lg:h-10 bg-rose-500 text-white font-black rounded-lg text-sm sm:text-base">5</span>
+                        Abdul Hakeem
+                      </h4>
+                      <div className="space-y-3 sm:space-y-4">
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-rose-200/50 dark:border-rose-700/30 hover:shadow-lg hover:border-rose-300 dark:hover:border-rose-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Saleem Murad</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-rose-600 dark:text-rose-400">10</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Lahore */}
+                  <div className="group relative bg-gradient-to-br from-cyan-50/40 to-cyan-50/20 dark:from-cyan-950/20 dark:to-cyan-950/10 border-2 border-cyan-300/40 dark:border-cyan-600/30 rounded-2xl p-6 sm:p-7 lg:p-8 hover:border-cyan-400/60 dark:hover:border-cyan-500/60 hover:shadow-xl transition-all duration-300">
+                    <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/5 to-cyan-400/0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="relative">
+                      <h4 className="text-lg sm:text-xl lg:text-2xl font-black text-cyan-900 dark:text-cyan-200 mb-5 sm:mb-6 flex items-center gap-3">
+                        <span className="inline-flex items-center justify-center w-8 sm:w-9 lg:w-10 h-8 sm:h-9 lg:h-10 bg-cyan-500 text-white font-black rounded-lg text-sm sm:text-base">6</span>
+                        Lahore
+                      </h4>
+                      <div className="space-y-3 sm:space-y-4">
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-cyan-200/50 dark:border-cyan-700/30 hover:shadow-lg hover:border-cyan-300 dark:hover:border-cyan-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Maj (R) Abid Latif</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-cyan-600 dark:text-cyan-400">16</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-cyan-200/50 dark:border-cyan-700/30 hover:shadow-lg hover:border-cyan-300 dark:hover:border-cyan-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Mansoor Amin</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-cyan-600 dark:text-cyan-400">18</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Multan */}
+                  <div className="group relative bg-gradient-to-br from-indigo-50/40 to-indigo-50/20 dark:from-indigo-950/20 dark:to-indigo-950/10 border-2 border-indigo-300/40 dark:border-indigo-600/30 rounded-2xl p-6 sm:p-7 lg:p-8 hover:border-indigo-400/60 dark:hover:border-indigo-500/60 hover:shadow-xl transition-all duration-300">
+                    <div className="absolute inset-0 bg-gradient-to-br from-indigo-400/5 to-indigo-400/0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="relative">
+                      <h4 className="text-lg sm:text-xl lg:text-2xl font-black text-indigo-900 dark:text-indigo-200 mb-5 sm:mb-6 flex items-center gap-3">
+                        <span className="inline-flex items-center justify-center w-8 sm:w-9 lg:w-10 h-8 sm:h-9 lg:h-10 bg-indigo-500 text-white font-black rounded-lg text-sm sm:text-base">7</span>
+                        Multan
+                      </h4>
+                      <div className="space-y-3 sm:space-y-4">
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-indigo-200/50 dark:border-indigo-700/30 hover:shadow-lg hover:border-indigo-300 dark:hover:border-indigo-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Sub (R) Muhammad Asghar</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-indigo-600 dark:text-indigo-400">6</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-indigo-200/50 dark:border-indigo-700/30 hover:shadow-lg hover:border-indigo-300 dark:hover:border-indigo-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Capt (R) Mansoor</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-indigo-600 dark:text-indigo-400">5</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Gharo (Sindh) */}
+                  <div className="group relative bg-gradient-to-br from-teal-50/40 to-teal-50/20 dark:from-teal-950/20 dark:to-teal-950/10 border-2 border-teal-300/40 dark:border-teal-600/30 rounded-2xl p-6 sm:p-7 lg:p-8 hover:border-teal-400/60 dark:hover:border-teal-500/60 hover:shadow-xl transition-all duration-300">
+                    <div className="absolute inset-0 bg-gradient-to-br from-teal-400/5 to-teal-400/0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="relative">
+                      <h4 className="text-lg sm:text-xl lg:text-2xl font-black text-teal-900 dark:text-teal-200 mb-5 sm:mb-6 flex items-center gap-3">
+                        <span className="inline-flex items-center justify-center w-8 sm:w-9 lg:w-10 h-8 sm:h-9 lg:h-10 bg-teal-500 text-white font-black rounded-lg text-sm sm:text-base">8</span>
+                        Gharo (Sindh)
+                      </h4>
+                      <div className="space-y-3 sm:space-y-4">
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-teal-200/50 dark:border-teal-700/30 hover:shadow-lg hover:border-teal-300 dark:hover:border-teal-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Mehr Khalid</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-teal-600 dark:text-teal-400">19</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Sargodha */}
+                  <div className="group relative bg-gradient-to-br from-violet-50/40 to-violet-50/20 dark:from-violet-950/20 dark:to-violet-950/10 border-2 border-violet-300/40 dark:border-violet-600/30 rounded-2xl p-6 sm:p-7 lg:p-8 hover:border-violet-400/60 dark:hover:border-violet-500/60 hover:shadow-xl transition-all duration-300">
+                    <div className="absolute inset-0 bg-gradient-to-br from-violet-400/5 to-violet-400/0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="relative">
+                      <h4 className="text-lg sm:text-xl lg:text-2xl font-black text-violet-900 dark:text-violet-200 mb-5 sm:mb-6 flex items-center gap-3">
+                        <span className="inline-flex items-center justify-center w-8 sm:w-9 lg:w-10 h-8 sm:h-9 lg:h-10 bg-violet-500 text-white font-black rounded-lg text-sm sm:text-base">9</span>
+                        Sargodha
+                      </h4>
+                      <div className="space-y-3 sm:space-y-4">
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-violet-200/50 dark:border-violet-700/30 hover:shadow-lg hover:border-violet-300 dark:hover:border-violet-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Muhammad Qaiser</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-violet-600 dark:text-violet-400">2</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-violet-200/50 dark:border-violet-700/30 hover:shadow-lg hover:border-violet-300 dark:hover:border-violet-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Sub (R) Rasheed Ahmed</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-violet-600 dark:text-violet-400">8</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-violet-200/50 dark:border-violet-700/30 hover:shadow-lg hover:border-violet-300 dark:hover:border-violet-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Sub (R) Muhammad Mushtaq</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-violet-600 dark:text-violet-400">9</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Gujranwala */}
+                  <div className="group relative bg-gradient-to-br from-fuchsia-50/40 to-fuchsia-50/20 dark:from-fuchsia-950/20 dark:to-fuchsia-950/10 border-2 border-fuchsia-300/40 dark:border-fuchsia-600/30 rounded-2xl p-6 sm:p-7 lg:p-8 hover:border-fuchsia-400/60 dark:hover:border-fuchsia-500/60 hover:shadow-xl transition-all duration-300">
+                    <div className="absolute inset-0 bg-gradient-to-br from-fuchsia-400/5 to-fuchsia-400/0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="relative">
+                      <h4 className="text-lg sm:text-xl lg:text-2xl font-black text-fuchsia-900 dark:text-fuchsia-200 mb-5 sm:mb-6 flex items-center gap-3">
+                        <span className="inline-flex items-center justify-center w-8 sm:w-9 lg:w-10 h-8 sm:h-9 lg:h-10 bg-fuchsia-500 text-white font-black rounded-lg text-sm sm:text-base">10</span>
+                        Gujranwala
+                      </h4>
+                      <div className="space-y-3 sm:space-y-4">
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-fuchsia-200/50 dark:border-fuchsia-700/30 hover:shadow-lg hover:border-fuchsia-300 dark:hover:border-fuchsia-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Zakir Ur Rehman</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-fuchsia-600 dark:text-fuchsia-400">30</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-fuchsia-200/50 dark:border-fuchsia-700/30 hover:shadow-lg hover:border-fuchsia-300 dark:hover:border-fuchsia-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Waleed Ahmed</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-fuchsia-600 dark:text-fuchsia-400">2</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Karachi */}
+                  <div className="group relative bg-gradient-to-br from-pink-50/40 to-pink-50/20 dark:from-pink-950/20 dark:to-pink-950/10 border-2 border-pink-300/40 dark:border-pink-600/30 rounded-2xl p-6 sm:p-7 lg:p-8 hover:border-pink-400/60 dark:hover:border-pink-500/60 hover:shadow-xl transition-all duration-300">
+                    <div className="absolute inset-0 bg-gradient-to-br from-pink-400/5 to-pink-400/0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="relative">
+                      <h4 className="text-lg sm:text-xl lg:text-2xl font-black text-pink-900 dark:text-pink-200 mb-5 sm:mb-6 flex items-center gap-3">
+                        <span className="inline-flex items-center justify-center w-8 sm:w-9 lg:w-10 h-8 sm:h-9 lg:h-10 bg-pink-500 text-white font-black rounded-lg text-sm sm:text-base">11</span>
+                        Karachi
+                      </h4>
+                      <div className="space-y-3 sm:space-y-4">
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-pink-200/50 dark:border-pink-700/30 hover:shadow-lg hover:border-pink-300 dark:hover:border-pink-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">N/Sub (R) Niaz Muhammad</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-pink-600 dark:text-pink-400">5</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-pink-200/50 dark:border-pink-700/30 hover:shadow-lg hover:border-pink-300 dark:hover:border-pink-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Hav (R) Muhammad Bachal</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-pink-600 dark:text-pink-400">6</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Quetta */}
+                  <div className="group relative bg-gradient-to-br from-red-50/40 to-red-50/20 dark:from-red-950/20 dark:to-red-950/10 border-2 border-red-300/40 dark:border-red-600/30 rounded-2xl p-6 sm:p-7 lg:p-8 hover:border-red-400/60 dark:hover:border-red-500/60 hover:shadow-xl transition-all duration-300">
+                    <div className="absolute inset-0 bg-gradient-to-br from-red-400/5 to-red-400/0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="relative">
+                      <h4 className="text-lg sm:text-xl lg:text-2xl font-black text-red-900 dark:text-red-200 mb-5 sm:mb-6 flex items-center gap-3">
+                        <span className="inline-flex items-center justify-center w-8 sm:w-9 lg:w-10 h-8 sm:h-9 lg:h-10 bg-red-500 text-white font-black rounded-lg text-sm sm:text-base">12</span>
+                        Quetta
+                      </h4>
+                      <div className="space-y-3 sm:space-y-4">
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-red-200/50 dark:border-red-700/30 hover:shadow-lg hover:border-red-300 dark:hover:border-red-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Raheel Akbar Shah (R) Police</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-red-600 dark:text-red-400">12</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* AJK */}
+                  <div className="group relative bg-gradient-to-br from-amber-50/40 to-amber-50/20 dark:from-amber-950/20 dark:to-amber-950/10 border-2 border-amber-300/40 dark:border-amber-600/30 rounded-2xl p-6 sm:p-7 lg:p-8 hover:border-amber-400/60 dark:hover:border-amber-500/60 hover:shadow-xl transition-all duration-300">
+                    <div className="absolute inset-0 bg-gradient-to-br from-amber-400/5 to-amber-400/0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="relative">
+                      <h4 className="text-lg sm:text-xl lg:text-2xl font-black text-amber-900 dark:text-amber-200 mb-5 sm:mb-6 flex items-center gap-3">
+                        <span className="inline-flex items-center justify-center w-8 sm:w-9 lg:w-10 h-8 sm:h-9 lg:h-10 bg-amber-500 text-white font-black rounded-lg text-sm sm:text-base">13</span>
+                        AJK
+                      </h4>
+                      <div className="space-y-3 sm:space-y-4">
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-amber-200/50 dark:border-amber-700/30 hover:shadow-lg hover:border-amber-300 dark:hover:border-amber-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Sub (R) Muhammad Husnain</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-amber-600 dark:text-amber-400">11</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-amber-200/50 dark:border-amber-700/30 hover:shadow-lg hover:border-amber-300 dark:hover:border-amber-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Sub (R) Muhammad Iqbal</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-amber-600 dark:text-amber-400">18</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                        <div className="group/card flex items-start justify-between gap-4 p-4 sm:p-5 bg-white dark:bg-slate-800 rounded-xl border border-amber-200/50 dark:border-amber-700/30 hover:shadow-lg hover:border-amber-300 dark:hover:border-amber-600 transition-all duration-300">
+                          <div className="flex-1 min-w-0">
+                            <p className="text-base sm:text-lg lg:text-xl font-black text-foreground">Capt (R) Muhammad Qurban</p>
+                          </div>
+                          <div className="flex-shrink-0 text-right">
+                            <p className="text-lg sm:text-xl lg:text-2xl font-black text-amber-600 dark:text-amber-400">13</p>
+                            <p className="text-xs sm:text-sm font-bold text-muted-foreground">Years</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </AnimatedFadeInRight>
