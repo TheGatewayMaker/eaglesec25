@@ -483,7 +483,7 @@ export default function About() {
             {/* Organizational Hierarchy */}
             <AnimatedFadeInLeft threshold={0.2}>
               <div>
-                <h3 className="text-xl sm:text-2xl lg:text-3xl font-black text-foreground mb-8 sm:mb-10 lg:mb-12 leading-tight">
+                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-black text-foreground mb-8 sm:mb-10 lg:mb-12 leading-tight">
                   Organizational Hierarchy
                 </h3>
 
