@@ -596,8 +596,8 @@ export default function About() {
                     {/* Area Managers Grid */}
                     <div className="group">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 p-3 sm:p-4 hover:shadow-md transition-all duration-300">
                           <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
                             CAPT (R) MANSOOR
                           </div>
@@ -610,8 +610,8 @@ export default function About() {
 
                     <div className="group">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 p-3 sm:p-4 hover:shadow-md transition-all duration-300">
                           <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
                             HON CAPT (R) MUHAMMAD QURBAN
                           </div>
@@ -624,8 +624,8 @@ export default function About() {
 
                     <div className="group">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 p-3 sm:p-4 hover:shadow-md transition-all duration-300">
                           <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
                             ZAKIR UR REHMAN
                           </div>
@@ -638,8 +638,8 @@ export default function About() {
 
                     <div className="group">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 p-3 sm:p-4 hover:shadow-md transition-all duration-300">
                           <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
                             RAHEEL AKBAR SHAH
                           </div>
@@ -652,8 +652,8 @@ export default function About() {
 
                     <div className="group">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 p-3 sm:p-4 hover:shadow-md transition-all duration-300">
                           <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
                             SALEEM MURAD
                           </div>
@@ -666,8 +666,8 @@ export default function About() {
 
                     <div className="group">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 p-3 sm:p-4 hover:shadow-md transition-all duration-300">
                           <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
                             QASER IFTIKHAR
                           </div>
