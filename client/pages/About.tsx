@@ -87,275 +87,314 @@ export default function About() {
         </div>
       </section>
 
-      {/* Who We Are Section */}
-      <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-background transition-colors duration-300">
-        <div className="container mx-auto px-4 sm:px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-12 items-center mb-8 sm:mb-12 md:mb-16 lg:mb-20 animate-fade-in">
-            <div className="order-2 md:order-1">
-              <div className="inline-block mb-3 sm:mb-4 md:mb-6">
-                <span className="bg-accent/20 text-accent font-black px-3 py-1 text-xs sm:text-sm rounded-lg">
-                  WHO WE ARE
-                </span>
-              </div>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-foreground mb-4 sm:mb-6 md:mb-8 leading-tight">
-                Founded on Military Excellence
+      {/* Our Heritage & Legacy Section */}
+      <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-gradient-to-b from-background via-background to-background/95 transition-colors duration-300 relative overflow-hidden">
+        {/* Decorative Background Elements */}
+        <svg
+          className="absolute top-1/4 left-1/2 w-2/3 h-3/4 -translate-x-1/2 opacity-40"
+          viewBox="0 0 800 600"
+          preserveAspectRatio="xMidYMid slice"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient id="legacyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style={{ stopColor: "var(--accent)", stopOpacity: 0.4 }} />
+              <stop offset="100%" style={{ stopColor: "var(--accent)", stopOpacity: 0.05 }} />
+            </linearGradient>
+          </defs>
+          <path d="M0,150 Q200,50 400,150 Q600,250 800,150 L800,0 L0,0 Z" fill="url(#legacyGradient)" />
+          <path d="M0,350 Q150,300 300,350 Q450,400 600,350 Q700,330 800,350 L800,600 L0,600 Z" fill="var(--accent)" opacity="0.05" />
+        </svg>
+
+        <div className="container mx-auto px-4 sm:px-6 relative z-10">
+          <AnimatedFadeInUp className="mb-8 sm:mb-12 md:mb-16 lg:mb-24" threshold={0.2}>
+            <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 mb-3 sm:mb-4 lg:mb-6">
+              <div className="w-1 md:w-1.5 h-8 sm:h-10 lg:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black leading-tight">
+                Built on a Legacy of Excellence
               </h2>
-              <p className="text-muted-foreground leading-relaxed text-xs sm:text-sm md:text-base lg:text-lg font-black mb-3 sm:mb-4 md:mb-6">
-                Eagle Security Guards was established in 1992 with a singular
-                vision: to bring military-grade discipline and professionalism
-                to civilian security. We're not just a security company, we're a
-                legacy built on the foundation of Pakistan's armed forces.
-              </p>
-              <p className="text-muted-foreground leading-relaxed text-xs sm:text-sm md:text-base lg:text-lg font-black mb-4 sm:mb-6 md:mb-8">
-                Licensed to operate nationwide across Pakistan and Azad Jammu &
-                Kashmir, we've grown into one of the most trusted private
-                security providers in the nation.
-              </p>
-
-              <div className="space-y-2 sm:space-y-3 md:space-y-4">
-                <div className="flex gap-2 sm:gap-3 md:gap-4 p-2 sm:p-3 md:p-4 rounded-lg bg-accent/5 border-l-4 border-accent hover:bg-accent/10 transition-colors">
-                  <CheckCircle2 className="w-5 sm:w-6 h-5 sm:h-6 text-accent flex-shrink-0 mt-0" />
-                  <span className="text-foreground font-bold text-xs md:text-sm lg:text-base">
-                    National Coverage with Local Expertise
-                  </span>
-                </div>
-                <div className="flex gap-2 sm:gap-3 md:gap-4 p-2 sm:p-3 md:p-4 rounded-lg bg-accent/5 border-l-4 border-accent hover:bg-accent/10 transition-colors">
-                  <CheckCircle2 className="w-5 sm:w-6 h-5 sm:h-6 text-accent flex-shrink-0 mt-0" />
-                  <span className="text-foreground font-bold text-xs md:text-sm lg:text-base">
-                    Ex-Army Officers Leading Strategic Operations
-                  </span>
-                </div>
-                <div className="flex gap-2 sm:gap-3 md:gap-4 p-2 sm:p-3 md:p-4 rounded-lg bg-accent/5 border-l-4 border-accent hover:bg-accent/10 transition-colors">
-                  <CheckCircle2 className="w-5 sm:w-6 h-5 sm:h-6 text-accent flex-shrink-0 mt-0" />
-                  <span className="text-foreground font-bold text-xs md:text-sm lg:text-base">
-                    Government, Banking & Corporate Approved
-                  </span>
-                </div>
-              </div>
             </div>
-            <div className="overflow-hidden rounded-2xl shadow-2xl h-40 sm:h-48 md:h-64 lg:h-96 order-1 md:order-2">
-              <img
-                src="https://i.ibb.co/Ps11NyHH/Screenshot-2025-12-27-at-10-23-11-PM.png"
-                alt="Elite security personnel in formation"
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Vision, Mission, Values Section - Enhanced */}
-      <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-gradient-to-b from-background via-accent/5 to-background transition-colors duration-300">
-        <div className="container mx-auto px-4 sm:px-6">
-          <div className="text-center mb-8 sm:mb-12 md:mb-16 lg:mb-20">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-foreground mb-2 sm:mb-3 md:mb-4">
-              The Eagle Foundation
-            </h2>
-            <p className="text-xs sm:text-sm md:text-base lg:text-xl text-muted-foreground font-black max-w-2xl mx-auto">
-              Our vision, mission, and values are the pillars upon which every
-              decision, every action, and every commitment is built.
+            <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-3xl leading-relaxed">
+              Since 1992, Eagle Security Guards has been the trusted partner for organizations demanding military-grade security solutions
             </p>
-          </div>
+          </AnimatedFadeInUp>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5 md:gap-6 lg:gap-8 max-w-5xl mx-auto">
-            {/* Vision */}
-            <div className="bg-card p-4 sm:p-6 md:p-8 lg:p-12 rounded-2xl border-2 border-border shadow-lg hover:shadow-2xl hover:border-accent hover:-translate-y-2 transition-all duration-300 animate-slide-in-from-bottom">
-              <div className="flex items-center justify-center w-10 sm:w-12 lg:w-14 h-10 sm:h-12 lg:h-14 rounded-xl bg-accent/20 mb-4 sm:mb-6 lg:mb-8">
-                <Lightbulb className="w-5 sm:w-6 lg:w-8 h-5 sm:h-6 lg:h-8 text-accent" />
-              </div>
-              <h3 className="text-lg sm:text-xl lg:text-2xl font-black text-foreground mb-2 sm:mb-3 lg:mb-4">
-                Vision
-              </h3>
-              <p className="text-muted-foreground leading-relaxed font-black text-xs sm:text-sm md:text-base">
-                To be the gold standard in professional security, recognized
-                globally for vigilance, excellence, and the unwavering
-                dedication of our personnel.
-              </p>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
+            <AnimatedFadeInLeft threshold={0.2}>
+              <div className="space-y-4 sm:space-y-6 md:space-y-8">
+                <div>
+                  <h3 className="text-xl sm:text-2xl lg:text-3xl font-black text-foreground mb-3 sm:mb-4 leading-tight">
+                    Founded on Military Excellence
+                  </h3>
+                  <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground font-bold leading-relaxed">
+                    Eagle Security Guards was established by military veterans with a singular vision: to bring military-grade discipline and professionalism to civilian security. We're not just a security company—we're a legacy built on the foundation of Pakistan's armed forces.
+                  </p>
+                </div>
 
-            {/* Mission */}
-            <div
-              className="bg-card p-4 sm:p-6 md:p-8 lg:p-12 rounded-2xl border-2 border-border shadow-lg hover:shadow-2xl hover:border-accent hover:-translate-y-2 transition-all duration-300 animate-slide-in-from-bottom"
-              style={{ animationDelay: "100ms" }}
-            >
-              <div className="flex items-center justify-center w-10 sm:w-12 lg:w-14 h-10 sm:h-12 lg:h-14 rounded-xl bg-accent/20 mb-4 sm:mb-6 lg:mb-8">
-                <Target className="w-5 sm:w-6 lg:w-8 h-5 sm:h-6 lg:h-8 text-accent" />
-              </div>
-              <h3 className="text-lg sm:text-xl lg:text-2xl font-black text-foreground mb-2 sm:mb-3 lg:mb-4">
-                Mission
-              </h3>
-              <p className="text-muted-foreground leading-relaxed font-black text-xs sm:text-sm md:text-base">
-                To safeguard lives and assets through meticulously trained,
-                disciplined, and vetted personnel, led by experienced
-                ex-military commanders.
-              </p>
-            </div>
+                <div className="grid grid-cols-2 gap-3 sm:gap-4">
+                  <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 p-4 sm:p-6 rounded-xl hover:border-accent/40 hover:shadow-lg transition-all duration-300">
+                    <div className="text-2xl sm:text-3xl lg:text-4xl font-black text-accent mb-2">30+</div>
+                    <p className="text-xs sm:text-sm font-black text-foreground">Years of Service</p>
+                  </div>
+                  <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 p-4 sm:p-6 rounded-xl hover:border-accent/40 hover:shadow-lg transition-all duration-300">
+                    <div className="text-2xl sm:text-3xl lg:text-4xl font-black text-accent mb-2">50+</div>
+                    <p className="text-xs sm:text-sm font-black text-foreground">National Offices</p>
+                  </div>
+                </div>
 
-            {/* Commitment */}
-            <div
-              className="bg-card p-4 sm:p-6 md:p-8 lg:p-12 rounded-2xl border-2 border-border shadow-lg hover:shadow-2xl hover:border-accent hover:-translate-y-2 transition-all duration-300 animate-slide-in-from-bottom"
-              style={{ animationDelay: "200ms" }}
-            >
-              <div className="flex items-center justify-center w-10 sm:w-12 lg:w-14 h-10 sm:h-12 lg:h-14 rounded-xl bg-accent/20 mb-4 sm:mb-6 lg:mb-8">
-                <Compass className="w-5 sm:w-6 lg:w-8 h-5 sm:h-6 lg:h-8 text-accent" />
+                <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground font-bold leading-relaxed">
+                  Licensed to operate nationwide across Pakistan and Azad Jammu & Kashmir, we've grown into one of the nation's most trusted private security providers.
+                </p>
               </div>
-              <h3 className="text-lg sm:text-xl lg:text-2xl font-black text-foreground mb-2 sm:mb-3 lg:mb-4">
-                Commitment
-              </h3>
-              <p className="text-muted-foreground leading-relaxed font-black text-xs sm:text-sm md:text-base">
-                Delivering uncompromising reliability, efficiency, and integrity
-                across all sectors, with zero tolerance for mediocrity.
-              </p>
-            </div>
+            </AnimatedFadeInLeft>
+
+            <AnimatedFadeInRight threshold={0.2}>
+              <div className="overflow-hidden rounded-2xl shadow-2xl h-48 sm:h-64 md:h-72 lg:h-96">
+                <img
+                  src="https://i.ibb.co/Ps11NyHH/Screenshot-2025-12-27-at-10-23-11-PM.png"
+                  alt="Elite security personnel in formation"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                />
+              </div>
+            </AnimatedFadeInRight>
           </div>
         </div>
       </section>
 
-      {/* Why Choose Us & Standards Section - Side by Side */}
-      <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-background transition-colors duration-300">
-        <div className="container mx-auto px-4 sm:px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-10 lg:gap-16">
-            {/* Why Choose Us Section */}
-            <div>
-              <div className="mb-6 sm:mb-8 md:mb-12 text-center md:text-left">
-                <h2 className="text-2xl sm:text-2.5xl md:text-3xl lg:text-4xl font-black text-foreground mb-2 md:mb-3">
-                  Why Organizations Trust Eagle
-                </h2>
-                <p className="text-xs md:text-sm lg:text-lg text-muted-foreground font-black">
-                  What sets us apart in the security landscape
-                </p>
-              </div>
+      {/* Our Core Values Section */}
+      <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-background transition-colors duration-300 relative overflow-hidden">
+        <svg className="absolute top-0 right-0 w-1/2 h-full opacity-35" viewBox="0 0 600 800" preserveAspectRatio="xMaxYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="valuesGradient" x1="100%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" style={{ stopColor: "var(--accent)", stopOpacity: 0.5 }} />
+              <stop offset="100%" style={{ stopColor: "var(--accent)", stopOpacity: 0.1 }} />
+            </linearGradient>
+          </defs>
+          <path d="M600,100 Q500,150 400,100 Q300,50 200,100 Q100,150 0,100 L0,300 Q150,250 300,300 Q450,350 600,300 Z" fill="url(#valuesGradient)" />
+        </svg>
 
-              <div className="space-y-3 sm:space-y-4 md:space-y-5">
-                <div className="flex gap-3 sm:gap-4 md:gap-5 p-3 sm:p-4 md:p-6 rounded-xl bg-accent/5 border border-accent/20 hover:border-accent hover:bg-accent/10 transition-all">
-                  <Shield className="w-5 sm:w-6 md:w-8 h-5 sm:h-6 md:h-8 text-accent flex-shrink-0 mt-0.5" />
-                  <div>
-                    <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
-                      Military Heritage
-                    </h4>
-                    <p className="text-xs text-muted-foreground font-black leading-snug">
-                      Personnel drawn from Pakistan's elite armed forces with
-                      unparalleled training and discipline.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex gap-3 sm:gap-4 md:gap-5 p-3 sm:p-4 md:p-6 rounded-xl bg-accent/5 border border-accent/20 hover:border-accent hover:bg-accent/10 transition-all">
-                  <Users className="w-5 sm:w-6 md:w-8 h-5 sm:h-6 md:h-8 text-accent flex-shrink-0 mt-0.5" />
-                  <div>
-                    <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
-                      Rigorous Vetting
-                    </h4>
-                    <p className="text-xs text-muted-foreground font-black leading-snug">
-                      Comprehensive background screening ensures only the most
-                      qualified join our ranks.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex gap-3 sm:gap-4 md:gap-5 p-3 sm:p-4 md:p-6 rounded-xl bg-accent/5 border border-accent/20 hover:border-accent hover:bg-accent/10 transition-all">
-                  <MapPin className="w-5 sm:w-6 md:w-8 h-5 sm:h-6 md:h-8 text-accent flex-shrink-0 mt-0.5" />
-                  <div>
-                    <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
-                      Nationwide Network
-                    </h4>
-                    <p className="text-xs text-muted-foreground font-black leading-snug">
-                      50+ offices across Pakistan ensures rapid response and
-                      local expertise wherever you are.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex gap-3 sm:gap-4 md:gap-5 p-3 sm:p-4 md:p-6 rounded-xl bg-accent/5 border border-accent/20 hover:border-accent hover:bg-accent/10 transition-all">
-                  <CheckCircle2 className="w-5 sm:w-6 md:w-8 h-5 sm:h-6 md:h-8 text-accent flex-shrink-0 mt-0.5" />
-                  <div>
-                    <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
-                      Proven Track Record
-                    </h4>
-                    <p className="text-xs text-muted-foreground font-black leading-snug">
-                      Trusted by government agencies, financial institutions,
-                      and Fortune 500 companies.
-                    </p>
-                  </div>
-                </div>
-              </div>
+        <div className="container mx-auto px-4 sm:px-6 relative z-10">
+          <AnimatedFadeInUp className="mb-8 sm:mb-12 md:mb-16 lg:mb-24" threshold={0.2}>
+            <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 mb-3 sm:mb-4 lg:mb-6">
+              <div className="w-1 md:w-1.5 h-8 sm:h-10 lg:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black leading-tight">
+                The Eagle Foundation
+              </h2>
             </div>
+            <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-3xl leading-relaxed">
+              Vision, mission, and values that drive every decision
+            </p>
+          </AnimatedFadeInUp>
 
-            {/* Standards Section */}
-            <div className="bg-gradient-to-br from-accent/10 to-accent/5 p-4 sm:p-6 md:p-8 lg:p-12 rounded-2xl border border-accent/20">
-              <div className="mb-6 sm:mb-8 md:mb-12 text-center md:text-left">
-                <h2 className="text-2xl sm:text-2.5xl md:text-3xl lg:text-4xl font-black text-foreground mb-2 md:mb-3">
-                  Uncompromising Standards
-                </h2>
-                <p className="text-xs md:text-sm lg:text-lg text-muted-foreground font-black">
-                  Every member of the Eagle family adheres to these pillars of
-                  excellence
-                </p>
-              </div>
-
-              <div className="space-y-3 sm:space-y-4 md:space-y-5">
-                <div className="flex gap-3 sm:gap-4 md:gap-5 p-3 sm:p-4 md:p-5 rounded-xl bg-card border-2 border-accent/30 hover:border-accent hover:shadow-lg transition-all">
-                  <div className="flex items-center justify-center w-7 sm:w-8 md:w-10 h-7 sm:h-8 md:h-10 rounded-full bg-accent text-accent-foreground font-black flex-shrink-0 text-xs md:text-base">
-                    1
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5 md:gap-6 lg:gap-8 max-w-5xl">
+            <AnimatedScaleInUp delay={0} threshold={0.2}>
+              <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-6 sm:p-8 lg:p-10 rounded-2xl transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
+                <div className="absolute -right-12 -top-12 w-32 h-32 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
+                <div className="relative z-10">
+                  <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4 sm:mb-6">
+                    <Lightbulb className="w-6 sm:w-7 h-6 sm:h-7 text-accent" />
                   </div>
-                  <div>
-                    <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
-                      Absolute Integrity
-                    </h4>
-                    <p className="text-xs text-muted-foreground font-black leading-snug">
-                      Unwavering honesty in every interaction, every decision,
-                      and every service delivery.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex gap-3 sm:gap-4 md:gap-5 p-3 sm:p-4 md:p-5 rounded-xl bg-card border-2 border-accent/30 hover:border-accent hover:shadow-lg transition-all">
-                  <div className="flex items-center justify-center w-7 sm:w-8 md:w-10 h-7 sm:h-8 md:h-10 rounded-full bg-accent text-accent-foreground font-black flex-shrink-0 text-xs md:text-base">
-                    2
-                  </div>
-                  <div>
-                    <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
-                      Relentless Vigilance
-                    </h4>
-                    <p className="text-xs text-muted-foreground font-black leading-snug">
-                      24/7 alert and responsive protection, never lowering our
-                      guard, ever.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex gap-3 sm:gap-4 md:gap-5 p-3 sm:p-4 md:p-5 rounded-xl bg-card border-2 border-accent/30 hover:border-accent hover:shadow-lg transition-all">
-                  <div className="flex items-center justify-center w-7 sm:w-8 md:w-10 h-7 sm:h-8 md:h-10 rounded-full bg-accent text-accent-foreground font-black flex-shrink-0 text-xs md:text-base">
-                    3
-                  </div>
-                  <div>
-                    <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
-                      Professional Excellence
-                    </h4>
-                    <p className="text-xs text-muted-foreground font-black leading-snug">
-                      Continuous training, certification, and adherence to
-                      international security standards.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex gap-3 sm:gap-4 md:gap-5 p-3 sm:p-4 md:p-5 rounded-xl bg-card border-2 border-accent/30 hover:border-accent hover:shadow-lg transition-all">
-                  <div className="flex items-center justify-center w-7 sm:w-8 md:w-10 h-7 sm:h-8 md:h-10 rounded-full bg-accent text-accent-foreground font-black flex-shrink-0 text-xs md:text-base">
-                    4
-                  </div>
-                  <div>
-                    <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
-                      Client-Centric Service
-                    </h4>
-                    <p className="text-xs text-muted-foreground font-black leading-snug">
-                      Your security needs drive everything we do, customized
-                      solutions for every scenario.
-                    </p>
-                  </div>
+                  <h3 className="text-xl sm:text-2xl lg:text-3xl font-black text-foreground mb-3 leading-tight">
+                    Vision
+                  </h3>
+                  <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
+                    To be the gold standard in professional security, recognized globally for vigilance, excellence, and unwavering dedication.
+                  </p>
                 </div>
               </div>
-            </div>
+            </AnimatedScaleInUp>
+
+            <AnimatedScaleInUp delay={100} threshold={0.2}>
+              <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-6 sm:p-8 lg:p-10 rounded-2xl transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
+                <div className="absolute -right-12 -top-12 w-32 h-32 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
+                <div className="relative z-10">
+                  <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4 sm:mb-6">
+                    <Target className="w-6 sm:w-7 h-6 sm:h-7 text-accent" />
+                  </div>
+                  <h3 className="text-xl sm:text-2xl lg:text-3xl font-black text-foreground mb-3 leading-tight">
+                    Mission
+                  </h3>
+                  <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
+                    Safeguard lives and assets through meticulously trained, disciplined, and vetted personnel led by experienced commanders.
+                  </p>
+                </div>
+              </div>
+            </AnimatedScaleInUp>
+
+            <AnimatedScaleInUp delay={200} threshold={0.2}>
+              <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-6 sm:p-8 lg:p-10 rounded-2xl transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
+                <div className="absolute -right-12 -top-12 w-32 h-32 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
+                <div className="relative z-10">
+                  <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4 sm:mb-6">
+                    <Compass className="w-6 sm:w-7 h-6 sm:h-7 text-accent" />
+                  </div>
+                  <h3 className="text-xl sm:text-2xl lg:text-3xl font-black text-foreground mb-3 leading-tight">
+                    Excellence
+                  </h3>
+                  <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
+                    Delivering uncompromising reliability, efficiency, and integrity across all sectors with zero tolerance for mediocrity.
+                  </p>
+                </div>
+              </div>
+            </AnimatedScaleInUp>
           </div>
+        </div>
+      </section>
+
+      {/* What Sets Us Apart Section */}
+      <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-gradient-to-b from-background/95 via-background to-background transition-colors duration-300 relative overflow-hidden">
+        <svg className="absolute top-1/3 -left-40 w-1/2 h-2/3 opacity-35" viewBox="0 0 500 600" preserveAspectRatio="xMinYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="apartGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style={{ stopColor: "var(--accent)", stopOpacity: 0.5 }} />
+              <stop offset="100%" style={{ stopColor: "var(--accent)", stopOpacity: 0.08 }} />
+            </linearGradient>
+          </defs>
+          <path d="M0,100 Q100,50 200,100 Q300,150 400,100 Q500,150 500,250 L0,250 Z" fill="url(#apartGradient)" />
+        </svg>
+
+        <div className="container mx-auto px-4 sm:px-6 relative z-10">
+          <AnimatedFadeInUp className="mb-8 sm:mb-12 md:mb-16 lg:mb-24" threshold={0.2}>
+            <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 mb-3 sm:mb-4 lg:mb-6">
+              <div className="w-1 md:w-1.5 h-8 sm:h-10 lg:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black leading-tight">
+                Why Organizations Trust Eagle
+              </h2>
+            </div>
+            <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-3xl leading-relaxed">
+              Six pillars that define our competitive advantage
+            </p>
+          </AnimatedFadeInUp>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6">
+            <AnimatedFadeInUp delay={0} threshold={0.2}>
+              <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-5 sm:p-6 lg:p-8 rounded-xl transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
+                <div className="absolute -right-10 -top-10 w-28 h-28 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
+                <div className="relative z-10">
+                  <Shield className="w-8 sm:w-10 h-8 sm:h-10 text-accent mb-4 sm:mb-5" />
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-black text-foreground mb-2 sm:mb-3 leading-tight">
+                    Military Heritage
+                  </h3>
+                  <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
+                    Personnel drawn from Pakistan's elite armed forces with unparalleled training and discipline.
+                  </p>
+                </div>
+              </div>
+            </AnimatedFadeInUp>
+
+            <AnimatedFadeInUp delay={100} threshold={0.2}>
+              <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-5 sm:p-6 lg:p-8 rounded-xl transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
+                <div className="absolute -right-10 -top-10 w-28 h-28 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
+                <div className="relative z-10">
+                  <Award className="w-8 sm:w-10 h-8 sm:h-10 text-accent mb-4 sm:mb-5" />
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-black text-foreground mb-2 sm:mb-3 leading-tight">
+                    Rigorous Vetting
+                  </h3>
+                  <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
+                    Comprehensive background screening ensures only the most qualified professionals join our ranks.
+                  </p>
+                </div>
+              </div>
+            </AnimatedFadeInUp>
+
+            <AnimatedFadeInUp delay={200} threshold={0.2}>
+              <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-5 sm:p-6 lg:p-8 rounded-xl transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
+                <div className="absolute -right-10 -top-10 w-28 h-28 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
+                <div className="relative z-10">
+                  <Zap className="w-8 sm:w-10 h-8 sm:h-10 text-accent mb-4 sm:mb-5" />
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-black text-foreground mb-2 sm:mb-3 leading-tight">
+                    Rapid Response
+                  </h3>
+                  <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
+                    24/7 monitoring and immediate action protocols ensure threats are addressed swiftly and effectively.
+                  </p>
+                </div>
+              </div>
+            </AnimatedFadeInUp>
+
+            <AnimatedFadeInUp delay={300} threshold={0.2}>
+              <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-5 sm:p-6 lg:p-8 rounded-xl transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
+                <div className="absolute -right-10 -top-10 w-28 h-28 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
+                <div className="relative z-10">
+                  <Lock className="w-8 sm:w-10 h-8 sm:h-10 text-accent mb-4 sm:mb-5" />
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-black text-foreground mb-2 sm:mb-3 leading-tight">
+                    National Network
+                  </h3>
+                  <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
+                    50+ offices across Pakistan ensure rapid response and local expertise wherever you operate.
+                  </p>
+                </div>
+              </div>
+            </AnimatedFadeInUp>
+
+            <AnimatedFadeInUp delay={400} threshold={0.2}>
+              <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-5 sm:p-6 lg:p-8 rounded-xl transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
+                <div className="absolute -right-10 -top-10 w-28 h-28 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
+                <div className="relative z-10">
+                  <Headphones className="w-8 sm:w-10 h-8 sm:h-10 text-accent mb-4 sm:mb-5" />
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-black text-foreground mb-2 sm:mb-3 leading-tight">
+                    Client-Centric Approach
+                  </h3>
+                  <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
+                    Your security needs drive everything we do, with customized solutions for every scenario.
+                  </p>
+                </div>
+              </div>
+            </AnimatedFadeInUp>
+
+            <AnimatedFadeInUp delay={500} threshold={0.2}>
+              <div className="group relative overflow-hidden bg-gradient-to-br from-card to-card/80 border border-border/50 p-5 sm:p-6 lg:p-8 rounded-xl transition-all duration-300 hover:border-accent/40 hover:shadow-lg hover:-translate-y-1">
+                <div className="absolute -right-10 -top-10 w-28 h-28 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
+                <div className="relative z-10">
+                  <Briefcase className="w-8 sm:w-10 h-8 sm:h-10 text-accent mb-4 sm:mb-5" />
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-black text-foreground mb-2 sm:mb-3 leading-tight">
+                    Proven Excellence
+                  </h3>
+                  <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
+                    Trusted by government agencies, financial institutions, and Fortune 500 companies since 1992.
+                  </p>
+                </div>
+              </div>
+            </AnimatedFadeInUp>
+          </div>
+        </div>
+      </section>
+
+      {/* Expertise Summary Section */}
+      <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-background transition-colors duration-300 relative overflow-hidden">
+        <div className="container mx-auto px-4 sm:px-6 relative z-10">
+          <AnimatedSlideInFromBottom threshold={0.2}>
+            <div className="relative overflow-hidden bg-gradient-to-r from-accent/10 to-accent/5 border border-accent/30 rounded-2xl p-8 sm:p-10 md:p-12 lg:p-16">
+              <div className="absolute -right-20 -top-20 w-52 h-52 bg-accent/5 rounded-full"></div>
+              <div className="absolute -left-20 -bottom-20 w-64 h-64 bg-accent/5 rounded-full"></div>
+              <div className="relative z-10">
+                <p className="text-xs font-black text-accent uppercase tracking-widest mb-4 sm:mb-6">
+                  Our Commitment
+                </p>
+                <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black leading-tight mb-4 sm:mb-6 text-foreground max-w-3xl">
+                  Strategic Security Solutions That Deliver Results
+                </h3>
+                <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-2xl leading-relaxed mb-6 sm:mb-8">
+                  From comprehensive threat assessment to tactical response protocols, we provide complete protection backed by military expertise, continuous training standards, and proven success protecting Pakistan's most critical organizations.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 lg:gap-6 flex-wrap">
+                  <a
+                    href="/services"
+                    className="bg-accent text-accent-foreground px-6 sm:px-8 lg:px-10 py-2.5 sm:py-3 lg:py-4 font-black text-xs sm:text-sm lg:text-base text-center hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block rounded-lg"
+                  >
+                    Explore Our Services
+                  </a>
+                  <a
+                    href="/contact"
+                    className="border-2 border-accent text-accent px-6 sm:px-8 lg:px-10 py-2.5 sm:py-3 lg:py-4 font-black text-xs sm:text-sm lg:text-base text-center hover:bg-accent hover:text-accent-foreground transition-all duration-300 inline-block rounded-lg"
+                  >
+                    Request Consultation
+                  </a>
+                  <WhatsAppButton size="md" message="I'm interested in Eagle Security's comprehensive security solutions." />
+                </div>
+              </div>
+            </div>
+          </AnimatedSlideInFromBottom>
         </div>
       </section>
 
