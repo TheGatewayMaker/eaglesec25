@@ -555,8 +555,8 @@ export default function About() {
                     {/* Chief Finance Manager */}
                     <div className="group">
                       <div className="relative h-full">
-                        <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/10 to-emerald-500/5 rounded-xl blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-emerald-500/10 to-emerald-500/5 border-2 border-emerald-500/30 group-hover:border-emerald-500/60 rounded-xl p-4 sm:p-5 text-center hover:shadow-lg transition-all duration-300 h-full flex flex-col">
+                        <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/10 to-emerald-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-emerald-500/10 to-emerald-500/5 border-2 border-emerald-500/30 group-hover:border-emerald-500/60 p-4 sm:p-5 text-center hover:shadow-lg transition-all duration-300 h-full flex flex-col">
                           <div className="text-sm sm:text-base font-black text-foreground mb-1">
                             SOHAIL AMIR
                           </div>
