@@ -460,6 +460,579 @@ export default function About() {
         </div>
       </section>
 
+      {/* Leadership & Management Section */}
+      <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-background transition-colors duration-300 relative overflow-hidden">
+        <div className="container mx-auto px-4 sm:px-6 relative z-10">
+          <AnimatedFadeInUp
+            className="mb-8 sm:mb-12 md:mb-16 lg:mb-24"
+            threshold={0.2}
+          >
+            <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 mb-3 sm:mb-4 lg:mb-6">
+              <div className="w-1 md:w-1.5 h-8 sm:h-10 lg:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black leading-tight">
+                Leadership & Management Excellence
+              </h2>
+            </div>
+            <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-3xl leading-relaxed">
+              Our organizational structure led by experienced commanders and
+              seasoned professionals
+            </p>
+          </AnimatedFadeInUp>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12">
+            {/* Organizational Hierarchy */}
+            <AnimatedFadeInLeft threshold={0.2}>
+              <div>
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-black text-foreground mb-8 sm:mb-10 lg:mb-12 leading-tight">
+                  Organizational Hierarchy
+                </h3>
+
+                {/* Level 1: CEO */}
+                <div className="flex flex-col items-center mb-6 sm:mb-8">
+                  <div className="relative w-full max-w-xs">
+                    <div className="absolute inset-0 bg-gradient-to-r from-accent/20 to-accent/10 rounded-2xl blur-xl"></div>
+                    <div className="relative bg-gradient-to-br from-accent to-accent/80 text-accent-foreground rounded-2xl p-5 sm:p-7 text-center hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-accent/40">
+                      <div className="text-lg sm:text-xl lg:text-2xl font-black mb-1">
+                        MUSTABEEN ULLAH BAIG
+                      </div>
+                      <div className="text-xs sm:text-sm font-bold opacity-90">
+                        CHIEF EXECUTIVE OFFICER
+                      </div>
+                    </div>
+                  </div>
+                  <div className="w-0.5 h-8 sm:h-10 bg-gradient-to-b from-accent to-accent/30 mt-4 sm:mt-5"></div>
+                </div>
+
+                {/* Level 2: Executive Director */}
+                <div className="flex flex-col items-center mb-8 sm:mb-10">
+                  <div className="relative w-full max-w-sm">
+                    <div className="absolute inset-0 bg-gradient-to-r from-pk-green-main/10 to-pk-green-main/5 rounded-xl blur-lg"></div>
+                    <div className="relative bg-gradient-to-br from-pk-green-light/20 to-pk-green-light/5 border-2 border-pk-green-main rounded-xl p-4 sm:p-6 text-center hover:shadow-lg hover:scale-102 transition-all duration-300">
+                      <div className="text-base sm:text-lg lg:text-xl font-black text-foreground mb-1">
+                        MAHNOOR MUSTABEEN BAIG
+                      </div>
+                      <div className="text-xs sm:text-sm font-black text-pk-green-main">
+                        EXECUTIVE DIRECTOR
+                      </div>
+                    </div>
+                  </div>
+                  <div className="w-0.5 h-8 sm:h-10 bg-gradient-to-b from-pk-green-main/50 to-pk-green-main/20 mt-4 sm:mt-5"></div>
+                </div>
+
+                {/* Level 3: Top Management - 3 Column Grid */}
+                <div className="mb-8 sm:mb-10">
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-6 sm:mb-8">
+                    {/* GM Marketing & Operations */}
+                    <div className="group">
+                      <div className="relative h-full">
+                        <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-blue-500/5 rounded-xl blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-blue-500/10 to-blue-500/5 border-2 border-blue-500/30 group-hover:border-blue-500/60 rounded-xl p-4 sm:p-5 text-center hover:shadow-lg transition-all duration-300 h-full flex flex-col">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-1">
+                            MAJ (R) KHALID NAWAZ ABBASI
+                          </div>
+                          <div className="text-xs font-bold text-blue-600 dark:text-blue-400">
+                            GM MARKETING & OPERATIONS
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Company Secretary */}
+                    <div className="group">
+                      <div className="relative h-full">
+                        <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-purple-500/5 rounded-xl blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-purple-500/10 to-purple-500/5 border-2 border-purple-500/30 group-hover:border-purple-500/60 rounded-xl p-4 sm:p-5 text-center hover:shadow-lg transition-all duration-300 h-full flex flex-col">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-1">
+                            SYED REHAN WAQAR
+                          </div>
+                          <div className="text-xs font-bold text-purple-600 dark:text-purple-400">
+                            COMPANY SECRETARY / MANAGER ADMIN
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Chief Finance Manager */}
+                    <div className="group">
+                      <div className="relative h-full">
+                        <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/10 to-emerald-500/5 rounded-xl blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-emerald-500/10 to-emerald-500/5 border-2 border-emerald-500/30 group-hover:border-emerald-500/60 rounded-xl p-4 sm:p-5 text-center hover:shadow-lg transition-all duration-300 h-full flex flex-col">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-1">
+                            SOHAIL AMIR
+                          </div>
+                          <div className="text-xs font-bold text-emerald-600 dark:text-emerald-400">
+                            CHIEF FINANCE MANAGER
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex justify-center">
+                    <div className="w-0.5 h-8 sm:h-10 bg-gradient-to-b from-slate-400 to-slate-200 dark:from-slate-600 dark:to-slate-800"></div>
+                  </div>
+                </div>
+
+                {/* Level 4: Operations & Regional Management */}
+                <div className="mb-6 sm:mb-8">
+                  <div className="text-xs sm:text-sm font-black text-accent uppercase tracking-widest mb-4 sm:mb-5 text-center">
+                    Operations & Regional Management
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+                    {/* Regional Manager */}
+                    <div className="group sm:col-span-2 sm:w-1/2 sm:mx-auto">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-orange-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-orange-500/10 to-orange-500/5 border border-orange-500/30 group-hover:border-orange-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
+                            MAJ (R) ABID LATIF
+                          </div>
+                          <div className="text-xs font-bold text-orange-600 dark:text-orange-400">
+                            Regional Manager (South)
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Area Managers Grid */}
+                    <div className="group">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
+                            CAPT (R) MANSOOR
+                          </div>
+                          <div className="text-xs font-bold text-cyan-600 dark:text-cyan-400">
+                            Area Manager (Abdul Hakeem)
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="group">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
+                            HON CAPT (R) MUHAMMAD QURBAN
+                          </div>
+                          <div className="text-xs font-bold text-cyan-600 dark:text-cyan-400">
+                            Area Manager (Karachi)
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="group">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
+                            ZAKIR UR REHMAN
+                          </div>
+                          <div className="text-xs font-bold text-cyan-600 dark:text-cyan-400">
+                            Area Manager (Karachi)
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="group">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
+                            RAHEEL AKBAR SHAH
+                          </div>
+                          <div className="text-xs font-bold text-cyan-600 dark:text-cyan-400">
+                            Area Manager (Quetta)
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="group">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
+                            SALEEM MURAD
+                          </div>
+                          <div className="text-xs font-bold text-cyan-600 dark:text-cyan-400">
+                            Area Manager (Lahore)
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="group">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
+                            QASER IFTIKHAR
+                          </div>
+                          <div className="text-xs font-bold text-cyan-600 dark:text-cyan-400">
+                            Area Manager (Gujranwala)
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Level 5: Administration & Finance */}
+                <div>
+                  <div className="text-xs sm:text-sm font-black text-accent uppercase tracking-widest mb-4 sm:mb-5 text-center">
+                    Administration & Finance
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
+                    <div className="group">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-gradient-to-br from-rose-500/10 to-rose-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-rose-500/10 to-rose-500/5 border border-rose-500/30 group-hover:border-rose-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
+                            PERVAIZ SIAL
+                          </div>
+                          <div className="text-xs font-bold text-rose-600 dark:text-rose-400">
+                            Admin Officer
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="group">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-gradient-to-br from-rose-500/10 to-rose-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-rose-500/10 to-rose-500/5 border border-rose-500/30 group-hover:border-rose-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
+                            MANSOOR AMIN
+                          </div>
+                          <div className="text-xs font-bold text-rose-600 dark:text-rose-400">
+                            Finance Manager (South)
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="group">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-gradient-to-br from-rose-500/10 to-rose-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-rose-500/10 to-rose-500/5 border border-rose-500/30 group-hover:border-rose-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
+                            WALEED AHMED
+                          </div>
+                          <div className="text-xs font-bold text-rose-600 dark:text-rose-400">
+                            Accounts Officer (Karachi)
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </AnimatedFadeInLeft>
+
+            {/* Management Experience Table */}
+            <AnimatedFadeInRight threshold={0.2}>
+              <div>
+                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-black text-foreground mb-6 sm:mb-8 leading-tight">
+                  Team Experience Overview
+                </h3>
+
+                {/* Compact Experience Grid */}
+                <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-2xl overflow-hidden">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-0 divide-x divide-y divide-border/50">
+                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Islamabad
+                      </p>
+                      <div className="space-y-2">
+                        <div className="flex justify-between items-start gap-2">
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Mustabeen Ullah Baig
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            30y
+                          </span>
+                        </div>
+                        <div className="flex justify-between items-start gap-2">
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Maj (R) K. N. Abbasi
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            15y
+                          </span>
+                        </div>
+                        <div className="flex justify-between items-start gap-2">
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Syed Rehan Waqar
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            20y
+                          </span>
+                        </div>
+                        <div className="flex justify-between items-start gap-2">
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Sohail Amir
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            15y
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Chakwal
+                      </p>
+                      <div className="flex justify-between items-start gap-2">
+                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                          Sub (R) M. Aslam
+                        </span>
+                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                          14y
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Peshawar
+                      </p>
+                      <div className="flex justify-between items-start gap-2">
+                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                          Muhammad Babar
+                        </span>
+                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                          5y
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Jhelum
+                      </p>
+                      <div className="flex justify-between items-start gap-2">
+                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                          Muhammad Mushtaq
+                        </span>
+                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                          18y
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Abdul Hakeem
+                      </p>
+                      <div className="flex justify-between items-start gap-2">
+                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                          Saleem Murad
+                        </span>
+                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                          10y
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Lahore
+                      </p>
+                      <div className="space-y-2">
+                        <div className="flex justify-between items-start gap-2">
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Maj (R) Abid Latif
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            16y
+                          </span>
+                        </div>
+                        <div className="flex justify-between items-start gap-2">
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Mansoor Amin
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            18y
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Multan
+                      </p>
+                      <div className="space-y-2">
+                        <div className="flex justify-between items-start gap-2">
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Sub (R) M. Asghar
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            6y
+                          </span>
+                        </div>
+                        <div className="flex justify-between items-start gap-2">
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Capt (R) Mansoor
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            5y
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Gharo (Sindh)
+                      </p>
+                      <div className="flex justify-between items-start gap-2">
+                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                          Mehr Khalid
+                        </span>
+                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                          19y
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Sargodha
+                      </p>
+                      <div className="space-y-2">
+                        <div className="flex justify-between items-start gap-2">
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Muhammad Qaiser
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            2y
+                          </span>
+                        </div>
+                        <div className="flex justify-between items-start gap-2">
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Sub (R) R. Ahmed
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            8y
+                          </span>
+                        </div>
+                        <div className="flex justify-between items-start gap-2">
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Sub (R) M. Mushtaq
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            9y
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Gujranwala
+                      </p>
+                      <div className="space-y-2">
+                        <div className="flex justify-between items-start gap-2">
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Zakir Ur Rehman
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            30y
+                          </span>
+                        </div>
+                        <div className="flex justify-between items-start gap-2">
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Waleed Ahmed
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            2y
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Karachi
+                      </p>
+                      <div className="space-y-2">
+                        <div className="flex justify-between items-start gap-2">
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            N/Sub (R) N. Muhammad
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            5y
+                          </span>
+                        </div>
+                        <div className="flex justify-between items-start gap-2">
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Hav (R) M. Bachal
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            6y
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Quetta
+                      </p>
+                      <div className="flex justify-between items-start gap-2">
+                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                          Raheel A. Shah
+                        </span>
+                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                          12y
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        AJK
+                      </p>
+                      <div className="space-y-2">
+                        <div className="flex justify-between items-start gap-2">
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Sub (R) M. Husnain
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            11y
+                          </span>
+                        </div>
+                        <div className="flex justify-between items-start gap-2">
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Sub (R) M. Iqbal
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            18y
+                          </span>
+                        </div>
+                        <div className="flex justify-between items-start gap-2">
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Capt (R) M. Qurban
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            13y
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </AnimatedFadeInRight>
+          </div>
+        </div>
+      </section>
+
       {/* Expertise Summary Section */}
       <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-background transition-colors duration-300 relative overflow-hidden">
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
