@@ -1,6 +1,6 @@
 import { createRoot } from "react-dom/client";
 import PageWrapper from "@/components/PageWrapper";
-import Index from "./Index";
+import Index from "./Index.tsx";
 
 const root = createRoot(document.getElementById("root")!);
 root.render(
