@@ -578,7 +578,7 @@ export default function About() {
       </section>
 
       {/* Leadership & Management Section */}
-      <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-background transition-colors duration-300 relative overflow-hidden">
+      <section className="py-8 sm:py-10 md:py-14 lg:py-20 bg-background transition-colors duration-300 relative overflow-hidden">
         {/* Decorative Background Elements - Leadership Section */}
         <svg
           className="absolute top-0 right-0 w-1/2 h-full opacity-35"
