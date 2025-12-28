@@ -12,16 +12,7 @@ export default function About() {
   return (
     <div className="bg-background transition-colors duration-300">
       {/* Hero Banner Section */}
-      <section className="relative w-full pt-12 sm:pt-16 md:pt-20 pb-12 sm:pb-16 md:pb-20 lg:py-32 bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: "url('https://cdn.builder.io/api/v1/image/assets%2F9cce281f3ce14e12bc08ed97613894a0%2F25f7d10066fc4633869d313f410b5964?format=webp&width=800')" }}>
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage:
-              "url('https://cdn.builder.io/api/v1/image/assets%2F9cce281f3ce14e12bc08ed97613894a0%2F25f7d10066fc4633869d313f410b5964?format=webp&width=800')",
-            backgroundPosition: "center",
-          }}
-        />
-        <div className="absolute inset-0 bg-black/50"></div>
+      <section className="relative w-full pt-12 sm:pt-16 md:pt-20 pb-12 sm:pb-16 md:pb-20 lg:py-32 bg-cover bg-center flex items-center justify-center before:absolute before:inset-0 before:bg-black/50" style={{ backgroundImage: "url('https://cdn.builder.io/api/v1/image/assets%2F9cce281f3ce14e12bc08ed97613894a0%2F25f7d10066fc4633869d313f410b5964?format=webp&width=800')" }}>
 
         <div className="relative z-10 container mx-auto px-4 sm:px-6 text-center text-white">
           <div className="mb-2 sm:mb-4 md:mb-6 lg:mb-8 animate-bounce-gentle">
