@@ -596,16 +596,24 @@ export default function About() {
                   {/* Table Header */}
                   <div className="grid grid-cols-4 bg-gradient-to-r from-accent/20 to-accent/10 border-b border-border/80 sticky top-0 z-10">
                     <div className="px-4 sm:px-6 py-4 sm:py-5 border-r border-border/80">
-                      <p className="text-xs sm:text-sm font-black text-foreground uppercase tracking-wide">Location</p>
+                      <p className="text-xs sm:text-sm font-black text-foreground uppercase tracking-wide">
+                        Location
+                      </p>
                     </div>
                     <div className="px-4 sm:px-6 py-4 sm:py-5 border-r border-border/80">
-                      <p className="text-xs sm:text-sm font-black text-foreground uppercase tracking-wide">Team Member</p>
+                      <p className="text-xs sm:text-sm font-black text-foreground uppercase tracking-wide">
+                        Team Member
+                      </p>
                     </div>
                     <div className="px-4 sm:px-6 py-4 sm:py-5 border-r border-border/80">
-                      <p className="text-xs sm:text-sm font-black text-foreground uppercase tracking-wide">Position</p>
+                      <p className="text-xs sm:text-sm font-black text-foreground uppercase tracking-wide">
+                        Position
+                      </p>
                     </div>
                     <div className="px-4 sm:px-6 py-4 sm:py-5">
-                      <p className="text-xs sm:text-sm font-black text-foreground uppercase tracking-wide">Experience</p>
+                      <p className="text-xs sm:text-sm font-black text-foreground uppercase tracking-wide">
+                        Experience
+                      </p>
                     </div>
                   </div>
 
@@ -614,203 +622,307 @@ export default function About() {
                     {/* Islamabad */}
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent">Islamabad</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Islamabad
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Mustabeen Ullah Baig</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Mustabeen Ullah Baig
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">CEO</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          CEO
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent">30y</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          30y
+                        </p>
                       </div>
                     </div>
 
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent">Islamabad</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Islamabad
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Maj (R) K. N. Abbasi</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Maj (R) K. N. Abbasi
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">GM Marketing & Ops</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          GM Marketing & Ops
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent">15y</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          15y
+                        </p>
                       </div>
                     </div>
 
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent">Islamabad</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Islamabad
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Syed Rehan Waqar</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Syed Rehan Waqar
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Company Secretary</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Company Secretary
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent">20y</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          20y
+                        </p>
                       </div>
                     </div>
 
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent">Islamabad</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Islamabad
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Sohail Amir</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Sohail Amir
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">CFM</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          CFM
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent">15y</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          15y
+                        </p>
                       </div>
                     </div>
 
                     {/* Lahore */}
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent">Lahore</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Lahore
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Maj (R) Abid Latif</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Maj (R) Abid Latif
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Regional Manager</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Regional Manager
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent">16y</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          16y
+                        </p>
                       </div>
                     </div>
 
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent">Lahore</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Lahore
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Mansoor Amin</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Mansoor Amin
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Finance Manager</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Finance Manager
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent">18y</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          18y
+                        </p>
                       </div>
                     </div>
 
                     {/* Karachi */}
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent">Karachi</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Karachi
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Hon Capt (R) M. Qurban</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Hon Capt (R) M. Qurban
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Area Manager</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Area Manager
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent">13y</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          13y
+                        </p>
                       </div>
                     </div>
 
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent">Karachi</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Karachi
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Zakir Ur Rehman</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Zakir Ur Rehman
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Area Manager</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Area Manager
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent">30y</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          30y
+                        </p>
                       </div>
                     </div>
 
                     {/* Multan */}
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent">Multan</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Multan
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Capt (R) Mansoor</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Capt (R) Mansoor
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Area Manager</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Area Manager
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent">5y</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          5y
+                        </p>
                       </div>
                     </div>
 
                     {/* Gujranwala */}
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent">Gujranwala</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Gujranwala
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Qaser Iftikhar</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Qaser Iftikhar
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Area Manager</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Area Manager
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent">8y</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          8y
+                        </p>
                       </div>
                     </div>
 
                     {/* Quetta */}
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent">Quetta</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Quetta
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Raheel Akbar Shah</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Raheel Akbar Shah
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Area Manager</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Area Manager
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent">12y</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          12y
+                        </p>
                       </div>
                     </div>
 
                     {/* AJK */}
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent">AJK</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          AJK
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Sub (R) M. Iqbal</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Sub (R) M. Iqbal
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Area Manager</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Area Manager
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent">18y</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          18y
+                        </p>
                       </div>
                     </div>
 
                     {/* Chakwal */}
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent">Chakwal</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          Chakwal
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Sub (R) M. Aslam</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Sub (R) M. Aslam
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground">Regional Manager</p>
+                        <p className="text-xs sm:text-sm font-bold text-foreground">
+                          Regional Manager
+                        </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent">14y</p>
+                        <p className="text-xs sm:text-sm font-black text-accent">
+                          14y
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -864,7 +976,6 @@ export default function About() {
           </AnimatedSlideInFromBottom>
         </div>
       </section>
-
     </div>
   );
 }
