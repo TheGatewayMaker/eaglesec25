@@ -12,7 +12,7 @@ export default function About() {
   return (
     <div className="bg-background transition-colors duration-300">
       {/* Hero Banner Section */}
-      <section className="relative w-full h-56 sm:h-64 md:h-80 lg:h-screen/2 flex items-center justify-center overflow-hidden">
+      <section className="relative w-full pt-12 sm:pt-16 md:pt-20 pb-12 sm:pb-16 md:pb-20 lg:py-32 bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: "url('https://cdn.builder.io/api/v1/image/assets%2F9cce281f3ce14e12bc08ed97613894a0%2F25f7d10066fc4633869d313f410b5964?format=webp&width=800')" }}>
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
