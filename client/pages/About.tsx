@@ -504,10 +504,10 @@ export default function About() {
                 </div>
 
                 {/* Level 2: Executive Director */}
-                <div className="flex flex-col items-center mb-8 sm:mb-10">
+                <div className="flex flex-col items-center mb-4 sm:mb-5">
                   <div className="relative w-full max-w-sm">
-                    <div className="absolute inset-0 bg-gradient-to-r from-pk-green-main/10 to-pk-green-main/5 rounded-xl blur-lg"></div>
-                    <div className="relative bg-gradient-to-br from-pk-green-light/20 to-pk-green-light/5 border-2 border-pk-green-main rounded-xl p-4 sm:p-6 text-center hover:shadow-lg hover:scale-102 transition-all duration-300">
+                    <div className="absolute inset-0 bg-gradient-to-r from-pk-green-main/10 to-pk-green-main/5 blur-lg"></div>
+                    <div className="relative bg-gradient-to-br from-pk-green-light/20 to-pk-green-light/5 border-2 border-pk-green-main p-4 sm:p-6 text-center hover:shadow-lg hover:scale-102 transition-all duration-300">
                       <div className="text-base sm:text-lg lg:text-xl font-black text-foreground mb-1">
                         MAHNOOR MUSTABEEN BAIG
                       </div>
