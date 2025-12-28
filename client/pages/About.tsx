@@ -731,12 +731,12 @@ export default function About() {
             {/* Management Experience Table */}
             <AnimatedFadeInRight threshold={0.2}>
               <div>
-                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-black text-foreground mb-8 sm:mb-10 lg:mb-12 leading-tight">
+                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-black text-foreground mb-6 sm:mb-8 leading-tight">
                   Team Experience Overview
                 </h3>
 
-                {/* City Cards Container */}
-                <div className="space-y-5 sm:space-y-6">
+                {/* Compact Experience Grid */}
+                <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-2xl overflow-hidden">
                   {/* Islamabad */}
                   <div className="group relative bg-gradient-to-br from-blue-50/40 to-blue-50/20 dark:from-blue-950/20 dark:to-blue-950/10 border-2 border-blue-300/40 dark:border-blue-600/30 rounded-2xl p-6 sm:p-7 lg:p-8 hover:border-blue-400/60 dark:hover:border-blue-500/60 hover:shadow-xl transition-all duration-300">
                     <div className="absolute inset-0 bg-gradient-to-br from-blue-400/5 to-blue-400/0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
