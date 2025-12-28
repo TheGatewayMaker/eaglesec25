@@ -581,8 +581,8 @@ export default function About() {
                     {/* Regional Manager */}
                     <div className="group sm:col-span-2 sm:w-1/2 sm:mx-auto">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-orange-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-orange-500/10 to-orange-500/5 border border-orange-500/30 group-hover:border-orange-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                        <div className="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-orange-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-orange-500/10 to-orange-500/5 border border-orange-500/30 group-hover:border-orange-500/60 p-3 sm:p-4 hover:shadow-md transition-all duration-300">
                           <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
                             MAJ (R) ABID LATIF
                           </div>
