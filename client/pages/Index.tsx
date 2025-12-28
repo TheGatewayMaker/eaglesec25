@@ -120,7 +120,7 @@ export default function Home() {
               <AnimatedFadeInDown delay={0} duration="normal">
                 <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6 lg:mb-8">
                   <div className="w-1 h-8 sm:h-10 lg:h-12 bg-accent rounded-full flex-shrink-0"></div>
-                  <p className="text-xs font-black text-accent uppercase tracking-widest">
+                  <p className="text-sm sm:text-base md:text-lg lg:text-xl font-black text-accent uppercase tracking-widest">
                     Professional Security Since 1992
                   </p>
                 </div>
