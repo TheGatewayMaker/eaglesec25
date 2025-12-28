@@ -6,7 +6,23 @@ import {
   MapPin,
   Users,
   Shield,
+  Award,
+  Zap,
+  Lock,
+  Headphones,
+  Briefcase,
+  ArrowRight,
 } from "lucide-react";
+import WhatsAppButton from "@/components/WhatsAppButton";
+import {
+  AnimatedFadeInUp,
+  AnimatedFadeInDown,
+  AnimatedFadeInLeft,
+  AnimatedFadeInRight,
+  AnimatedScaleInUp,
+  AnimatedSlideInFromBottom,
+  AnimationWrapper,
+} from "@/components/AnimationWrappers";
 
 export default function About() {
   return (
