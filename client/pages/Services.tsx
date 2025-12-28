@@ -92,7 +92,7 @@ export default function Services() {
         </svg>
 
         {/* Hero Logo - Right Half */}
-        <div className="hidden md:flex absolute right-0 top-0 w-1/2 h-full items-center justify-center pr-8 lg:pr-12">
+        <div className="hidden md:flex absolute right-0 top-0 w-1/2 h-full items-start justify-center pr-8 lg:pr-12 pt-12 md:pt-16 lg:pt-20">
           <div className="flex flex-col items-center justify-center gap-6">
             <img
               src="https://i.ibb.co/s954vR34/eaglesecurityoriginallogo-1-copy.png"
