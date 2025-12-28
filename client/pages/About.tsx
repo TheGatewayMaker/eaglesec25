@@ -1305,7 +1305,7 @@ export default function About() {
                     href="/contact"
                     className="border-2 border-accent text-accent px-6 sm:px-8 lg:px-10 py-2.5 sm:py-3 lg:py-4 font-black text-xs sm:text-sm lg:text-base text-center hover:bg-accent hover:text-accent-foreground transition-all duration-300 inline-block rounded-lg"
                   >
-                    Request Consultation
+                    Get a Quote
                   </a>
                   <WhatsAppButton
                     size="md"
