@@ -520,8 +520,8 @@ export default function About() {
                 </div>
 
                 {/* Level 3: Top Management - 3 Column Grid */}
-                <div className="mb-8 sm:mb-10">
-                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-6 sm:mb-8">
+                <div className="mb-4 sm:mb-5">
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-3 mb-4 sm:mb-5">
                     {/* GM Marketing & Operations */}
                     <div className="group">
                       <div className="relative h-full">
