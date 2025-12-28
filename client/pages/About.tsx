@@ -34,8 +34,8 @@ export default function About() {
           <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-7xl font-black mb-2 sm:mb-3 md:mb-6 text-white drop-shadow-2xl leading-tight">
             About Eagle Security Guards
           </h1>
-          <p className="text-xs sm:text-sm md:text-lg lg:text-2xl font-bold opacity-95 max-w-3xl mx-auto drop-shadow-lg leading-tight">
-            Guardians of Trust • Defenders of Peace • Protectors Since 1992
+          <p className="text-xs sm:text-sm md:text-lg lg:text-2xl font-black opacity-95 max-w-3xl mx-auto drop-shadow-lg leading-tight">
+            Guardians of Trust, Defenders of Peace, Protectors Since 1992
           </p>
         </div>
       </section>
@@ -93,13 +93,13 @@ export default function About() {
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-foreground mb-4 sm:mb-6 md:mb-8 leading-tight">
                 Founded on Military Excellence
               </h2>
-              <p className="text-muted-foreground leading-relaxed text-xs sm:text-sm md:text-base lg:text-lg font-bold mb-3 sm:mb-4 md:mb-6">
+              <p className="text-muted-foreground leading-relaxed text-xs sm:text-sm md:text-base lg:text-lg font-black mb-3 sm:mb-4 md:mb-6">
                 Eagle Security Guards was established in 1992 with a singular
                 vision: to bring military-grade discipline and professionalism
-                to civilian security. We're not just a security company—we're a
+                to civilian security. We're not just a security company, we're a
                 legacy built on the foundation of Pakistan's armed forces.
               </p>
-              <p className="text-muted-foreground leading-relaxed text-xs sm:text-sm md:text-base lg:text-lg font-bold mb-4 sm:mb-6 md:mb-8">
+              <p className="text-muted-foreground leading-relaxed text-xs sm:text-sm md:text-base lg:text-lg font-black mb-4 sm:mb-6 md:mb-8">
                 Licensed to operate nationwide across Pakistan and Azad Jammu &
                 Kashmir, we've grown into one of the most trusted private
                 security providers in the nation.
@@ -144,7 +144,7 @@ export default function About() {
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-foreground mb-2 sm:mb-3 md:mb-4">
               The Eagle Foundation
             </h2>
-            <p className="text-xs sm:text-sm md:text-base lg:text-xl text-muted-foreground font-bold max-w-2xl mx-auto">
+            <p className="text-xs sm:text-sm md:text-base lg:text-xl text-muted-foreground font-black max-w-2xl mx-auto">
               Our vision, mission, and values are the pillars upon which every
               decision, every action, and every commitment is built.
             </p>
@@ -159,7 +159,7 @@ export default function About() {
               <h3 className="text-lg sm:text-xl lg:text-2xl font-black text-foreground mb-2 sm:mb-3 lg:mb-4">
                 Vision
               </h3>
-              <p className="text-muted-foreground leading-relaxed font-bold text-xs sm:text-sm md:text-base">
+              <p className="text-muted-foreground leading-relaxed font-black text-xs sm:text-sm md:text-base">
                 To be the gold standard in professional security, recognized
                 globally for vigilance, excellence, and the unwavering
                 dedication of our personnel.
@@ -177,7 +177,7 @@ export default function About() {
               <h3 className="text-lg sm:text-xl lg:text-2xl font-black text-foreground mb-2 sm:mb-3 lg:mb-4">
                 Mission
               </h3>
-              <p className="text-muted-foreground leading-relaxed font-bold text-xs sm:text-sm md:text-base">
+              <p className="text-muted-foreground leading-relaxed font-black text-xs sm:text-sm md:text-base">
                 To safeguard lives and assets through meticulously trained,
                 disciplined, and vetted personnel, led by experienced
                 ex-military commanders.
@@ -195,7 +195,7 @@ export default function About() {
               <h3 className="text-lg sm:text-xl lg:text-2xl font-black text-foreground mb-2 sm:mb-3 lg:mb-4">
                 Commitment
               </h3>
-              <p className="text-muted-foreground leading-relaxed font-bold text-xs sm:text-sm md:text-base">
+              <p className="text-muted-foreground leading-relaxed font-black text-xs sm:text-sm md:text-base">
                 Delivering uncompromising reliability, efficiency, and integrity
                 across all sectors, with zero tolerance for mediocrity.
               </p>
@@ -214,7 +214,7 @@ export default function About() {
                 <h2 className="text-2xl sm:text-2.5xl md:text-3xl lg:text-4xl font-black text-foreground mb-2 md:mb-3">
                   Why Organizations Trust Eagle
                 </h2>
-                <p className="text-xs md:text-sm lg:text-lg text-muted-foreground font-bold">
+                <p className="text-xs md:text-sm lg:text-lg text-muted-foreground font-black">
                   What sets us apart in the security landscape
                 </p>
               </div>
@@ -226,7 +226,7 @@ export default function About() {
                     <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
                       Military Heritage
                     </h4>
-                    <p className="text-xs text-muted-foreground font-bold leading-snug">
+                    <p className="text-xs text-muted-foreground font-black leading-snug">
                       Personnel drawn from Pakistan's elite armed forces with
                       unparalleled training and discipline.
                     </p>
@@ -239,7 +239,7 @@ export default function About() {
                     <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
                       Rigorous Vetting
                     </h4>
-                    <p className="text-xs text-muted-foreground font-bold leading-snug">
+                    <p className="text-xs text-muted-foreground font-black leading-snug">
                       Comprehensive background screening ensures only the most
                       qualified join our ranks.
                     </p>
@@ -252,7 +252,7 @@ export default function About() {
                     <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
                       Nationwide Network
                     </h4>
-                    <p className="text-xs text-muted-foreground font-bold leading-snug">
+                    <p className="text-xs text-muted-foreground font-black leading-snug">
                       50+ offices across Pakistan ensures rapid response and
                       local expertise wherever you are.
                     </p>
@@ -265,7 +265,7 @@ export default function About() {
                     <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
                       Proven Track Record
                     </h4>
-                    <p className="text-xs text-muted-foreground font-bold leading-snug">
+                    <p className="text-xs text-muted-foreground font-black leading-snug">
                       Trusted by government agencies, financial institutions,
                       and Fortune 500 companies.
                     </p>
@@ -280,7 +280,7 @@ export default function About() {
                 <h2 className="text-2xl sm:text-2.5xl md:text-3xl lg:text-4xl font-black text-foreground mb-2 md:mb-3">
                   Uncompromising Standards
                 </h2>
-                <p className="text-xs md:text-sm lg:text-lg text-muted-foreground font-bold">
+                <p className="text-xs md:text-sm lg:text-lg text-muted-foreground font-black">
                   Every member of the Eagle family adheres to these pillars of
                   excellence
                 </p>
@@ -295,7 +295,7 @@ export default function About() {
                     <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
                       Absolute Integrity
                     </h4>
-                    <p className="text-xs text-muted-foreground font-bold leading-snug">
+                    <p className="text-xs text-muted-foreground font-black leading-snug">
                       Unwavering honesty in every interaction, every decision,
                       and every service delivery.
                     </p>
@@ -310,7 +310,7 @@ export default function About() {
                     <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
                       Relentless Vigilance
                     </h4>
-                    <p className="text-xs text-muted-foreground font-bold leading-snug">
+                    <p className="text-xs text-muted-foreground font-black leading-snug">
                       24/7 alert and responsive protection, never lowering our
                       guard, ever.
                     </p>
@@ -325,7 +325,7 @@ export default function About() {
                     <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
                       Professional Excellence
                     </h4>
-                    <p className="text-xs text-muted-foreground font-bold leading-snug">
+                    <p className="text-xs text-muted-foreground font-black leading-snug">
                       Continuous training, certification, and adherence to
                       international security standards.
                     </p>
@@ -340,7 +340,7 @@ export default function About() {
                     <h4 className="text-xs md:text-sm lg:text-lg font-black text-foreground mb-0.5 md:mb-1">
                       Client-Centric Service
                     </h4>
-                    <p className="text-xs text-muted-foreground font-bold leading-snug">
+                    <p className="text-xs text-muted-foreground font-black leading-snug">
                       Your security needs drive everything we do, customized
                       solutions for every scenario.
                     </p>
@@ -362,7 +362,7 @@ export default function About() {
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-foreground mb-4 sm:mb-6 md:mb-8 leading-tight">
               Ready to Experience Eagle Security?
             </h2>
-            <p className="text-xs sm:text-sm md:text-base lg:text-xl text-muted-foreground font-bold mb-6 sm:mb-8 md:mb-10 lg:mb-14 leading-relaxed">
+            <p className="text-xs sm:text-sm md:text-base lg:text-xl text-muted-foreground font-black mb-6 sm:mb-8 md:mb-10 lg:mb-14 leading-relaxed">
               Discover how our comprehensive security solutions can protect what
               matters most to you.
             </p>
