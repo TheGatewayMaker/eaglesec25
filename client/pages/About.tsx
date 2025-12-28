@@ -478,112 +478,250 @@ export default function About() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12">
             {/* Organizational Hierarchy */}
             <AnimatedFadeInLeft threshold={0.2}>
-              <div className="space-y-4 sm:space-y-6">
-                <h3 className="text-xl sm:text-2xl lg:text-3xl font-black text-foreground mb-6 sm:mb-8 leading-tight">
+              <div>
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-black text-foreground mb-8 sm:mb-10 lg:mb-12 leading-tight">
                   Organizational Hierarchy
                 </h3>
 
-                {/* CEO */}
-                <div className="flex flex-col items-center">
-                  <div className="bg-gradient-to-br from-accent/20 to-accent/10 border-2 border-accent rounded-xl p-4 sm:p-6 w-full sm:w-3/4 text-center hover:shadow-lg transition-all duration-300">
-                    <div className="text-lg sm:text-xl lg:text-2xl font-black text-foreground mb-1">
-                      MUSTABEEN ULLAH BAIG
-                    </div>
-                    <div className="text-xs sm:text-sm lg:text-base font-black text-accent">
-                      CEO
+                {/* Level 1: CEO */}
+                <div className="flex flex-col items-center mb-6 sm:mb-8">
+                  <div className="relative w-full max-w-xs">
+                    <div className="absolute inset-0 bg-gradient-to-r from-accent/20 to-accent/10 rounded-2xl blur-xl"></div>
+                    <div className="relative bg-gradient-to-br from-accent to-accent/80 text-accent-foreground rounded-2xl p-5 sm:p-7 text-center hover:shadow-2xl hover:scale-105 transition-all duration-300 border border-accent/40">
+                      <div className="text-lg sm:text-xl lg:text-2xl font-black mb-1">
+                        MUSTABEEN ULLAH BAIG
+                      </div>
+                      <div className="text-xs sm:text-sm font-bold opacity-90">
+                        CHIEF EXECUTIVE OFFICER
+                      </div>
                     </div>
                   </div>
-                  <div className="w-1 h-6 sm:h-8 bg-border my-2 sm:my-3"></div>
+                  <div className="w-0.5 h-8 sm:h-10 bg-gradient-to-b from-accent to-accent/30 mt-4 sm:mt-5"></div>
                 </div>
 
-                {/* Executive Director */}
-                <div className="flex flex-col items-center">
-                  <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-xl p-4 sm:p-6 w-full sm:w-3/4 text-center hover:shadow-lg transition-all duration-300">
-                    <div className="text-base sm:text-lg lg:text-xl font-black text-foreground mb-1">
-                      MAHNOOR MUSTABEEN BAIG
-                    </div>
-                    <div className="text-xs sm:text-sm font-bold text-muted-foreground">
-                      EXECUTIVE DIRECTOR
+                {/* Level 2: Executive Director */}
+                <div className="flex flex-col items-center mb-8 sm:mb-10">
+                  <div className="relative w-full max-w-sm">
+                    <div className="absolute inset-0 bg-gradient-to-r from-pk-green-main/10 to-pk-green-main/5 rounded-xl blur-lg"></div>
+                    <div className="relative bg-gradient-to-br from-pk-green-light/20 to-pk-green-light/5 border-2 border-pk-green-main rounded-xl p-4 sm:p-6 text-center hover:shadow-lg hover:scale-102 transition-all duration-300">
+                      <div className="text-base sm:text-lg lg:text-xl font-black text-foreground mb-1">
+                        MAHNOOR MUSTABEEN BAIG
+                      </div>
+                      <div className="text-xs sm:text-sm font-black text-pk-green-main">
+                        EXECUTIVE DIRECTOR
+                      </div>
                     </div>
                   </div>
-                  <div className="w-1 h-6 sm:h-8 bg-border my-2 sm:my-3"></div>
+                  <div className="w-0.5 h-8 sm:h-10 bg-gradient-to-b from-pk-green-main/50 to-pk-green-main/20 mt-4 sm:mt-5"></div>
                 </div>
 
-                {/* Top Management */}
-                <div>
-                  <div className="text-xs sm:text-sm font-black text-accent uppercase tracking-widest mb-3 sm:mb-4">
-                    Top Management
+                {/* Level 3: Top Management - 3 Column Grid */}
+                <div className="mb-8 sm:mb-10">
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-6 sm:mb-8">
+                    {/* GM Marketing & Operations */}
+                    <div className="group">
+                      <div className="relative h-full">
+                        <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-blue-500/5 rounded-xl blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-blue-500/10 to-blue-500/5 border-2 border-blue-500/30 group-hover:border-blue-500/60 rounded-xl p-4 sm:p-5 text-center hover:shadow-lg transition-all duration-300 h-full flex flex-col">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-1">
+                            MAJ (R) KHALID NAWAZ ABBASI
+                          </div>
+                          <div className="text-xs font-bold text-blue-600 dark:text-blue-400">
+                            GM MARKETING & OPERATIONS
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Company Secretary */}
+                    <div className="group">
+                      <div className="relative h-full">
+                        <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-purple-500/5 rounded-xl blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-purple-500/10 to-purple-500/5 border-2 border-purple-500/30 group-hover:border-purple-500/60 rounded-xl p-4 sm:p-5 text-center hover:shadow-lg transition-all duration-300 h-full flex flex-col">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-1">
+                            SYED REHAN WAQAR
+                          </div>
+                          <div className="text-xs font-bold text-purple-600 dark:text-purple-400">
+                            COMPANY SECRETARY / MANAGER ADMIN
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Chief Finance Manager */}
+                    <div className="group">
+                      <div className="relative h-full">
+                        <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/10 to-emerald-500/5 rounded-xl blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-emerald-500/10 to-emerald-500/5 border-2 border-emerald-500/30 group-hover:border-emerald-500/60 rounded-xl p-4 sm:p-5 text-center hover:shadow-lg transition-all duration-300 h-full flex flex-col">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-1">
+                            SOHAIL AMIR
+                          </div>
+                          <div className="text-xs font-bold text-emerald-600 dark:text-emerald-400">
+                            CHIEF FINANCE MANAGER
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div className="space-y-2 sm:space-y-3">
-                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
-                      <div className="text-sm sm:text-base font-black text-foreground">MAJ (R) KHALID NAWAZ ABBASI</div>
-                      <div className="text-xs font-bold text-muted-foreground">GM Marketing & Operations</div>
-                    </div>
-                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
-                      <div className="text-sm sm:text-base font-black text-foreground">SYED REHAN WAQAR</div>
-                      <div className="text-xs font-bold text-muted-foreground">Company Secretary / Manager Admin</div>
-                    </div>
-                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
-                      <div className="text-sm sm:text-base font-black text-foreground">SOHAIL AMIR</div>
-                      <div className="text-xs font-bold text-muted-foreground">Chief Finance Manager</div>
-                    </div>
+                  <div className="flex justify-center">
+                    <div className="w-0.5 h-8 sm:h-10 bg-gradient-to-b from-slate-400 to-slate-200 dark:from-slate-600 dark:to-slate-800"></div>
                   </div>
                 </div>
 
-                {/* Operations & Regional Management */}
-                <div>
-                  <div className="text-xs sm:text-sm font-black text-accent uppercase tracking-widest mb-3 sm:mb-4">
+                {/* Level 4: Operations & Regional Management */}
+                <div className="mb-6 sm:mb-8">
+                  <div className="text-xs sm:text-sm font-black text-accent uppercase tracking-widest mb-4 sm:mb-5 text-center">
                     Operations & Regional Management
                   </div>
-                  <div className="space-y-2 sm:space-y-3">
-                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
-                      <div className="text-sm sm:text-base font-black text-foreground">MAJ (R) ABID LATIF</div>
-                      <div className="text-xs font-bold text-muted-foreground">Regional Manager (South)</div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+                    {/* Regional Manager */}
+                    <div className="group sm:col-span-2 sm:w-1/2 sm:mx-auto">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-orange-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-orange-500/10 to-orange-500/5 border border-orange-500/30 group-hover:border-orange-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
+                            MAJ (R) ABID LATIF
+                          </div>
+                          <div className="text-xs font-bold text-orange-600 dark:text-orange-400">
+                            Regional Manager (South)
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
-                      <div className="text-sm sm:text-base font-black text-foreground">CAPT (R) MANSOOR</div>
-                      <div className="text-xs font-bold text-muted-foreground">Area Manager (Abdul Hakeem)</div>
+
+                    {/* Area Managers Grid */}
+                    <div className="group">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
+                            CAPT (R) MANSOOR
+                          </div>
+                          <div className="text-xs font-bold text-cyan-600 dark:text-cyan-400">
+                            Area Manager (Abdul Hakeem)
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
-                      <div className="text-sm sm:text-base font-black text-foreground">HON CAPT (R) MUHAMMAD QURBAN</div>
-                      <div className="text-xs font-bold text-muted-foreground">Area Manager (Karachi)</div>
+
+                    <div className="group">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
+                            HON CAPT (R) MUHAMMAD QURBAN
+                          </div>
+                          <div className="text-xs font-bold text-cyan-600 dark:text-cyan-400">
+                            Area Manager (Karachi)
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
-                      <div className="text-sm sm:text-base font-black text-foreground">ZAKIR UR REHMAN</div>
-                      <div className="text-xs font-bold text-muted-foreground">Area Manager (Karachi)</div>
+
+                    <div className="group">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
+                            ZAKIR UR REHMAN
+                          </div>
+                          <div className="text-xs font-bold text-cyan-600 dark:text-cyan-400">
+                            Area Manager (Karachi)
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
-                      <div className="text-sm sm:text-base font-black text-foreground">RAHEEL AKBAR SHAH</div>
-                      <div className="text-xs font-bold text-muted-foreground">Area Manager (Quetta)</div>
+
+                    <div className="group">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
+                            RAHEEL AKBAR SHAH
+                          </div>
+                          <div className="text-xs font-bold text-cyan-600 dark:text-cyan-400">
+                            Area Manager (Quetta)
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
-                      <div className="text-sm sm:text-base font-black text-foreground">SALEEM MURAD</div>
-                      <div className="text-xs font-bold text-muted-foreground">Area Manager (Lahore)</div>
+
+                    <div className="group">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
+                            SALEEM MURAD
+                          </div>
+                          <div className="text-xs font-bold text-cyan-600 dark:text-cyan-400">
+                            Area Manager (Lahore)
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
-                      <div className="text-sm sm:text-base font-black text-foreground">QASER IFTIKHAR</div>
-                      <div className="text-xs font-bold text-muted-foreground">Area Manager (Gujranwala)</div>
+
+                    <div className="group">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-cyan-500/10 to-cyan-500/5 border border-cyan-500/30 group-hover:border-cyan-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
+                            QASER IFTIKHAR
+                          </div>
+                          <div className="text-xs font-bold text-cyan-600 dark:text-cyan-400">
+                            Area Manager (Gujranwala)
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
 
-                {/* Administration & Finance */}
+                {/* Level 5: Administration & Finance */}
                 <div>
-                  <div className="text-xs sm:text-sm font-black text-accent uppercase tracking-widest mb-3 sm:mb-4">
+                  <div className="text-xs sm:text-sm font-black text-accent uppercase tracking-widest mb-4 sm:mb-5 text-center">
                     Administration & Finance
                   </div>
-                  <div className="space-y-2 sm:space-y-3">
-                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
-                      <div className="text-sm sm:text-base font-black text-foreground">PERVAIZ SIAL</div>
-                      <div className="text-xs font-bold text-muted-foreground">Admin Officer</div>
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
+                    <div className="group">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-gradient-to-br from-rose-500/10 to-rose-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-rose-500/10 to-rose-500/5 border border-rose-500/30 group-hover:border-rose-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
+                            PERVAIZ SIAL
+                          </div>
+                          <div className="text-xs font-bold text-rose-600 dark:text-rose-400">
+                            Admin Officer
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
-                      <div className="text-sm sm:text-base font-black text-foreground">MANSOOR AMIN</div>
-                      <div className="text-xs font-bold text-muted-foreground">Finance Manager (South)</div>
+
+                    <div className="group">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-gradient-to-br from-rose-500/10 to-rose-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-rose-500/10 to-rose-500/5 border border-rose-500/30 group-hover:border-rose-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
+                            MANSOOR AMIN
+                          </div>
+                          <div className="text-xs font-bold text-rose-600 dark:text-rose-400">
+                            Finance Manager (South)
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
-                      <div className="text-sm sm:text-base font-black text-foreground">WALEED AHMED</div>
-                      <div className="text-xs font-bold text-muted-foreground">Accounts Officer (Karachi)</div>
+
+                    <div className="group">
+                      <div className="relative">
+                        <div className="absolute inset-0 bg-gradient-to-br from-rose-500/10 to-rose-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-rose-500/10 to-rose-500/5 border border-rose-500/30 group-hover:border-rose-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                          <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
+                            WALEED AHMED
+                          </div>
+                          <div className="text-xs font-bold text-rose-600 dark:text-rose-400">
+                            Accounts Officer (Karachi)
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
