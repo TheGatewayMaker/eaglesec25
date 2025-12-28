@@ -10,7 +10,32 @@
 [functions]
   external_node_modules = ["express"]
   node_bundler = "esbuild"
-  
+
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/services"
+  to = "/services.html"
+  status = 200
+
+[[redirects]]
+  from = "/about"
+  to = "/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/why-choose-us"
+  to = "/why-choose-us.html"
+  status = 200
+
 [[redirects]]
   force = true
   from = "/api/*"

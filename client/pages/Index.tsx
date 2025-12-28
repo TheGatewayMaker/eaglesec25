@@ -118,9 +118,9 @@ export default function Home() {
             {/* Left Content - Expanded to use more space */}
             <AnimatedFadeInLeft className="md:col-span-7" threshold={0.2}>
               <AnimatedFadeInDown delay={0} duration="normal">
-                <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6 lg:mb-8">
-                  <div className="w-1 h-8 sm:h-10 lg:h-12 bg-accent rounded-full flex-shrink-0"></div>
-                  <p className="text-xs font-black text-accent uppercase tracking-widest">
+                <div className="flex items-center gap-3 sm:gap-4 mb-6 sm:mb-8 lg:mb-10">
+                  <div className="w-1.5 h-8 sm:h-10 md:h-12 lg:h-14 bg-accent rounded-full flex-shrink-0"></div>
+                  <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black text-accent uppercase tracking-widest leading-tight">
                     Professional Security Since 1992
                   </p>
                 </div>
@@ -778,7 +778,7 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 w-full relative z-10">
           <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6">
             {/* Experience Card */}
-            <AnimatedBounceIn delay={0} threshold={0.2}>
+            <AnimatedFadeInUp delay={0} threshold={0.2} duration="slow">
               <div className="aspect-square bg-card border border-border text-foreground p-3 sm:p-4 md:p-6 lg:p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:bg-pk-green-main group cursor-pointer">
                 <div className="mb-2 sm:mb-3 md:mb-4 lg:mb-6 flex items-center justify-center h-10 sm:h-14 md:h-16 lg:h-20">
                   <AnimatedCounter
@@ -798,10 +798,10 @@ export default function Home() {
                   Protecting businesses since 1992
                 </p>
               </div>
-            </AnimatedBounceIn>
+            </AnimatedFadeInUp>
 
             {/* Personnel Card */}
-            <AnimatedBounceIn delay={100} threshold={0.2}>
+            <AnimatedFadeInUp delay={200} threshold={0.2} duration="slow">
               <div className="aspect-square bg-card border border-border text-foreground p-3 sm:p-4 md:p-6 lg:p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:bg-pk-green-main group cursor-pointer">
                 <div className="mb-2 sm:mb-3 md:mb-4 lg:mb-6 flex items-center justify-center h-10 sm:h-14 md:h-16 lg:h-20">
                   <AnimatedCounter
@@ -821,10 +821,10 @@ export default function Home() {
                   Elite security professionals
                 </p>
               </div>
-            </AnimatedBounceIn>
+            </AnimatedFadeInUp>
 
             {/* Clients Card */}
-            <AnimatedBounceIn delay={200} threshold={0.2}>
+            <AnimatedFadeInUp delay={400} threshold={0.2} duration="slow">
               <div className="aspect-square bg-card border border-border text-foreground p-3 sm:p-4 md:p-6 lg:p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:bg-pk-green-main group cursor-pointer">
                 <div className="mb-2 sm:mb-3 md:mb-4 lg:mb-6 flex items-center justify-center h-10 sm:h-14 md:h-16 lg:h-20">
                   <AnimatedCounter
@@ -844,10 +844,10 @@ export default function Home() {
                   Trusted by leading organizations
                 </p>
               </div>
-            </AnimatedBounceIn>
+            </AnimatedFadeInUp>
 
             {/* Total Guards Deployed Card */}
-            <AnimatedBounceIn delay={300} threshold={0.2}>
+            <AnimatedFadeInUp delay={600} threshold={0.2} duration="slow">
               <div className="aspect-square bg-card border border-border text-foreground p-3 sm:p-4 md:p-6 lg:p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:bg-pk-green-main group cursor-pointer">
                 <div className="mb-2 sm:mb-3 md:mb-4 lg:mb-6 flex items-center justify-center h-10 sm:h-14 md:h-16 lg:h-20">
                   <AnimatedCounter
@@ -867,7 +867,7 @@ export default function Home() {
                   Active security personnel across Pakistan
                 </p>
               </div>
-            </AnimatedBounceIn>
+            </AnimatedFadeInUp>
           </div>
         </div>
       </section>

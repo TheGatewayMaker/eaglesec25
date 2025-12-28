@@ -92,7 +92,7 @@ export default function Services() {
         </svg>
 
         {/* Hero Logo - Right Half */}
-        <div className="hidden md:flex absolute right-0 top-0 w-1/2 h-full items-center justify-center pr-8 lg:pr-12">
+        <div className="hidden md:flex absolute right-0 top-0 w-1/2 h-full items-start justify-center pr-8 lg:pr-12 pt-8 md:pt-10 lg:pt-12">
           <div className="flex flex-col items-center justify-center gap-6">
             <img
               src="https://i.ibb.co/s954vR34/eaglesecurityoriginallogo-1-copy.png"
@@ -113,9 +113,9 @@ export default function Services() {
             {/* Left Content */}
             <AnimatedFadeInLeft className="md:col-span-7" threshold={0.2}>
               <AnimatedFadeInDown delay={0} duration="normal">
-                <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6 lg:mb-8">
-                  <div className="w-1 h-8 sm:h-10 lg:h-12 bg-accent rounded-full flex-shrink-0"></div>
-                  <p className="text-xs font-black text-accent uppercase tracking-widest">
+                <div className="flex items-center gap-3 sm:gap-4 mb-6 sm:mb-8 lg:mb-10">
+                  <div className="w-1.5 h-8 sm:h-10 md:h-12 lg:h-14 bg-accent rounded-full flex-shrink-0"></div>
+                  <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black text-accent uppercase tracking-widest leading-tight">
                     Comprehensive Security Solutions
                   </p>
                 </div>
