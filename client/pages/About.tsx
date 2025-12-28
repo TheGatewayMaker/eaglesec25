@@ -28,8 +28,13 @@ export default function About() {
   return (
     <div className="bg-background transition-colors duration-300">
       {/* Hero Banner Section */}
-      <section className="relative w-full pt-12 sm:pt-16 md:pt-20 pb-12 sm:pb-16 md:pb-20 lg:py-32 bg-cover bg-center flex items-center justify-center before:absolute before:inset-0 before:bg-black/50" style={{ backgroundImage: "url('https://cdn.builder.io/api/v1/image/assets%2F9cce281f3ce14e12bc08ed97613894a0%2F25f7d10066fc4633869d313f410b5964?format=webp&width=800')" }}>
-
+      <section
+        className="relative w-full pt-12 sm:pt-16 md:pt-20 pb-12 sm:pb-16 md:pb-20 lg:py-32 bg-cover bg-center flex items-center justify-center before:absolute before:inset-0 before:bg-black/50"
+        style={{
+          backgroundImage:
+            "url('https://cdn.builder.io/api/v1/image/assets%2F9cce281f3ce14e12bc08ed97613894a0%2F25f7d10066fc4633869d313f410b5964?format=webp&width=800')",
+        }}
+      >
         <div className="relative z-10 container mx-auto px-4 sm:px-6 text-center text-white">
           <div className="mb-2 sm:mb-4 md:mb-6 lg:mb-8 animate-bounce-gentle">
             <img
@@ -97,17 +102,39 @@ export default function About() {
           xmlns="http://www.w3.org/2000/svg"
         >
           <defs>
-            <linearGradient id="legacyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" style={{ stopColor: "var(--accent)", stopOpacity: 0.4 }} />
-              <stop offset="100%" style={{ stopColor: "var(--accent)", stopOpacity: 0.05 }} />
+            <linearGradient
+              id="legacyGradient"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="100%"
+            >
+              <stop
+                offset="0%"
+                style={{ stopColor: "var(--accent)", stopOpacity: 0.4 }}
+              />
+              <stop
+                offset="100%"
+                style={{ stopColor: "var(--accent)", stopOpacity: 0.05 }}
+              />
             </linearGradient>
           </defs>
-          <path d="M0,150 Q200,50 400,150 Q600,250 800,150 L800,0 L0,0 Z" fill="url(#legacyGradient)" />
-          <path d="M0,350 Q150,300 300,350 Q450,400 600,350 Q700,330 800,350 L800,600 L0,600 Z" fill="var(--accent)" opacity="0.05" />
+          <path
+            d="M0,150 Q200,50 400,150 Q600,250 800,150 L800,0 L0,0 Z"
+            fill="url(#legacyGradient)"
+          />
+          <path
+            d="M0,350 Q150,300 300,350 Q450,400 600,350 Q700,330 800,350 L800,600 L0,600 Z"
+            fill="var(--accent)"
+            opacity="0.05"
+          />
         </svg>
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
-          <AnimatedFadeInUp className="mb-8 sm:mb-12 md:mb-16 lg:mb-24" threshold={0.2}>
+          <AnimatedFadeInUp
+            className="mb-8 sm:mb-12 md:mb-16 lg:mb-24"
+            threshold={0.2}
+          >
             <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 mb-3 sm:mb-4 lg:mb-6">
               <div className="w-1 md:w-1.5 h-8 sm:h-10 lg:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black leading-tight">
@@ -115,7 +142,8 @@ export default function About() {
               </h2>
             </div>
             <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-3xl leading-relaxed">
-              Since 1992, Eagle Security Guards has been the trusted partner for organizations demanding military-grade security solutions
+              Since 1992, Eagle Security Guards has been the trusted partner for
+              organizations demanding military-grade security solutions
             </p>
           </AnimatedFadeInUp>
 
@@ -127,23 +155,37 @@ export default function About() {
                     Founded on Military Excellence
                   </h3>
                   <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground font-bold leading-relaxed">
-                    Eagle Security Guards was established by military veterans with a singular vision: to bring military-grade discipline and professionalism to civilian security. We're not just a security company—we're a legacy built on the foundation of Pakistan's armed forces.
+                    Eagle Security Guards was established by military veterans
+                    with a singular vision: to bring military-grade discipline
+                    and professionalism to civilian security. We're not just a
+                    security company—we're a legacy built on the foundation of
+                    Pakistan's armed forces.
                   </p>
                 </div>
 
                 <div className="grid grid-cols-2 gap-3 sm:gap-4">
                   <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 p-4 sm:p-6 rounded-xl hover:border-accent/40 hover:shadow-lg transition-all duration-300">
-                    <div className="text-2xl sm:text-3xl lg:text-4xl font-black text-accent mb-2">30+</div>
-                    <p className="text-xs sm:text-sm font-black text-foreground">Years of Service</p>
+                    <div className="text-2xl sm:text-3xl lg:text-4xl font-black text-accent mb-2">
+                      30+
+                    </div>
+                    <p className="text-xs sm:text-sm font-black text-foreground">
+                      Years of Service
+                    </p>
                   </div>
                   <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 p-4 sm:p-6 rounded-xl hover:border-accent/40 hover:shadow-lg transition-all duration-300">
-                    <div className="text-2xl sm:text-3xl lg:text-4xl font-black text-accent mb-2">50+</div>
-                    <p className="text-xs sm:text-sm font-black text-foreground">National Offices</p>
+                    <div className="text-2xl sm:text-3xl lg:text-4xl font-black text-accent mb-2">
+                      50+
+                    </div>
+                    <p className="text-xs sm:text-sm font-black text-foreground">
+                      National Offices
+                    </p>
                   </div>
                 </div>
 
                 <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground font-bold leading-relaxed">
-                  Licensed to operate nationwide across Pakistan and Azad Jammu & Kashmir, we've grown into one of the nation's most trusted private security providers.
+                  Licensed to operate nationwide across Pakistan and Azad Jammu
+                  & Kashmir, we've grown into one of the nation's most trusted
+                  private security providers.
                 </p>
               </div>
             </AnimatedFadeInLeft>
@@ -163,18 +205,41 @@ export default function About() {
 
       {/* Our Core Values Section */}
       <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-background transition-colors duration-300 relative overflow-hidden">
-        <svg className="absolute top-0 right-0 w-1/2 h-full opacity-35" viewBox="0 0 600 800" preserveAspectRatio="xMaxYMid slice" xmlns="http://www.w3.org/2000/svg">
+        <svg
+          className="absolute top-0 right-0 w-1/2 h-full opacity-35"
+          viewBox="0 0 600 800"
+          preserveAspectRatio="xMaxYMid slice"
+          xmlns="http://www.w3.org/2000/svg"
+        >
           <defs>
-            <linearGradient id="valuesGradient" x1="100%" y1="0%" x2="0%" y2="100%">
-              <stop offset="0%" style={{ stopColor: "var(--accent)", stopOpacity: 0.5 }} />
-              <stop offset="100%" style={{ stopColor: "var(--accent)", stopOpacity: 0.1 }} />
+            <linearGradient
+              id="valuesGradient"
+              x1="100%"
+              y1="0%"
+              x2="0%"
+              y2="100%"
+            >
+              <stop
+                offset="0%"
+                style={{ stopColor: "var(--accent)", stopOpacity: 0.5 }}
+              />
+              <stop
+                offset="100%"
+                style={{ stopColor: "var(--accent)", stopOpacity: 0.1 }}
+              />
             </linearGradient>
           </defs>
-          <path d="M600,100 Q500,150 400,100 Q300,50 200,100 Q100,150 0,100 L0,300 Q150,250 300,300 Q450,350 600,300 Z" fill="url(#valuesGradient)" />
+          <path
+            d="M600,100 Q500,150 400,100 Q300,50 200,100 Q100,150 0,100 L0,300 Q150,250 300,300 Q450,350 600,300 Z"
+            fill="url(#valuesGradient)"
+          />
         </svg>
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
-          <AnimatedFadeInUp className="mb-8 sm:mb-12 md:mb-16 lg:mb-24" threshold={0.2}>
+          <AnimatedFadeInUp
+            className="mb-8 sm:mb-12 md:mb-16 lg:mb-24"
+            threshold={0.2}
+          >
             <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 mb-3 sm:mb-4 lg:mb-6">
               <div className="w-1 md:w-1.5 h-8 sm:h-10 lg:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black leading-tight">
@@ -198,7 +263,9 @@ export default function About() {
                     Vision
                   </h3>
                   <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
-                    To be the gold standard in professional security, recognized globally for vigilance, excellence, and unwavering dedication.
+                    To be the gold standard in professional security, recognized
+                    globally for vigilance, excellence, and unwavering
+                    dedication.
                   </p>
                 </div>
               </div>
@@ -215,7 +282,9 @@ export default function About() {
                     Mission
                   </h3>
                   <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
-                    Safeguard lives and assets through meticulously trained, disciplined, and vetted personnel led by experienced commanders.
+                    Safeguard lives and assets through meticulously trained,
+                    disciplined, and vetted personnel led by experienced
+                    commanders.
                   </p>
                 </div>
               </div>
@@ -232,7 +301,9 @@ export default function About() {
                     Excellence
                   </h3>
                   <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
-                    Delivering uncompromising reliability, efficiency, and integrity across all sectors with zero tolerance for mediocrity.
+                    Delivering uncompromising reliability, efficiency, and
+                    integrity across all sectors with zero tolerance for
+                    mediocrity.
                   </p>
                 </div>
               </div>
@@ -243,18 +314,41 @@ export default function About() {
 
       {/* What Sets Us Apart Section */}
       <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-gradient-to-b from-background/95 via-background to-background transition-colors duration-300 relative overflow-hidden">
-        <svg className="absolute top-1/3 -left-40 w-1/2 h-2/3 opacity-35" viewBox="0 0 500 600" preserveAspectRatio="xMinYMid slice" xmlns="http://www.w3.org/2000/svg">
+        <svg
+          className="absolute top-1/3 -left-40 w-1/2 h-2/3 opacity-35"
+          viewBox="0 0 500 600"
+          preserveAspectRatio="xMinYMid slice"
+          xmlns="http://www.w3.org/2000/svg"
+        >
           <defs>
-            <linearGradient id="apartGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" style={{ stopColor: "var(--accent)", stopOpacity: 0.5 }} />
-              <stop offset="100%" style={{ stopColor: "var(--accent)", stopOpacity: 0.08 }} />
+            <linearGradient
+              id="apartGradient"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="100%"
+            >
+              <stop
+                offset="0%"
+                style={{ stopColor: "var(--accent)", stopOpacity: 0.5 }}
+              />
+              <stop
+                offset="100%"
+                style={{ stopColor: "var(--accent)", stopOpacity: 0.08 }}
+              />
             </linearGradient>
           </defs>
-          <path d="M0,100 Q100,50 200,100 Q300,150 400,100 Q500,150 500,250 L0,250 Z" fill="url(#apartGradient)" />
+          <path
+            d="M0,100 Q100,50 200,100 Q300,150 400,100 Q500,150 500,250 L0,250 Z"
+            fill="url(#apartGradient)"
+          />
         </svg>
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
-          <AnimatedFadeInUp className="mb-8 sm:mb-12 md:mb-16 lg:mb-24" threshold={0.2}>
+          <AnimatedFadeInUp
+            className="mb-8 sm:mb-12 md:mb-16 lg:mb-24"
+            threshold={0.2}
+          >
             <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 mb-3 sm:mb-4 lg:mb-6">
               <div className="w-1 md:w-1.5 h-8 sm:h-10 lg:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black leading-tight">
@@ -276,7 +370,8 @@ export default function About() {
                     Military Heritage
                   </h3>
                   <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
-                    Personnel drawn from Pakistan's elite armed forces with unparalleled training and discipline.
+                    Personnel drawn from Pakistan's elite armed forces with
+                    unparalleled training and discipline.
                   </p>
                 </div>
               </div>
@@ -291,7 +386,8 @@ export default function About() {
                     Rigorous Vetting
                   </h3>
                   <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
-                    Comprehensive background screening ensures only the most qualified professionals join our ranks.
+                    Comprehensive background screening ensures only the most
+                    qualified professionals join our ranks.
                   </p>
                 </div>
               </div>
@@ -306,7 +402,8 @@ export default function About() {
                     Rapid Response
                   </h3>
                   <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
-                    24/7 monitoring and immediate action protocols ensure threats are addressed swiftly and effectively.
+                    24/7 monitoring and immediate action protocols ensure
+                    threats are addressed swiftly and effectively.
                   </p>
                 </div>
               </div>
@@ -321,7 +418,8 @@ export default function About() {
                     National Network
                   </h3>
                   <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
-                    50+ offices across Pakistan ensure rapid response and local expertise wherever you operate.
+                    50+ offices across Pakistan ensure rapid response and local
+                    expertise wherever you operate.
                   </p>
                 </div>
               </div>
@@ -336,7 +434,8 @@ export default function About() {
                     Client-Centric Approach
                   </h3>
                   <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
-                    Your security needs drive everything we do, with customized solutions for every scenario.
+                    Your security needs drive everything we do, with customized
+                    solutions for every scenario.
                   </p>
                 </div>
               </div>
@@ -351,7 +450,8 @@ export default function About() {
                     Proven Excellence
                   </h3>
                   <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
-                    Trusted by government agencies, financial institutions, and Fortune 500 companies since 1992.
+                    Trusted by government agencies, financial institutions, and
+                    Fortune 500 companies since 1992.
                   </p>
                 </div>
               </div>
@@ -375,7 +475,10 @@ export default function About() {
                   Strategic Security Solutions That Deliver Results
                 </h3>
                 <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-2xl leading-relaxed mb-6 sm:mb-8">
-                  From comprehensive threat assessment to tactical response protocols, we provide complete protection backed by military expertise, continuous training standards, and proven success protecting Pakistan's most critical organizations.
+                  From comprehensive threat assessment to tactical response
+                  protocols, we provide complete protection backed by military
+                  expertise, continuous training standards, and proven success
+                  protecting Pakistan's most critical organizations.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 lg:gap-6 flex-wrap">
                   <a
@@ -390,7 +493,10 @@ export default function About() {
                   >
                     Request Consultation
                   </a>
-                  <WhatsAppButton size="md" message="I'm interested in Eagle Security's comprehensive security solutions." />
+                  <WhatsAppButton
+                    size="md"
+                    message="I'm interested in Eagle Security's comprehensive security solutions."
+                  />
                 </div>
               </div>
             </div>
