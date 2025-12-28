@@ -463,7 +463,10 @@ export default function About() {
       {/* Leadership & Management Section */}
       <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-background transition-colors duration-300 relative overflow-hidden">
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
-          <AnimatedFadeInUp className="mb-8 sm:mb-12 md:mb-16 lg:mb-24" threshold={0.2}>
+          <AnimatedFadeInUp
+            className="mb-8 sm:mb-12 md:mb-16 lg:mb-24"
+            threshold={0.2}
+          >
             <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 mb-3 sm:mb-4 lg:mb-6">
               <div className="w-1 md:w-1.5 h-8 sm:h-10 lg:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black leading-tight">
@@ -471,7 +474,8 @@ export default function About() {
               </h2>
             </div>
             <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-3xl leading-relaxed">
-              Our organizational structure led by experienced commanders and seasoned professionals
+              Our organizational structure led by experienced commanders and
+              seasoned professionals
             </p>
           </AnimatedFadeInUp>
 
@@ -739,163 +743,285 @@ export default function About() {
                 <div className="bg-gradient-to-br from-card to-card/80 border border-border/50 rounded-2xl overflow-hidden">
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-0 divide-x divide-y divide-border/50">
                     <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">Islamabad</p>
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Islamabad
+                      </p>
                       <div className="space-y-2">
                         <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Mustabeen Ullah Baig</span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">30y</span>
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Mustabeen Ullah Baig
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            30y
+                          </span>
                         </div>
                         <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Maj (R) K. N. Abbasi</span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">15y</span>
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Maj (R) K. N. Abbasi
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            15y
+                          </span>
                         </div>
                         <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Syed Rehan Waqar</span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">20y</span>
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Syed Rehan Waqar
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            20y
+                          </span>
                         </div>
                         <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Sohail Amir</span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">15y</span>
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Sohail Amir
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            15y
+                          </span>
                         </div>
                       </div>
                     </div>
 
                     <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">Chakwal</p>
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Chakwal
+                      </p>
                       <div className="flex justify-between items-start gap-2">
-                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Sub (R) M. Aslam</span>
-                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">14y</span>
+                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                          Sub (R) M. Aslam
+                        </span>
+                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                          14y
+                        </span>
                       </div>
                     </div>
 
                     <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">Peshawar</p>
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Peshawar
+                      </p>
                       <div className="flex justify-between items-start gap-2">
-                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Muhammad Babar</span>
-                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">5y</span>
+                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                          Muhammad Babar
+                        </span>
+                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                          5y
+                        </span>
                       </div>
                     </div>
 
                     <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">Jhelum</p>
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Jhelum
+                      </p>
                       <div className="flex justify-between items-start gap-2">
-                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Muhammad Mushtaq</span>
-                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">18y</span>
+                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                          Muhammad Mushtaq
+                        </span>
+                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                          18y
+                        </span>
                       </div>
                     </div>
 
                     <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">Abdul Hakeem</p>
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Abdul Hakeem
+                      </p>
                       <div className="flex justify-between items-start gap-2">
-                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Saleem Murad</span>
-                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">10y</span>
+                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                          Saleem Murad
+                        </span>
+                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                          10y
+                        </span>
                       </div>
                     </div>
 
                     <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">Lahore</p>
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Lahore
+                      </p>
                       <div className="space-y-2">
                         <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Maj (R) Abid Latif</span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">16y</span>
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Maj (R) Abid Latif
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            16y
+                          </span>
                         </div>
                         <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Mansoor Amin</span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">18y</span>
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Mansoor Amin
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            18y
+                          </span>
                         </div>
                       </div>
                     </div>
 
                     <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">Multan</p>
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Multan
+                      </p>
                       <div className="space-y-2">
                         <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Sub (R) M. Asghar</span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">6y</span>
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Sub (R) M. Asghar
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            6y
+                          </span>
                         </div>
                         <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Capt (R) Mansoor</span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">5y</span>
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Capt (R) Mansoor
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            5y
+                          </span>
                         </div>
                       </div>
                     </div>
 
                     <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">Gharo (Sindh)</p>
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Gharo (Sindh)
+                      </p>
                       <div className="flex justify-between items-start gap-2">
-                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Mehr Khalid</span>
-                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">19y</span>
+                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                          Mehr Khalid
+                        </span>
+                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                          19y
+                        </span>
                       </div>
                     </div>
 
                     <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">Sargodha</p>
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Sargodha
+                      </p>
                       <div className="space-y-2">
                         <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Muhammad Qaiser</span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">2y</span>
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Muhammad Qaiser
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            2y
+                          </span>
                         </div>
                         <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Sub (R) R. Ahmed</span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">8y</span>
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Sub (R) R. Ahmed
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            8y
+                          </span>
                         </div>
                         <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Sub (R) M. Mushtaq</span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">9y</span>
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Sub (R) M. Mushtaq
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            9y
+                          </span>
                         </div>
                       </div>
                     </div>
 
                     <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">Gujranwala</p>
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Gujranwala
+                      </p>
                       <div className="space-y-2">
                         <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Zakir Ur Rehman</span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">30y</span>
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Zakir Ur Rehman
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            30y
+                          </span>
                         </div>
                         <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Waleed Ahmed</span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">2y</span>
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Waleed Ahmed
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            2y
+                          </span>
                         </div>
                       </div>
                     </div>
 
                     <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">Karachi</p>
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Karachi
+                      </p>
                       <div className="space-y-2">
                         <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">N/Sub (R) N. Muhammad</span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">5y</span>
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            N/Sub (R) N. Muhammad
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            5y
+                          </span>
                         </div>
                         <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Hav (R) M. Bachal</span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">6y</span>
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Hav (R) M. Bachal
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            6y
+                          </span>
                         </div>
                       </div>
                     </div>
 
                     <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">Quetta</p>
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        Quetta
+                      </p>
                       <div className="flex justify-between items-start gap-2">
-                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Raheel A. Shah</span>
-                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">12y</span>
+                        <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                          Raheel A. Shah
+                        </span>
+                        <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                          12y
+                        </span>
                       </div>
                     </div>
 
                     <div className="p-4 sm:p-5 hover:bg-accent/5 transition-colors">
-                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">AJK</p>
+                      <p className="text-sm sm:text-base font-bold text-muted-foreground mb-2">
+                        AJK
+                      </p>
                       <div className="space-y-2">
                         <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Sub (R) M. Husnain</span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">11y</span>
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Sub (R) M. Husnain
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            11y
+                          </span>
                         </div>
                         <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Sub (R) M. Iqbal</span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">18y</span>
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Sub (R) M. Iqbal
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            18y
+                          </span>
                         </div>
                         <div className="flex justify-between items-start gap-2">
-                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">Capt (R) M. Qurban</span>
-                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">13y</span>
+                          <span className="text-sm sm:text-base font-black text-foreground line-clamp-2">
+                            Capt (R) M. Qurban
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-accent flex-shrink-0">
+                            13y
+                          </span>
                         </div>
                       </div>
                     </div>
