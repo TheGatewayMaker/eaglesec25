@@ -321,7 +321,7 @@ export default function About() {
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5 md:gap-6 lg:gap-7">
               {/* Image 1 */}
               <AnimatedFadeInUp delay={0} threshold={0.2}>
-                <div className="overflow-hidden bg-background border border-border/50">
+                <div className="overflow-hidden bg-background border border-pk-green-main">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2F5148fbbce7904d8daedf14b17119cd0f?format=webp&width=800"
                     alt="Eagle Foundation Gallery - Security personnel"
@@ -332,7 +332,7 @@ export default function About() {
 
               {/* Image 2 */}
               <AnimatedFadeInUp delay={50} threshold={0.2}>
-                <div className="overflow-hidden bg-background border border-border/50">
+                <div className="overflow-hidden bg-background border border-pk-green-main">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2F66d852aa6104499f8ce16d44c41297fd?format=webp&width=800"
                     alt="Eagle Foundation Gallery - Professional team"
@@ -343,7 +343,7 @@ export default function About() {
 
               {/* Image 3 */}
               <AnimatedFadeInUp delay={100} threshold={0.2}>
-                <div className="overflow-hidden bg-background border border-border/50">
+                <div className="overflow-hidden bg-background border border-pk-green-main">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2Fe071d3b02e6b445f976f012db6f6d3eb?format=webp&width=800"
                     alt="Eagle Foundation Gallery - Security operations"
@@ -354,7 +354,7 @@ export default function About() {
 
               {/* Image 4 */}
               <AnimatedFadeInUp delay={150} threshold={0.2}>
-                <div className="overflow-hidden bg-background border border-border/50">
+                <div className="overflow-hidden bg-background border border-pk-green-main">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2F81032fa35da34bb58697b3f6d97dd013?format=webp&width=800"
                     alt="Eagle Foundation Gallery - Team formation"
@@ -365,7 +365,7 @@ export default function About() {
 
               {/* Image 5 */}
               <AnimatedFadeInUp delay={200} threshold={0.2}>
-                <div className="overflow-hidden bg-background border border-border/50">
+                <div className="overflow-hidden bg-background border border-pk-green-main">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2Faf91213b00214bf1967bf09bf2f397f8?format=webp&width=800"
                     alt="Eagle Foundation Gallery - Management"
@@ -376,7 +376,7 @@ export default function About() {
 
               {/* Image 6 */}
               <AnimatedFadeInUp delay={250} threshold={0.2}>
-                <div className="overflow-hidden bg-background border border-border/50">
+                <div className="overflow-hidden bg-background border border-pk-green-main">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2F102c808b952242e2a775196c1f1aa3ed?format=webp&width=800"
                     alt="Eagle Foundation Gallery - Office operations"
@@ -387,7 +387,7 @@ export default function About() {
 
               {/* Image 7 */}
               <AnimatedFadeInUp delay={300} threshold={0.2}>
-                <div className="overflow-hidden bg-background border border-border/50">
+                <div className="overflow-hidden bg-background border border-pk-green-main">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2Fc0db4c9fc98f4bb89461125fd6148003?format=webp&width=800"
                     alt="Eagle Foundation Gallery - Administrative staff"
@@ -398,7 +398,7 @@ export default function About() {
 
               {/* Image 8 */}
               <AnimatedFadeInUp delay={350} threshold={0.2}>
-                <div className="overflow-hidden bg-background border border-border/50">
+                <div className="overflow-hidden bg-background border border-pk-green-main">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2F0eddf7d264f241e5af42d3736e13201a?format=webp&width=800"
                     alt="Eagle Foundation Gallery - Training session"
@@ -409,7 +409,7 @@ export default function About() {
 
               {/* Image 9 */}
               <AnimatedFadeInUp delay={400} threshold={0.2}>
-                <div className="overflow-hidden bg-background border border-border/50">
+                <div className="overflow-hidden bg-background border border-pk-green-main">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2Ff38027d9d070494385bf61d336f175e8?format=webp&width=800"
                     alt="Eagle Foundation Gallery - Professional development"
@@ -420,7 +420,7 @@ export default function About() {
 
               {/* Image 10 */}
               <AnimatedFadeInUp delay={450} threshold={0.2}>
-                <div className="overflow-hidden bg-background border border-border/50">
+                <div className="overflow-hidden bg-background border border-pk-green-main">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2Fafef6dbe845742bb9bf5241e3dfa1701?format=webp&width=800"
                     alt="Eagle Foundation Gallery - Team leadership"
@@ -431,7 +431,7 @@ export default function About() {
 
               {/* Image 11 */}
               <AnimatedFadeInUp delay={500} threshold={0.2}>
-                <div className="overflow-hidden bg-background border border-border/50">
+                <div className="overflow-hidden bg-background border border-pk-green-main">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2F7103a995d02f4f33a5ce5123c85888a0?format=webp&width=800"
                     alt="Eagle Foundation Gallery - Field operations"
@@ -442,7 +442,7 @@ export default function About() {
 
               {/* Image 12 */}
               <AnimatedFadeInUp delay={550} threshold={0.2}>
-                <div className="overflow-hidden bg-background border border-border/50">
+                <div className="overflow-hidden bg-background border border-pk-green-main">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2Fb6b1034c646d4ed4a48fc2aff3b4284d?format=webp&width=800"
                     alt="Eagle Foundation Gallery - Security training"
@@ -453,7 +453,7 @@ export default function About() {
 
               {/* Image 13 */}
               <AnimatedFadeInUp delay={600} threshold={0.2}>
-                <div className="overflow-hidden bg-background border border-border/50">
+                <div className="overflow-hidden bg-background border border-pk-green-main">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2Fa4d0fdf2f1b4461c905069da669dd8ad?format=webp&width=800"
                     alt="Eagle Foundation Gallery - Coordination meeting"
@@ -464,7 +464,7 @@ export default function About() {
 
               {/* Image 14 */}
               <AnimatedFadeInUp delay={650} threshold={0.2}>
-                <div className="overflow-hidden bg-background border border-border/50">
+                <div className="overflow-hidden bg-background border border-pk-green-main">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2F5a19e865f2994eaabc562c4bb95912bb?format=webp&width=800"
                     alt="Eagle Foundation Gallery - Equipment and tools"
@@ -475,7 +475,7 @@ export default function About() {
 
               {/* Image 15 */}
               <AnimatedFadeInUp delay={700} threshold={0.2}>
-                <div className="overflow-hidden bg-background border border-border/50">
+                <div className="overflow-hidden bg-background border border-pk-green-main">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2F0a72cc4ca25748c9abd6d662b9cff87c?format=webp&width=800"
                     alt="Eagle Foundation Gallery - Professional standards"
@@ -486,7 +486,7 @@ export default function About() {
 
               {/* Image 16 */}
               <AnimatedFadeInUp delay={750} threshold={0.2}>
-                <div className="overflow-hidden bg-background border border-border/50">
+                <div className="overflow-hidden bg-background border border-pk-green-main">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2Fcaec10bd6dd84eb6b1b2aecc7df6f81f%2F486f429f265347afa6e5abe1b7bcdd29?format=webp&width=800"
                     alt="Eagle Foundation Gallery - Facility security"
