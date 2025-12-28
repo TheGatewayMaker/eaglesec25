@@ -113,9 +113,9 @@ export default function Services() {
             {/* Left Content */}
             <AnimatedFadeInLeft className="md:col-span-7" threshold={0.2}>
               <AnimatedFadeInDown delay={0} duration="normal">
-                <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6 lg:mb-8">
-                  <div className="w-1 h-8 sm:h-10 lg:h-12 bg-accent rounded-full flex-shrink-0"></div>
-                  <p className="text-sm sm:text-base md:text-lg lg:text-xl font-black text-accent uppercase tracking-widest">
+                <div className="flex items-center gap-3 sm:gap-4 mb-6 sm:mb-8 lg:mb-10">
+                  <div className="w-1.5 h-8 sm:h-10 md:h-12 lg:h-14 bg-accent rounded-full flex-shrink-0"></div>
+                  <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black text-accent uppercase tracking-widest leading-tight">
                     Comprehensive Security Solutions
                   </p>
                 </div>
