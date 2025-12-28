@@ -17,7 +17,7 @@ export default function About() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://i.ibb.co/zHTFCPHD/Screenshot-2025-12-27-at-10-22-45-PM.png')",
+              "url('https://cdn.builder.io/api/v1/image/assets%2F9cce281f3ce14e12bc08ed97613894a0%2F25f7d10066fc4633869d313f410b5964?format=webp&width=800')",
             backgroundPosition: "center",
           }}
         />
@@ -26,7 +26,7 @@ export default function About() {
         <div className="relative z-10 container mx-auto px-4 sm:px-6 text-center text-white">
           <div className="mb-2 sm:mb-4 md:mb-6 lg:mb-8 animate-bounce-gentle">
             <img
-              src="https://i.ibb.co/8gTBwZC9/eaglesecurityoriginallogomonochrome.png"
+              src="https://i.ibb.co/s954vR34/eaglesecurityoriginallogo-1-copy.png"
               alt="Eagle Security Guards Logo"
               className="w-12 sm:w-16 md:w-24 lg:w-40 h-12 sm:h-16 md:h-24 lg:h-40 object-contain mx-auto opacity-95 filter drop-shadow-xl"
             />
