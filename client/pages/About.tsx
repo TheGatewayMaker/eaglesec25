@@ -688,8 +688,8 @@ export default function About() {
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-3">
                     <div className="group">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-rose-500/10 to-rose-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-rose-500/10 to-rose-500/5 border border-rose-500/30 group-hover:border-rose-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                        <div className="absolute inset-0 bg-gradient-to-br from-rose-500/10 to-rose-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-rose-500/10 to-rose-500/5 border border-rose-500/30 group-hover:border-rose-500/60 p-3 sm:p-4 hover:shadow-md transition-all duration-300">
                           <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
                             PERVAIZ SIAL
                           </div>
@@ -702,8 +702,8 @@ export default function About() {
 
                     <div className="group">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-rose-500/10 to-rose-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-rose-500/10 to-rose-500/5 border border-rose-500/30 group-hover:border-rose-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                        <div className="absolute inset-0 bg-gradient-to-br from-rose-500/10 to-rose-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-rose-500/10 to-rose-500/5 border border-rose-500/30 group-hover:border-rose-500/60 p-3 sm:p-4 hover:shadow-md transition-all duration-300">
                           <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
                             MANSOOR AMIN
                           </div>
@@ -716,8 +716,8 @@ export default function About() {
 
                     <div className="group">
                       <div className="relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-rose-500/10 to-rose-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                        <div className="relative bg-gradient-to-br from-rose-500/10 to-rose-500/5 border border-rose-500/30 group-hover:border-rose-500/60 rounded-lg p-3 sm:p-4 hover:shadow-md transition-all duration-300">
+                        <div className="absolute inset-0 bg-gradient-to-br from-rose-500/10 to-rose-500/5 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                        <div className="relative bg-gradient-to-br from-rose-500/10 to-rose-500/5 border border-rose-500/30 group-hover:border-rose-500/60 p-3 sm:p-4 hover:shadow-md transition-all duration-300">
                           <div className="text-sm sm:text-base font-black text-foreground mb-0.5">
                             WALEED AHMED
                           </div>
