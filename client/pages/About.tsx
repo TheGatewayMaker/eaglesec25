@@ -12,7 +12,7 @@ export default function About() {
   return (
     <div className="bg-background transition-colors duration-300">
       {/* Hero Banner Section */}
-      <section className="relative w-full h-48 sm:h-56 md:h-72 lg:h-96 flex items-center justify-center overflow-hidden">
+      <section className="relative w-full h-56 sm:h-64 md:h-80 lg:h-screen/2 flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
