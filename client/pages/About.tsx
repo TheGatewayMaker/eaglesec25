@@ -682,10 +682,10 @@ export default function About() {
 
                 {/* Level 5: Administration & Finance */}
                 <div>
-                  <div className="text-xs sm:text-sm font-black text-accent uppercase tracking-widest mb-4 sm:mb-5 text-center">
+                  <div className="text-xs sm:text-sm font-black text-accent uppercase tracking-widest mb-3 sm:mb-4 text-center">
                     Administration & Finance
                   </div>
-                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-3">
                     <div className="group">
                       <div className="relative">
                         <div className="absolute inset-0 bg-gradient-to-br from-rose-500/10 to-rose-500/5 rounded-lg blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
