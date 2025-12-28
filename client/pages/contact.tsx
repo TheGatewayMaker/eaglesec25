@@ -1,6 +1,6 @@
 import { createRoot } from "react-dom/client";
 import PageWrapper from "@/components/PageWrapper";
-import Contact from "./Contact";
+import Contact from "./Contact.tsx";
 
 const root = createRoot(document.getElementById("root")!);
 root.render(
