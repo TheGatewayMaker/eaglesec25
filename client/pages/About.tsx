@@ -865,38 +865,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* Call to Action Section */}
-      <section className="relative py-12 sm:py-16 md:py-20 lg:py-32 bg-background transition-colors duration-300 overflow-hidden">
-        <div className="absolute top-0 left-0 w-96 h-96 bg-accent/10 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-accent/10 rounded-full blur-3xl translate-x-1/2 translate-y-1/2"></div>
-
-        <div className="container mx-auto px-4 sm:px-6 relative z-10 text-center">
-          <div className="max-w-2xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-foreground mb-4 sm:mb-6 md:mb-8 leading-tight">
-              Ready to Experience Eagle Security?
-            </h2>
-            <p className="text-xs sm:text-sm md:text-base lg:text-xl text-muted-foreground font-black mb-6 sm:mb-8 md:mb-10 lg:mb-14 leading-relaxed">
-              Discover how our comprehensive security solutions can protect what
-              matters most to you.
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-6 justify-center">
-              <a
-                href="/services"
-                className="bg-gradient-to-r from-accent to-blue-800 text-accent-foreground px-6 sm:px-8 md:px-10 lg:px-12 py-2.5 sm:py-3 md:py-4 lg:py-5 font-black text-xs sm:text-sm md:text-base lg:text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block rounded-lg"
-              >
-                Explore Our Services
-              </a>
-              <a
-                href="/contact"
-                className="border-2 border-accent text-accent px-6 sm:px-8 md:px-10 lg:px-12 py-2.5 sm:py-3 md:py-4 lg:py-5 font-black text-xs sm:text-sm md:text-base lg:text-lg hover:bg-accent/10 transition-all duration-300 inline-block rounded-lg"
-              >
-                Get in Touch
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
