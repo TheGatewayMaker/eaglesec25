@@ -134,7 +134,7 @@ export default function Contact() {
             <img
               src="https://i.ibb.co/s954vR34/eaglesecurityoriginallogo-1-copy.png"
               alt="Eagle Security Guards Logo"
-              className="w-96 sm:w-[28rem] md:w-[32rem] lg:w-[36rem] h-auto object-contain opacity-90 hover:opacity-100 transition-opacity duration-300 drop-shadow-xl"
+              className="w-80 sm:w-[24rem] md:w-[28rem] lg:w-[32rem] h-auto object-contain opacity-90 hover:opacity-100 transition-opacity duration-300 drop-shadow-xl"
             />
             <div className="text-center">
               <p className="text-sm sm:text-base font-black text-accent tracking-widest">
