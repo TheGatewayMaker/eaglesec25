@@ -969,7 +969,7 @@ export default function Home() {
                 title: "Military Excellence",
                 desc: "Personnel from Pakistan's armed forces with proven expertise",
                 image:
-                  "https://i.ibb.co/bM3xPJ6k/Screenshot-2025-12-27-at-10-22-08-PM.png",
+                  "https://cdn.builder.io/api/v1/image/assets%2F051327c0785143dc908295d915c0f0c7%2Fd109d61f55eb47e897cb564291f046c8?format=webp&width=800",
               },
               {
                 title: "Thorough Vetting",
