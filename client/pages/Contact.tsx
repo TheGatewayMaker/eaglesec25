@@ -134,7 +134,7 @@ export default function Contact() {
             <img
               src="https://i.ibb.co/s954vR34/eaglesecurityoriginallogo-1-copy.png"
               alt="Eagle Security Guards Logo"
-              className="w-96 sm:w-[28rem] md:w-[32rem] lg:w-[36rem] h-auto object-contain opacity-90 hover:opacity-100 transition-opacity duration-300 drop-shadow-xl"
+              className="w-80 sm:w-[24rem] md:w-[28rem] lg:w-[32rem] h-auto object-contain opacity-90 hover:opacity-100 transition-opacity duration-300 drop-shadow-xl"
             />
             <div className="text-center">
               <p className="text-sm sm:text-base font-black text-accent tracking-widest">
@@ -223,7 +223,7 @@ export default function Contact() {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 sm:px-5 py-2.5 sm:py-3 bg-input border-2 border-border text-foreground text-sm placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
+                      className="w-full px-3 sm:px-4 py-2 sm:py-3 bg-input border-2 border-border text-foreground text-sm placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
                       placeholder="Your name"
                     />
                   </div>
@@ -242,7 +242,7 @@ export default function Contact() {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 sm:px-5 py-2.5 sm:py-3 bg-input border-2 border-border text-foreground text-sm placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
+                      className="w-full px-3 sm:px-4 py-2 sm:py-3 bg-input border-2 border-border text-foreground text-sm placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
                       placeholder="your@email.com"
                     />
                   </div>
@@ -260,7 +260,7 @@ export default function Contact() {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      className="w-full px-4 sm:px-5 py-2.5 sm:py-3 bg-input border-2 border-border text-foreground text-sm placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
+                      className="w-full px-3 sm:px-4 py-2 sm:py-3 bg-input border-2 border-border text-foreground text-sm placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
                       placeholder="+92 XXX XXXXXXX"
                     />
                   </div>
@@ -278,7 +278,7 @@ export default function Contact() {
                       value={formData.subject}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 sm:px-5 py-2.5 sm:py-3 bg-input border-2 border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
+                      className="w-full px-3 sm:px-4 py-2 sm:py-3 bg-input border-2 border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
                     >
                       <option value="">Select a subject</option>
                       <option value="security-guards">
@@ -306,7 +306,7 @@ export default function Contact() {
                       onChange={handleChange}
                       required
                       rows={5}
-                      className="w-full px-4 sm:px-5 py-2.5 sm:py-3 bg-input border-2 border-border text-foreground text-sm placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent resize-none transition-all duration-300"
+                      className="w-full px-3 sm:px-4 py-2 sm:py-3 bg-input border-2 border-border text-foreground text-sm placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent resize-none transition-all duration-300"
                       placeholder="Tell us about your security needs..."
                     ></textarea>
                   </div>

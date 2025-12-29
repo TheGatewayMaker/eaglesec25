@@ -359,7 +359,7 @@ export default function Jobs() {
                     </div>
                     <div className="col-span-1 flex justify-end">
                       <a
-                        href={`#apply-${job.id}`}
+                        href={`/jobs/apply/${job.id}`}
                         className="bg-pk-green-main text-white px-3 sm:px-4 py-2 font-black text-xs hover:shadow-lg hover:scale-105 transition-all duration-300 inline-flex items-center gap-2"
                       >
                         Apply
@@ -423,7 +423,7 @@ export default function Jobs() {
 
                   {/* Apply Button */}
                   <a
-                    href={`#apply-${job.id}`}
+                    href={`/jobs/apply/${job.id}`}
                     className="w-full bg-pk-green-main text-white px-4 py-3 font-black text-sm text-center hover:shadow-lg hover:scale-105 transition-all duration-300 inline-block"
                   >
                     Apply Now
@@ -447,13 +447,18 @@ export default function Jobs() {
                 resume and let's discuss how you can be part of Eagle Security
                 Guards.
               </p>
-              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center flex-wrap">
-                <a
-                  href="/contact"
-                  className="bg-accent text-accent-foreground px-6 sm:px-8 lg:px-10 py-2.5 sm:py-3 lg:py-4 font-black text-xs sm:text-sm lg:text-base text-center hover:shadow-xl hover:scale-105 transition-all duration-300 inline-block"
-                >
-                  Submit Resume
-                </a>
+              <div className="flex flex-col gap-6 sm:gap-8 items-center max-w-2xl mx-auto">
+                <div className="flex flex-col gap-3 items-center">
+                  <p className="text-sm sm:text-base md:text-lg font-black text-foreground uppercase tracking-wide">
+                    Email us Your Resume/CV
+                  </p>
+                  <a
+                    href="mailto:careers@eaglesecurity.com"
+                    className="text-accent text-lg sm:text-xl md:text-2xl font-black hover:text-accent-foreground transition-colors duration-300"
+                  >
+                    careers@eaglesecurity.com
+                  </a>
+                </div>
                 <WhatsAppButton
                   size="md"
                   message="I'm interested in job opportunities at Eagle Security Guards."
