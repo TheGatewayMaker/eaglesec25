@@ -236,7 +236,7 @@ export default function JobApplication() {
       {/* Main Content */}
       <section className="py-10 sm:py-14 md:py-20 bg-gradient-to-b from-background via-background to-background/95 transition-colors duration-300 relative overflow-hidden">
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 md:gap-10">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 md:gap-10">
             {/* Left Column - Job Details */}
             <AnimatedFadeInLeft threshold={0.2} className="lg:col-span-1">
               <div className="bg-card border-2 border-border p-6 sm:p-8">
