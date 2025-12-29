@@ -518,7 +518,7 @@ export default function JobApplication() {
                   <button
                     type="submit"
                     disabled={submitLoading || submitSuccess}
-                    className="w-full bg-pk-green-main text-white px-6 py-3 sm:py-4 font-black text-sm sm:text-base hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300"
+                    className="w-full bg-pk-green-main text-white px-4 sm:px-6 py-3 sm:py-4 font-black text-sm sm:text-base hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300"
                   >
                     {submitLoading ? "Submitting..." : "Submit Application"}
                   </button>
