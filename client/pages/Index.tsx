@@ -410,8 +410,8 @@ export default function Home() {
                 <div className="bg-card border border-border/50 overflow-hidden transition-colors duration-300 h-full flex flex-col hover:border-accent/30">
                   <div className="relative overflow-hidden bg-gradient-to-br from-pk-green-main/10 to-accent/10 aspect-video">
                     <img
-                      src="https://i.ibb.co/1fHGWYGz/Screenshot-2025-12-27-at-10-20-06-PM.png"
-                      alt="Advanced security equipment and surveillance systems"
+                      src="https://cdn.builder.io/api/v1/image/assets%2F051327c0785143dc908295d915c0f0c7%2Fd42e76925f114a498939b52a10b45acd?format=webp&width=800"
+                      alt="Security equipment including protective gear, surveillance cameras, and metal detectors"
                       className="w-full h-full object-cover group-hover:brightness-75 transition-all duration-300"
                     />
                     <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/20">
