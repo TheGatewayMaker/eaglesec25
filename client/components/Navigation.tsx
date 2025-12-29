@@ -47,8 +47,8 @@ export default function Navigation() {
 
   return (
     <nav className="bg-background border-b-2 border-accent sticky top-0 z-50 shadow-lg transition-colors duration-300">
-      <div className="container mx-auto px-4 sm:px-6 py-3 md:py-4">
-        <div className="flex items-center justify-between">
+      <div className="container mx-auto px-4 sm:px-6 py-3 sm:py-4 md:py-5">
+        <div className="flex items-center justify-between h-16 sm:h-auto">
           {/* Logo and Company Name */}
           <a
             href="/"
