@@ -359,7 +359,7 @@ export default function Jobs() {
                     </div>
                     <div className="col-span-1 flex justify-end">
                       <a
-                        href={`#apply-${job.id}`}
+                        href={`/jobs/apply/${job.id}`}
                         className="bg-pk-green-main text-white px-3 sm:px-4 py-2 font-black text-xs hover:shadow-lg hover:scale-105 transition-all duration-300 inline-flex items-center gap-2"
                       >
                         Apply
