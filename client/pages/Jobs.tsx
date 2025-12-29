@@ -423,7 +423,7 @@ export default function Jobs() {
 
                   {/* Apply Button */}
                   <a
-                    href={`#apply-${job.id}`}
+                    href={`/jobs/apply/${job.id}`}
                     className="w-full bg-pk-green-main text-white px-4 py-3 font-black text-sm text-center hover:shadow-lg hover:scale-105 transition-all duration-300 inline-block"
                   >
                     Apply Now
