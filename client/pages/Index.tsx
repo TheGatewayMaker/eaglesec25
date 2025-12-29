@@ -25,7 +25,7 @@ export default function Home() {
       }}
     >
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-background via-background to-background/95 text-foreground relative overflow-hidden py-10 sm:py-14 md:py-20 lg:py-32 transition-colors duration-300">
+      <section className="bg-gradient-to-b from-background via-background to-background/95 text-foreground relative overflow-hidden py-12 sm:py-16 md:py-20 lg:py-32 transition-colors duration-300">
         {/* Decorative Background Elements - Hero Section */}
         <svg
           className="absolute top-0 left-0 w-full h-full opacity-40"
@@ -99,24 +99,28 @@ export default function Home() {
           />
         </svg>
 
-        {/* Hero Background Image - Right Half Only */}
+        {/* Hero Background Image - Desktop Only, Responsive */}
         <div
-          className="hidden md:block absolute right-0 lg:right-2 top-4 lg:top-8 w-[calc(50%+2rem)] h-full -mr-6"
+          className="hidden md:block absolute right-0 top-0 w-1/2 h-full lg:w-[55%]"
           style={{
             backgroundImage:
-              "url('https://cdn.builder.io/api/v1/image/assets%2Fb732abd60cc8411f87cab9bf793b658e%2Fdfceadf1639a4cdfab478fba82a99630?format=webp&width=800')",
+              "url('https://cdn.builder.io/api/v1/image/assets%2Fb732abd60cc8411f87cab9bf793b658e%2Fdfceadf1639a4cdfab478fba82a99630?format=webp&width=1200')",
             backgroundSize: "contain",
             backgroundPosition: "right center",
             backgroundRepeat: "no-repeat",
+            backgroundAttachment: "fixed",
           }}
         >
-          <div className="absolute inset-0 bg-gradient-to-t from-background/30 via-background/10 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-background/50 via-background/15 to-transparent"></div>
         </div>
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 lg:gap-12 items-center">
-            {/* Left Content - Expanded to use more space */}
-            <AnimatedFadeInLeft className="md:col-span-7" threshold={0.2}>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6 md:gap-8 lg:gap-12 items-center min-h-fit md:min-h-screen md:py-12">
+            {/* Left Content */}
+            <AnimatedFadeInLeft
+              className="md:col-span-1 lg:col-span-6 flex flex-col justify-center"
+              threshold={0.2}
+            >
               <AnimatedFadeInDown delay={0} duration="normal">
                 <div className="flex items-center gap-3 sm:gap-4 mb-6 sm:mb-8 lg:mb-10">
                   <div className="w-1.5 h-8 sm:h-10 md:h-12 lg:h-14 bg-accent rounded-full flex-shrink-0"></div>
@@ -139,16 +143,16 @@ export default function Home() {
                 </p>
               </AnimatedFadeInDown>
               <AnimatedFadeInUp delay={300} duration="normal">
-                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 lg:gap-6 flex-wrap">
+                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 lg:gap-5 flex-wrap">
                   <a
                     href="/services"
-                    className="bg-accent text-accent-foreground px-6 sm:px-8 lg:px-10 py-2.5 sm:py-3 lg:py-4 font-black text-xs sm:text-sm lg:text-base text-center hover:shadow-xl hover:scale-105 transition-all duration-300 inline-block rounded-lg"
+                    className="bg-accent text-accent-foreground px-5 sm:px-7 md:px-8 lg:px-10 py-2.5 sm:py-3 md:py-3 font-black text-xs sm:text-sm md:text-base lg:text-base text-center hover:shadow-xl hover:scale-105 transition-all duration-300 inline-flex items-center justify-center rounded-lg whitespace-nowrap"
                   >
                     Explore Services
                   </a>
                   <a
                     href="/contact"
-                    className="border-2 border-accent text-accent px-6 sm:px-8 lg:px-10 py-2.5 sm:py-3 lg:py-4 font-black text-xs sm:text-sm lg:text-base text-center hover:bg-accent hover:text-accent-foreground hover:scale-105 transition-all duration-300 inline-block rounded-lg"
+                    className="border-2 border-accent text-accent px-5 sm:px-7 md:px-8 lg:px-10 py-2.5 sm:py-3 md:py-3 font-black text-xs sm:text-sm md:text-base lg:text-base text-center hover:bg-accent hover:text-accent-foreground hover:scale-105 transition-all duration-300 inline-flex items-center justify-center rounded-lg whitespace-nowrap"
                   >
                     Get a Quote Now
                   </a>
@@ -157,8 +161,8 @@ export default function Home() {
               </AnimatedFadeInUp>
             </AnimatedFadeInLeft>
 
-            {/* Right Visual - Empty for background image */}
-            <div className="hidden md:block md:col-span-5"></div>
+            {/* Right Visual - Empty on mobile, used for bg image on desktop */}
+            <div className="hidden md:flex md:col-span-1 lg:col-span-6 items-center justify-end"></div>
           </div>
         </div>
       </section>

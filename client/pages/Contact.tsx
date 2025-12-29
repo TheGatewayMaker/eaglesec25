@@ -6,6 +6,7 @@ import {
   AnimatedFadeInDown,
   AnimatedFadeInLeft,
   AnimatedFadeInRight,
+  AnimatedSlideInFromBottom,
 } from "@/components/AnimationWrappers";
 
 export default function Contact() {
@@ -571,6 +572,104 @@ export default function Contact() {
               </div>
             </AnimatedFadeInRight>
           </div>
+        </div>
+      </section>
+
+      {/* Location Section with Google Maps - Head Office Location */}
+      <section
+        id="head-office-location"
+        className="py-10 sm:py-14 md:py-20 lg:py-28 bg-gradient-to-b from-background/98 to-background transition-colors duration-300 relative overflow-hidden"
+      >
+        {/* Decorative Background Elements - Location Section */}
+        <svg
+          className="absolute top-0 left-0 w-2/5 h-1/2 opacity-35"
+          viewBox="0 0 400 300"
+          preserveAspectRatio="xMinYMin slice"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient
+              id="locationGradient"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="100%"
+            >
+              <stop
+                offset="0%"
+                style={{ stopColor: "var(--accent)", stopOpacity: 0.4 }}
+              />
+              <stop
+                offset="100%"
+                style={{ stopColor: "var(--accent)", stopOpacity: 0.08 }}
+              />
+            </linearGradient>
+          </defs>
+          <path
+            d="M0,80 Q100,40 200,80 Q300,120 400,80 L400,0 L0,0 Z"
+            fill="url(#locationGradient)"
+          />
+          <circle
+            cx="200"
+            cy="150"
+            r="50"
+            fill="none"
+            stroke="var(--accent)"
+            strokeWidth="2"
+            opacity="0.25"
+          />
+        </svg>
+        <svg
+          className="absolute bottom-0 right-0 w-1/3 h-2/5 opacity-30"
+          viewBox="0 0 400 300"
+          preserveAspectRatio="xMaxYMax slice"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M400,100 Q300,50 200,100 Q100,150 0,100 L0,300 L400,300 Z"
+            fill="var(--accent)"
+            opacity="0.05"
+          />
+          <circle
+            cx="300"
+            cy="200"
+            r="60"
+            fill="none"
+            stroke="var(--accent)"
+            strokeWidth="1.5"
+            opacity="0.2"
+            strokeDasharray="6,4"
+          />
+        </svg>
+
+        <div className="container mx-auto px-4 sm:px-6 w-full relative z-10">
+          <AnimatedFadeInUp className="mb-8 sm:mb-12 md:mb-16" threshold={0.2}>
+            <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 mb-3 sm:mb-4 md:mb-6">
+              <div className="w-1 md:w-1.5 h-8 sm:h-10 lg:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black leading-tight">
+                Our Head Office Location
+              </h2>
+            </div>
+            <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-3xl leading-relaxed">
+              Visit us at our Islamabad headquarters for consultations and
+              inquiries
+            </p>
+          </AnimatedFadeInUp>
+
+          <AnimatedSlideInFromBottom threshold={0.2}>
+            <div className="overflow-hidden border border-border transition-shadow duration-300 hover:shadow-lg">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13282.195486583572!2d72.99590472612844!3d33.66884932093898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df95ff25ed8b53%3A0x7e482ec7e99bebe0!2sG-11%2C%20Islamabad%2C%20Pakistan!5e0!3m2!1sen!2s!4v1766783293705!5m2!1sen!2s"
+                width="100%"
+                height="300"
+                style={{ border: 0, minHeight: "300px" }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full sm:h-96 lg:h-[500px]"
+              ></iframe>
+            </div>
+          </AnimatedSlideInFromBottom>
         </div>
       </section>
     </div>
