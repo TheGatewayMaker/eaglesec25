@@ -483,7 +483,7 @@ export default function JobApplication() {
                         />
                         <label
                           htmlFor="cv-input"
-                          className="inline-block bg-accent text-accent-foreground px-6 py-2.5 font-black text-xs cursor-pointer hover:shadow-lg transition-all duration-300"
+                          className="inline-block bg-accent text-accent-foreground px-4 sm:px-6 py-2 sm:py-2.5 font-black text-xs sm:text-sm cursor-pointer hover:shadow-lg transition-all duration-300"
                         >
                           Choose File
                         </label>
