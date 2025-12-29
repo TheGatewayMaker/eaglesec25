@@ -115,36 +115,54 @@ export default function Navigation() {
         {/* Mobile Navigation Menu - Overlay */}
         {mobileMenuOpen && (
           <>
-            {/* Overlay backdrop */}
+            {/* Overlay backdrop with blur */}
             <div
-              className="fixed inset-0 bg-black/50 md:hidden z-40 animate-fadeIn"
-              onClick={() => setMobileMenuOpen(false)}
+              className="fixed inset-0 bg-black/40 backdrop-blur-sm md:hidden z-40 animate-fadeIn"
+              onClick={closeMenu}
             ></div>
 
-            {/* Mobile Menu Panel */}
-            <div className="fixed top-[var(--nav-height,60px)] left-0 right-0 bottom-0 bg-background md:hidden z-40 overflow-y-auto animate-slideDown">
-              <div className="container mx-auto px-4 sm:px-6 py-6 flex flex-col gap-2">
-                {navigationLinks.map((link, index) => (
-                  <a
-                    key={link.href}
-                    href={link.href}
-                    onClick={handleNavLinkClick}
-                    className="block py-4 px-4 font-black text-lg text-foreground hover:bg-accent/15 hover:text-accent transition-all duration-300 border-l-4 border-transparent hover:border-accent hover:pl-5 rounded-lg animate-slideInUp"
+            {/* Mobile Menu Panel - Limited to 40% height */}
+            <div className="fixed top-[var(--nav-height,80px)] left-0 right-0 md:hidden z-50 animate-slideDown max-h-[40vh] overflow-y-auto border-b border-border/30">
+              <div className="bg-background shadow-lg">
+                <div className="px-4 sm:px-6 py-6 flex flex-col gap-1">
+                  {/* Close Button */}
+                  <div className="flex justify-end mb-4">
+                    <button
+                      onClick={closeMenu}
+                      className="p-2 hover:bg-accent/10 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-accent"
+                      aria-label="Close menu"
+                    >
+                      <X className="w-6 h-6 text-foreground" />
+                    </button>
+                  </div>
+
+                  {/* Navigation Links */}
+                  {navigationLinks.map((link, index) => (
+                    <a
+                      key={link.href}
+                      href={link.href}
+                      onClick={handleNavLinkClick}
+                      className="py-3 px-4 font-black text-base text-foreground hover:bg-accent/10 hover:text-accent transition-all duration-300 border-l-4 border-transparent hover:border-accent hover:pl-5 rounded-lg animate-slideInUp"
+                      style={{
+                        animationDelay: `${index * 50}ms`,
+                      }}
+                    >
+                      {link.label}
+                    </a>
+                  ))}
+
+                  {/* Divider */}
+                  <div className="my-3 h-px bg-border/20"></div>
+
+                  {/* WhatsApp Button */}
+                  <div
+                    className="py-3 animate-slideInUp"
                     style={{
-                      animationDelay: `${index * 50}ms`,
+                      animationDelay: `${navigationLinks.length * 50}ms`,
                     }}
                   >
-                    {link.label}
-                  </a>
-                ))}
-                <div className="my-2 h-px bg-border/30"></div>
-                <div
-                  className="py-4 animate-slideInUp"
-                  style={{
-                    animationDelay: `${navigationLinks.length * 50}ms`,
-                  }}
-                >
-                  <WhatsAppButton size="md" className="w-full justify-center" />
+                    <WhatsAppButton size="sm" className="w-full justify-center" />
+                  </div>
                 </div>
               </div>
             </div>
