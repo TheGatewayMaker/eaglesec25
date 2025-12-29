@@ -326,7 +326,7 @@ export default function JobApplication() {
                       value={formData.name}
                       onChange={handleInputChange}
                       placeholder="Enter your full name"
-                      className="w-full bg-background border-2 border-border text-foreground px-4 py-3 font-bold placeholder-muted-foreground focus:outline-none focus:border-accent transition-colors duration-300"
+                      className="w-full bg-background border-2 border-border text-foreground px-3 sm:px-4 py-2.5 sm:py-3 font-bold placeholder-muted-foreground focus:outline-none focus:border-accent transition-colors duration-300 text-sm sm:text-base"
                       required
                     />
                   </div>
