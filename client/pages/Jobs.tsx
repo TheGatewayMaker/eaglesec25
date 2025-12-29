@@ -175,7 +175,10 @@ export default function Jobs() {
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 lg:gap-12 items-center">
             {/* Left Content */}
-            <AnimatedFadeInLeft className="flex flex-col justify-center" threshold={0.2}>
+            <AnimatedFadeInLeft
+              className="flex flex-col justify-center"
+              threshold={0.2}
+            >
               <AnimatedFadeInDown delay={0} duration="normal">
                 <div className="flex items-center gap-3 sm:gap-4 mb-6 sm:mb-8 lg:mb-10">
                   <div className="w-1.5 h-8 sm:h-10 md:h-12 lg:h-14 bg-accent"></div>
@@ -191,7 +194,10 @@ export default function Jobs() {
               </AnimatedFadeInDown>
               <AnimatedFadeInDown delay={200} duration="normal">
                 <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground font-bold mb-6 sm:mb-8 lg:mb-10 leading-relaxed max-w-2xl">
-                  Be part of a legacy of excellence. Eagle Security Guards is seeking dedicated professionals to join our military-trained team. Work in a culture of discipline, professionalism, and continuous growth.
+                  Be part of a legacy of excellence. Eagle Security Guards is
+                  seeking dedicated professionals to join our military-trained
+                  team. Work in a culture of discipline, professionalism, and
+                  continuous growth.
                 </p>
               </AnimatedFadeInDown>
               <AnimatedFadeInUp delay={300} duration="normal">
@@ -208,7 +214,10 @@ export default function Jobs() {
             </AnimatedFadeInLeft>
 
             {/* Right Visual */}
-            <AnimatedFadeInRight className="hidden md:flex items-center justify-end" threshold={0.2}>
+            <AnimatedFadeInRight
+              className="hidden md:flex items-center justify-end"
+              threshold={0.2}
+            >
               <div className="relative">
                 <div className="absolute -inset-4 bg-gradient-to-br from-accent/20 to-accent/5 opacity-50"></div>
                 <Briefcase className="w-48 h-48 text-accent relative" />
@@ -276,7 +285,8 @@ export default function Jobs() {
               </h2>
             </div>
             <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-3xl leading-relaxed">
-              Explore opportunities to grow your career with Eagle Security Guards
+              Explore opportunities to grow your career with Eagle Security
+              Guards
             </p>
           </AnimatedFadeInUp>
 
@@ -310,10 +320,16 @@ export default function Jobs() {
 
               {/* Table Rows */}
               {jobListings.map((job, index) => (
-                <AnimatedScaleInUp key={job.id} delay={index * 50} threshold={0.1}>
+                <AnimatedScaleInUp
+                  key={job.id}
+                  delay={index * 50}
+                  threshold={0.1}
+                >
                   <div
                     className={`grid grid-cols-12 gap-4 px-6 sm:px-8 py-5 md:py-6 items-center transition-all duration-300 hover:bg-accent/5 ${
-                      index !== jobListings.length - 1 ? "border-b border-border/50" : ""
+                      index !== jobListings.length - 1
+                        ? "border-b border-border/50"
+                        : ""
                     }`}
                   >
                     <div className="col-span-3">
@@ -358,7 +374,11 @@ export default function Jobs() {
           {/* Jobs Cards - Mobile View */}
           <div className="md:hidden space-y-4 sm:space-y-6">
             {jobListings.map((job, index) => (
-              <AnimatedScaleInUp key={job.id} delay={index * 50} threshold={0.2}>
+              <AnimatedScaleInUp
+                key={job.id}
+                delay={index * 50}
+                threshold={0.2}
+              >
                 <div className="border-2 border-border bg-card p-4 sm:p-6 hover:shadow-lg transition-all duration-300">
                   {/* Title */}
                   <h3 className="font-black text-base sm:text-lg md:text-xl text-foreground mb-4">
@@ -414,13 +434,18 @@ export default function Jobs() {
           </div>
 
           {/* Call to Action Section */}
-          <AnimatedFadeInUp className="mt-12 sm:mt-16 md:mt-24 text-center" threshold={0.2}>
+          <AnimatedFadeInUp
+            className="mt-12 sm:mt-16 md:mt-24 text-center"
+            threshold={0.2}
+          >
             <div className="bg-gradient-to-r from-accent/10 to-pk-green-main/10 border-2 border-pk-green-main/30 p-8 sm:p-12 md:p-16">
               <h3 className="text-2xl sm:text-3xl md:text-4xl font-black mb-4 text-foreground">
                 Don't See Your Perfect Role?
               </h3>
               <p className="text-xs sm:text-sm md:text-base font-bold text-muted-foreground mb-8 max-w-2xl mx-auto">
-                We're always looking for talented individuals. Send us your resume and let's discuss how you can be part of Eagle Security Guards.
+                We're always looking for talented individuals. Send us your
+                resume and let's discuss how you can be part of Eagle Security
+                Guards.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center flex-wrap">
                 <a
@@ -429,7 +454,10 @@ export default function Jobs() {
                 >
                   Submit Resume
                 </a>
-                <WhatsAppButton size="md" message="I'm interested in job opportunities at Eagle Security Guards." />
+                <WhatsAppButton
+                  size="md"
+                  message="I'm interested in job opportunities at Eagle Security Guards."
+                />
               </div>
             </div>
           </AnimatedFadeInUp>
