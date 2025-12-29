@@ -325,7 +325,7 @@ export default function Home() {
                     <img
                       src="https://cdn.builder.io/api/v1/image/assets%2F051327c0785143dc908295d915c0f0c7%2F53c4dd42c3644707a0877c79857a97ac?format=webp&width=800"
                       alt="Professional static security guards in uniform"
-                      className="w-full h-full object-cover group-hover:brightness-75 transition-all duration-300"
+                      className="w-full h-full object-cover object-top group-hover:brightness-75 transition-all duration-300"
                     />
                     <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/20">
                       <a
