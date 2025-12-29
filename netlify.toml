@@ -12,32 +12,12 @@
   node_bundler = "esbuild"
 
 [[redirects]]
-  from = "/"
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+
+# SPA Fallback: All other routes go to index.html for React Router to handle
+[[redirects]]
+  from = "/*"
   to = "/index.html"
   status = 200
-
-[[redirects]]
-  from = "/services"
-  to = "/services.html"
-  status = 200
-
-[[redirects]]
-  from = "/about"
-  to = "/about.html"
-  status = 200
-
-[[redirects]]
-  from = "/contact"
-  to = "/contact.html"
-  status = 200
-
-[[redirects]]
-  from = "/why-choose-us"
-  to = "/why-choose-us.html"
-  status = 200
-
-[[redirects]]
-  force = true
-  from = "/api/*"
-  status = 200
-  to = "/.netlify/functions/api/:splat"
