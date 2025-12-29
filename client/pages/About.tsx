@@ -579,6 +579,158 @@ export default function About() {
         </div>
       </section>
 
+      {/* Trusted By Section - Our Trusted Clients */}
+      <section className="py-10 sm:py-14 md:py-20 lg:py-24 bg-gradient-to-b from-background via-background/95 to-background transition-colors duration-300 border-y border-pk-green-main/20 relative overflow-hidden">
+        {/* Decorative Background Elements - Trusted By Section */}
+        <svg
+          className="absolute top-0 left-0 w-2/5 h-1/2 opacity-35"
+          viewBox="0 0 500 300"
+          preserveAspectRatio="xMinYMin slice"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient
+              id="trustedGradient"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="100%"
+            >
+              <stop
+                offset="0%"
+                style={{ stopColor: "var(--accent)", stopOpacity: 0.4 }}
+              />
+              <stop
+                offset="100%"
+                style={{ stopColor: "var(--accent)", stopOpacity: 0.08 }}
+              />
+            </linearGradient>
+          </defs>
+          <path
+            d="M0,100 Q125,50 250,100 Q375,150 500,100 L500,0 L0,0 Z"
+            fill="url(#trustedGradient)"
+          />
+          <circle
+            cx="250"
+            cy="150"
+            r="60"
+            fill="none"
+            stroke="var(--accent)"
+            strokeWidth="2"
+            opacity="0.25"
+          />
+          <line
+            x1="50"
+            y1="200"
+            x2="450"
+            y2="200"
+            stroke="var(--accent)"
+            strokeWidth="1"
+            opacity="0.15"
+          />
+        </svg>
+        <svg
+          className="absolute bottom-0 right-0 w-1/3 h-2/3 opacity-30"
+          viewBox="0 0 400 500"
+          preserveAspectRatio="xMaxYMax slice"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M400,200 Q300,150 200,200 Q100,250 0,200 L0,500 L400,500 Z"
+            fill="var(--accent)"
+            opacity="0.05"
+          />
+          <circle
+            cx="300"
+            cy="350"
+            r="70"
+            fill="none"
+            stroke="var(--accent)"
+            strokeWidth="1.5"
+            opacity="0.2"
+            strokeDasharray="5,5"
+          />
+        </svg>
+
+        <div className="container mx-auto px-4 sm:px-6 w-full relative z-10">
+          <AnimatedFadeInDown
+            className="mb-8 sm:mb-12 md:mb-16 text-center"
+            threshold={0.2}
+          >
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black leading-tight mb-3 sm:mb-4 md:mb-6">
+              Our Trusted Clients
+            </h2>
+            <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground">
+              Trusted by Leading Organizations
+            </p>
+          </AnimatedFadeInDown>
+          <LogoCarousel
+            logos={[
+              {
+                name: "ARY News",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2Ff3ebc3a4187e40bf9d7f10e440b36a7d?format=webp&width=800",
+              },
+              {
+                name: "Meezan Bank",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2Ff9b6c26e0d234eaab072802436b782de?format=webp&width=800",
+              },
+              {
+                name: "DESCON",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2F160a208df8f54517b77c118285460174?format=webp&width=800",
+              },
+              {
+                name: "National Bank",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2Fe99163aae9654c5ebb7796a3ee932c96?format=webp&width=800",
+              },
+              {
+                name: "PARCO",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2F75d82dc2864c42faa002598c66ed0672?format=webp&width=800",
+              },
+              {
+                name: "UNDP",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2Fee2cc39d10974a14a3cd0447be5eeb67?format=webp&width=800",
+              },
+              {
+                name: "Imtiaz",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2Fcf0a1f59b04348d08761a4950f9b32b6?format=webp&width=800",
+              },
+              {
+                name: "State Life",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2Ff647a7c1595449f7a5f7d4de8cd24fdc?format=webp&width=800",
+              },
+              {
+                name: "Allied Schools",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2Fe5d2393c93ba481fbc9158f95949cd46?format=webp&width=800",
+              },
+              {
+                name: "Shifa Hospitals",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2F25eb5e60eac8489baed0173749cec55b?format=webp&width=800",
+              },
+              {
+                name: "Government of Pakistan",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2Fca39f789c9f5477c83c7eaf27dcb75d4?format=webp&width=800",
+              },
+              {
+                name: "The Educators",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2Fc4d1dd9cc8c6430db60dbc799d95c25e?format=webp&width=800",
+              },
+              {
+                name: "Rousche Pakistan",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2F5f179ba3433447169838f39aa9c58dd9?format=webp&width=800",
+              },
+              {
+                name: "Dawood Hercules",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fcdf43ef809a448fa96343145549ff6bb%2Fe87ba69b87724354bae67673530086d4?format=webp&width=800",
+              },
+              {
+                name: "AES Lalpir Thermal Power Station",
+                src: "https://cdn.builder.io/api/v1/image/assets%2Fdc75c845be364abf952cacd09ecdb1c4%2Fbb5e27fe16b3481a943bf0f055191914?format=webp&width=800",
+              },
+            ]}
+          />
+        </div>
+      </section>
+
       {/* Leadership & Management Section */}
       <section className="py-8 sm:py-10 md:py-14 lg:py-20 bg-background transition-colors duration-300 relative overflow-hidden">
         {/* Decorative Background Elements - Leadership Section */}
