@@ -105,8 +105,8 @@ export default function Home() {
           style={{
             backgroundImage:
               "url('https://cdn.builder.io/api/v1/image/assets%2Fb732abd60cc8411f87cab9bf793b658e%2Fdfceadf1639a4cdfab478fba82a99630?format=webp&width=1200')",
-            backgroundSize: "35%",
-            backgroundPosition: "right 60%",
+            backgroundSize: "48%",
+            backgroundPosition: "right 55%",
             backgroundRepeat: "no-repeat",
             backgroundAttachment: "fixed",
           }}
@@ -115,14 +115,14 @@ export default function Home() {
         </div>
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6 md:gap-6 lg:gap-8 items-center min-h-fit md:min-h-screen md:py-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6 md:gap-6 lg:gap-8 items-start min-h-fit md:min-h-screen md:py-0 md:pt-12">
             {/* Left Content */}
             <AnimatedFadeInLeft
-              className="md:col-span-1 lg:col-span-6 flex flex-col justify-center"
+              className="md:col-span-1 lg:col-span-6 flex flex-col justify-start"
               threshold={0.2}
             >
               <AnimatedFadeInDown delay={0} duration="normal">
-                <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4 lg:mb-5">
+                <div className="flex items-center gap-3 sm:gap-4 mb-2 sm:mb-2 lg:mb-3">
                   <div className="w-1.5 h-8 sm:h-10 md:h-12 lg:h-14 bg-accent rounded-full flex-shrink-0"></div>
                   <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black text-accent uppercase tracking-widest leading-tight">
                     Professional Security Since 1992
@@ -130,12 +130,12 @@ export default function Home() {
                 </div>
               </AnimatedFadeInDown>
               <AnimatedFadeInDown delay={100} duration="normal">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black mb-3 sm:mb-4 lg:mb-5 leading-tight text-foreground">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black mb-2 sm:mb-3 lg:mb-4 leading-tight text-foreground">
                   Elite Security Services For Your Peace of Mind
                 </h1>
               </AnimatedFadeInDown>
               <AnimatedFadeInDown delay={200} duration="normal">
-                <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground font-bold mb-5 sm:mb-6 lg:mb-7 leading-relaxed max-w-2xl">
+                <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground font-bold mb-4 sm:mb-5 lg:mb-6 leading-relaxed max-w-2xl">
                   Our team comes directly from Pakistan's armed forces, bringing
                   military training and discipline to every job. We are
                   committed to protecting what matters most to you with the
