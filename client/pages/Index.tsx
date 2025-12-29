@@ -132,9 +132,7 @@ export default function Home() {
               </AnimatedFadeInDown>
               <AnimatedFadeInDown delay={200} duration="normal">
                 <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground font-bold mb-6 sm:mb-8 lg:mb-10 leading-relaxed max-w-2xl">
-                  Drawn from the armed forces of Pakistan, our personnel deliver
-                  world-class security with precision, discipline, and
-                  unwavering commitment to your safety.
+                  Our team comes directly from Pakistan's armed forces, bringing military training and discipline to every job. We are committed to protecting what matters most to you with the highest professional standards.
                 </p>
               </AnimatedFadeInDown>
               <AnimatedFadeInUp delay={300} duration="normal">
@@ -292,13 +290,10 @@ export default function Home() {
                       <Users className="w-5 sm:w-7 h-5 sm:h-7 text-accent" />
                     </div>
                     <h3 className="text-lg sm:text-2xl lg:text-3xl font-black mb-2 sm:mb-3 leading-tight text-foreground">
-                      Elite Bodyguards
+                      Professional Bodyguards
                     </h3>
                     <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
-                      Our SSG-trained specialists deliver executive-level
-                      protection with tactical expertise and discretion. Every
-                      bodyguard undergoes rigorous military training and
-                      psychological evaluation.
+                      Our bodyguards come from Pakistan's Special Services Group and provide experienced protection with tactical expertise. Each undergoes extensive training and thorough evaluation before assignments.
                     </p>
                     <a
                       href="/services"
@@ -339,9 +334,7 @@ export default function Home() {
                       Static Security Guards
                     </h3>
                     <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
-                      Our vetted security professionals provide round-the-clock
-                      on-site protection with military discipline and precision.
-                      Each guard undergoes comprehensive background screening.
+                      Our security professionals work around the clock to protect your facility. Every guard is thoroughly screened and trained to maintain the highest standards of protection and professionalism.
                     </p>
                     <a
                       href="/services"
@@ -382,9 +375,7 @@ export default function Home() {
                       Mobile Escorts
                     </h3>
                     <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
-                      Our mobile escort teams provide seamless protection during
-                      transit and travel. We offer route planning, threat
-                      assessment, and coordinated security response.
+                      Our mobile escort teams handle your security during travel and transit. We plan your routes carefully and respond quickly to any potential threats with coordinated support.
                     </p>
                     <a
                       href="/services"
@@ -425,9 +416,7 @@ export default function Home() {
                       Security Equipment
                     </h3>
                     <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
-                      We deploy state-of-the-art surveillance, access control,
-                      and security monitoring systems tailored to your facility.
-                      From CCTV networks to integrated platforms.
+                      We provide advanced surveillance systems and security monitoring tailored to your specific needs. Our solutions include CCTV networks and integrated platforms designed for your facility.
                     </p>
                     <a
                       href="/services"
@@ -532,8 +521,7 @@ export default function Home() {
               </h2>
             </div>
             <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-3xl leading-relaxed">
-              In a world where threats evolve constantly, professional security
-              isn't just an option—it's essential
+              In today's world, security is not optional. Professional protection is essential to keeping you and your assets safe from evolving threats.
             </p>
           </AnimatedFadeInUp>
 
@@ -683,9 +671,7 @@ export default function Home() {
                   Professional Security Is An Investment In Your Future
                 </h3>
                 <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-2xl leading-relaxed mb-6 sm:mb-8">
-                  From comprehensive threat assessment to rapid response
-                  protocols, we provide complete protection backed by military
-                  expertise and decades of proven success.
+                  We assess threats thoroughly and respond immediately when needed. Our military background and decades of experience ensure protection you can trust.
                 </p>
                 <WhatsAppButton
                   size="md"
