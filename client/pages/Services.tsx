@@ -247,33 +247,32 @@ export default function Services() {
         </svg>
 
         <div className="container mx-auto px-4 sm:px-6 w-full relative z-10">
-          {/* Section Title */}
-          <div id="services" className="mb-8 sm:mb-12 md:mb-16 lg:mb-24">
-            <AnimatedFadeInDown delay={0} threshold={0.2}>
-              <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 mb-3 sm:mb-4 lg:mb-6">
-                <div className="w-1 md:w-1.5 h-8 sm:h-10 lg:h-12 bg-accent rounded-full flex-shrink-0"></div>
-                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black leading-tight">
-                  Our Security Services
-                </h2>
-              </div>
-            </AnimatedFadeInDown>
-            <AnimatedFadeInDown delay={100} threshold={0.2}>
-              <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-3xl leading-relaxed">
-                Comprehensive solutions designed to protect what matters most to
-                you
-              </p>
-            </AnimatedFadeInDown>
-          </div>
+          {/* Section Title with Visual Styling */}
+          <AnimatedFadeInUp
+            className="mb-8 sm:mb-12 md:mb-16 lg:mb-24"
+            threshold={0.2}
+          >
+            <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 mb-3 sm:mb-4 lg:mb-6">
+              <div className="w-1 md:w-1.5 h-8 sm:h-10 lg:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black leading-tight">
+                Our Security Services
+              </h2>
+            </div>
+            <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-3xl leading-relaxed">
+              Comprehensive solutions designed to protect what matters most to
+              you
+            </p>
+          </AnimatedFadeInUp>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4 md:gap-6 lg:gap-8">
-            {/* Service 1 - Static Security Guards */}
-            <AnimatedFadeInUp delay={0} threshold={0.2}>
+            {/* Service 1 - Bodyguards */}
+            <AnimatedScaleInUp delay={0} threshold={0.2}>
               <div className="group overflow-hidden transition-all duration-300">
                 <div className="bg-card border border-border/50 overflow-hidden transition-colors duration-300 h-full flex flex-col hover:border-accent/30">
-                  <div className="relative overflow-hidden bg-gradient-to-br from-accent/10 to-accent/5 aspect-video">
+                  <div className="relative overflow-hidden bg-gradient-to-br from-pk-green-main/10 to-accent/10 aspect-video">
                     <img
-                      src="https://i.ibb.co/Dg43BJC0/Screenshot-2025-12-27-at-10-23-30-PM.png"
-                      alt="Professional security guards with tactical gear"
+                      src="https://cdn.builder.io/api/v1/image/assets%2F051327c0785143dc908295d915c0f0c7%2Ffed741abd7ca410685520af92d292cb8?format=webp&width=800"
+                      alt="Professional bodyguards team in security uniforms"
                       className="w-full h-full object-cover group-hover:brightness-75 transition-all duration-300"
                     />
                     <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/20">
@@ -287,60 +286,16 @@ export default function Services() {
                   </div>
                   <div className="p-4 sm:p-6 lg:p-8 flex flex-col flex-grow">
                     <div className="w-10 sm:w-12 h-10 sm:h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-3 sm:mb-4">
-                      <Shield className="w-5 sm:w-7 h-5 sm:w-7 text-accent" />
+                      <Users className="w-5 sm:w-7 h-5 sm:h-7 text-accent" />
                     </div>
                     <h3 className="text-lg sm:text-2xl lg:text-3xl font-black mb-2 sm:mb-3 leading-tight text-foreground">
-                      Static Security Guards
-                    </h3>
-                    <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
-                      Our security professionals come from the armed forces and
-                      work around the clock to protect your location. Every
-                      guard is thoroughly screened and trained before joining
-                      your site.
-                    </p>
-                    <a
-                      href="/contact"
-                      className="inline-flex items-center gap-2 text-accent font-black text-xs sm:text-sm lg:text-base hover:text-accent-foreground transition-colors duration-300 w-fit"
-                    >
-                      Learn More
-                      <ArrowRight className="w-3 sm:w-4 h-3 sm:h-4" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </AnimatedFadeInUp>
-
-            {/* Service 2 - Bodyguards */}
-            <AnimatedFadeInUp delay={100} threshold={0.2}>
-              <div className="group overflow-hidden transition-all duration-300">
-                <div className="bg-card border border-border/50 overflow-hidden transition-colors duration-300 h-full flex flex-col hover:border-accent/30">
-                  <div className="relative overflow-hidden bg-gradient-to-br from-accent/10 to-accent/5 aspect-video">
-                    <img
-                      src="https://i.ibb.co/MxQRyL7x/Screenshot-2025-12-27-at-10-19-22-PM.png"
-                      alt="Elite security professional in uniform"
-                      className="w-full h-full object-cover group-hover:brightness-75 transition-all duration-300"
-                    />
-                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/20">
-                      <a
-                        href="/contact"
-                        className="bg-accent text-accent-foreground px-6 sm:px-8 lg:px-10 py-2 sm:py-3 lg:py-3.5 font-black text-xs sm:text-sm lg:text-base hover:shadow-2xl hover:scale-105 transition-all duration-300 rounded-lg"
-                      >
-                        Get a Quote
-                      </a>
-                    </div>
-                  </div>
-                  <div className="p-4 sm:p-6 lg:p-8 flex flex-col flex-grow">
-                    <div className="w-10 sm:w-12 h-10 sm:h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-3 sm:mb-4">
-                      <Users className="w-5 sm:w-7 h-5 sm:w-7 text-accent" />
-                    </div>
-                    <h3 className="text-lg sm:text-2xl lg:text-3xl font-black mb-2 sm:mb-3 leading-tight text-foreground">
-                      Elite Bodyguards
+                      Professional Bodyguards
                     </h3>
                     <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
                       Our bodyguards come from Pakistan's Special Services Group
                       and provide experienced protection with tactical
                       expertise. Each undergoes extensive training and thorough
-                      evaluation for high-risk situations.
+                      evaluation before assignments.
                     </p>
                     <a
                       href="/contact"
@@ -352,16 +307,60 @@ export default function Services() {
                   </div>
                 </div>
               </div>
-            </AnimatedFadeInUp>
+            </AnimatedScaleInUp>
 
-            {/* Service 3 - Mobile Escorts */}
-            <AnimatedFadeInUp delay={200} threshold={0.2}>
+            {/* Service 2 - Static Guards */}
+            <AnimatedScaleInUp delay={100} threshold={0.2}>
               <div className="group overflow-hidden transition-all duration-300">
                 <div className="bg-card border border-border/50 overflow-hidden transition-colors duration-300 h-full flex flex-col hover:border-accent/30">
-                  <div className="relative overflow-hidden bg-gradient-to-br from-accent/10 to-accent/5 aspect-video">
+                  <div className="relative overflow-hidden bg-gradient-to-br from-pk-green-main/10 to-accent/10 aspect-video">
                     <img
-                      src="https://i.ibb.co/zhQrVk6Q/Screenshot-2025-12-27-at-10-24-55-PM.png"
-                      alt="Mobile security escort team"
+                      src="https://cdn.builder.io/api/v1/image/assets%2F051327c0785143dc908295d915c0f0c7%2F53c4dd42c3644707a0877c79857a97ac?format=webp&width=800"
+                      alt="Professional static security guards in uniform"
+                      className="w-full h-full object-cover object-top group-hover:brightness-75 transition-all duration-300"
+                    />
+                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/20">
+                      <a
+                        href="/contact"
+                        className="bg-accent text-accent-foreground px-6 sm:px-8 lg:px-10 py-2 sm:py-3 lg:py-3.5 font-black text-xs sm:text-sm lg:text-base hover:shadow-2xl hover:scale-105 transition-all duration-300 rounded-lg"
+                      >
+                        Get a Quote
+                      </a>
+                    </div>
+                  </div>
+                  <div className="p-4 sm:p-6 lg:p-8 flex flex-col flex-grow">
+                    <div className="w-10 sm:w-12 h-10 sm:h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-3 sm:mb-4">
+                      <Shield className="w-5 sm:w-7 h-5 sm:h-7 text-accent" />
+                    </div>
+                    <h3 className="text-lg sm:text-2xl lg:text-3xl font-black mb-2 sm:mb-3 leading-tight text-foreground">
+                      Static Security Guards
+                    </h3>
+                    <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
+                      Our security professionals work around the clock to
+                      protect your facility. Every guard is thoroughly screened
+                      and trained to maintain the highest standards of
+                      protection and professionalism.
+                    </p>
+                    <a
+                      href="/contact"
+                      className="inline-flex items-center gap-2 text-accent font-black text-xs sm:text-sm lg:text-base hover:text-accent-foreground transition-colors duration-300 w-fit"
+                    >
+                      Learn More
+                      <ArrowRight className="w-3 sm:w-4 h-3 sm:h-4" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </AnimatedScaleInUp>
+
+            {/* Service 3 - Mobile Escorts */}
+            <AnimatedScaleInUp delay={200} threshold={0.2}>
+              <div className="group overflow-hidden transition-all duration-300">
+                <div className="bg-card border border-border/50 overflow-hidden transition-colors duration-300 h-full flex flex-col hover:border-accent/30">
+                  <div className="relative overflow-hidden bg-gradient-to-br from-pk-green-main/10 to-accent/10 aspect-video">
+                    <img
+                      src="https://i.ibb.co/1fHGWYGz/Screenshot-2025-12-27-at-10-20-06-PM.png"
+                      alt="Security equipment and surveillance systems for mobile escort services"
                       className="w-full h-full object-cover group-hover:brightness-75 transition-all duration-300"
                     />
                     <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/20">
@@ -375,16 +374,15 @@ export default function Services() {
                   </div>
                   <div className="p-4 sm:p-6 lg:p-8 flex flex-col flex-grow">
                     <div className="w-10 sm:w-12 h-10 sm:h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-3 sm:mb-4">
-                      <Truck className="w-5 sm:w-7 h-5 sm:w-7 text-accent" />
+                      <Truck className="w-5 sm:w-7 h-5 sm:h-7 text-accent" />
                     </div>
                     <h3 className="text-lg sm:text-2xl lg:text-3xl font-black mb-2 sm:mb-3 leading-tight text-foreground">
                       Mobile Escorts
                     </h3>
                     <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
                       Our mobile escort teams handle your security during travel
-                      and transit. We plan your routes carefully, assess
-                      threats, and respond quickly with trained security
-                      personnel.
+                      and transit. We plan your routes carefully and respond
+                      quickly to any potential threats with coordinated support.
                     </p>
                     <a
                       href="/contact"
@@ -396,16 +394,16 @@ export default function Services() {
                   </div>
                 </div>
               </div>
-            </AnimatedFadeInUp>
+            </AnimatedScaleInUp>
 
             {/* Service 4 - Security Equipment */}
-            <AnimatedFadeInUp delay={300} threshold={0.2}>
+            <AnimatedScaleInUp delay={300} threshold={0.2}>
               <div className="group overflow-hidden transition-all duration-300">
                 <div className="bg-card border border-border/50 overflow-hidden transition-colors duration-300 h-full flex flex-col hover:border-accent/30">
-                  <div className="relative overflow-hidden bg-gradient-to-br from-accent/10 to-accent/5 aspect-video">
+                  <div className="relative overflow-hidden bg-gradient-to-br from-pk-green-main/10 to-accent/10 aspect-video">
                     <img
-                      src="https://i.ibb.co/1JG05cV5/Screenshot-2025-12-27-at-10-24-10-PM.png"
-                      alt="Professional security equipment and surveillance"
+                      src="https://cdn.builder.io/api/v1/image/assets%2F051327c0785143dc908295d915c0f0c7%2Fd42e76925f114a498939b52a10b45acd?format=webp&width=800"
+                      alt="Security equipment including protective gear, surveillance cameras, and metal detectors"
                       className="w-full h-full object-cover group-hover:brightness-75 transition-all duration-300"
                     />
                     <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/20">
@@ -419,16 +417,16 @@ export default function Services() {
                   </div>
                   <div className="p-4 sm:p-6 lg:p-8 flex flex-col flex-grow">
                     <div className="w-10 sm:w-12 h-10 sm:h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-3 sm:mb-4">
-                      <Lock className="w-5 sm:w-7 h-5 sm:w-7 text-accent" />
+                      <Lock className="w-5 sm:w-7 h-5 sm:h-7 text-accent" />
                     </div>
                     <h3 className="text-lg sm:text-2xl lg:text-3xl font-black mb-2 sm:mb-3 leading-tight text-foreground">
                       Security Equipment
                     </h3>
                     <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
-                      We provide advanced surveillance and monitoring systems
-                      designed for your facility. Our solutions include CCTV
-                      networks and integrated platforms customized to your
-                      specific needs.
+                      We provide advanced surveillance systems and security
+                      monitoring tailored to your specific needs. Our solutions
+                      include CCTV networks and integrated platforms designed
+                      for your facility.
                     </p>
                     <a
                       href="/contact"
@@ -440,7 +438,7 @@ export default function Services() {
                   </div>
                 </div>
               </div>
-            </AnimatedFadeInUp>
+            </AnimatedScaleInUp>
           </div>
         </div>
       </section>
