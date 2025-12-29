@@ -140,16 +140,16 @@ export default function Home() {
                 </p>
               </AnimatedFadeInDown>
               <AnimatedFadeInUp delay={300} duration="normal">
-                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 lg:gap-6 flex-wrap">
+                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 lg:gap-5 flex-wrap">
                   <a
                     href="/services"
-                    className="bg-accent text-accent-foreground px-6 sm:px-8 lg:px-10 py-2.5 sm:py-3 lg:py-4 font-black text-xs sm:text-sm lg:text-base text-center hover:shadow-xl hover:scale-105 transition-all duration-300 inline-block rounded-lg"
+                    className="bg-accent text-accent-foreground px-5 sm:px-7 md:px-8 lg:px-10 py-2.5 sm:py-3 md:py-3 font-black text-xs sm:text-sm md:text-base lg:text-base text-center hover:shadow-xl hover:scale-105 transition-all duration-300 inline-flex items-center justify-center rounded-lg whitespace-nowrap"
                   >
                     Explore Services
                   </a>
                   <a
                     href="/contact"
-                    className="border-2 border-accent text-accent px-6 sm:px-8 lg:px-10 py-2.5 sm:py-3 lg:py-4 font-black text-xs sm:text-sm lg:text-base text-center hover:bg-accent hover:text-accent-foreground hover:scale-105 transition-all duration-300 inline-block rounded-lg"
+                    className="border-2 border-accent text-accent px-5 sm:px-7 md:px-8 lg:px-10 py-2.5 sm:py-3 md:py-3 font-black text-xs sm:text-sm md:text-base lg:text-base text-center hover:bg-accent hover:text-accent-foreground hover:scale-105 transition-all duration-300 inline-flex items-center justify-center rounded-lg whitespace-nowrap"
                   >
                     Get a Quote Now
                   </a>
@@ -158,8 +158,8 @@ export default function Home() {
               </AnimatedFadeInUp>
             </AnimatedFadeInLeft>
 
-            {/* Right Visual - Empty for background image */}
-            <div className="hidden md:block md:col-span-5"></div>
+            {/* Right Visual - Empty on mobile, used for bg image on desktop */}
+            <div className="hidden md:flex md:col-span-1 lg:col-span-6 items-center justify-end"></div>
           </div>
         </div>
       </section>
