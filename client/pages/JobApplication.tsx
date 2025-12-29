@@ -342,7 +342,7 @@ export default function JobApplication() {
                       value={formData.fatherName}
                       onChange={handleInputChange}
                       placeholder="Enter your father's name"
-                      className="w-full bg-background border-2 border-border text-foreground px-4 py-3 font-bold placeholder-muted-foreground focus:outline-none focus:border-accent transition-colors duration-300"
+                      className="w-full bg-background border-2 border-border text-foreground px-3 sm:px-4 py-2.5 sm:py-3 font-bold placeholder-muted-foreground focus:outline-none focus:border-accent transition-colors duration-300 text-sm sm:text-base"
                       required
                     />
                   </div>
@@ -358,7 +358,7 @@ export default function JobApplication() {
                       value={formData.cnicNumber}
                       onChange={handleInputChange}
                       placeholder="e.g., 12345-6789012-3"
-                      className="w-full bg-background border-2 border-border text-foreground px-4 py-3 font-bold placeholder-muted-foreground focus:outline-none focus:border-accent transition-colors duration-300"
+                      className="w-full bg-background border-2 border-border text-foreground px-3 sm:px-4 py-2.5 sm:py-3 font-bold placeholder-muted-foreground focus:outline-none focus:border-accent transition-colors duration-300 text-sm sm:text-base"
                       required
                     />
                   </div>
@@ -374,7 +374,7 @@ export default function JobApplication() {
                       value={formData.phoneNumber}
                       onChange={handleInputChange}
                       placeholder="e.g., +92 300 1234567"
-                      className="w-full bg-background border-2 border-border text-foreground px-4 py-3 font-bold placeholder-muted-foreground focus:outline-none focus:border-accent transition-colors duration-300"
+                      className="w-full bg-background border-2 border-border text-foreground px-3 sm:px-4 py-2.5 sm:py-3 font-bold placeholder-muted-foreground focus:outline-none focus:border-accent transition-colors duration-300 text-sm sm:text-base"
                       required
                     />
                   </div>
@@ -390,7 +390,7 @@ export default function JobApplication() {
                       onChange={handleInputChange}
                       placeholder="Enter your current address"
                       rows={3}
-                      className="w-full bg-background border-2 border-border text-foreground px-4 py-3 font-bold placeholder-muted-foreground focus:outline-none focus:border-accent transition-colors duration-300 resize-none"
+                      className="w-full bg-background border-2 border-border text-foreground px-3 sm:px-4 py-2.5 sm:py-3 font-bold placeholder-muted-foreground focus:outline-none focus:border-accent transition-colors duration-300 resize-none text-sm sm:text-base"
                       required
                     />
                   </div>
@@ -406,7 +406,7 @@ export default function JobApplication() {
                       onChange={handleInputChange}
                       placeholder="Enter your permanent address"
                       rows={3}
-                      className="w-full bg-background border-2 border-border text-foreground px-4 py-3 font-bold placeholder-muted-foreground focus:outline-none focus:border-accent transition-colors duration-300 resize-none"
+                      className="w-full bg-background border-2 border-border text-foreground px-3 sm:px-4 py-2.5 sm:py-3 font-bold placeholder-muted-foreground focus:outline-none focus:border-accent transition-colors duration-300 resize-none text-sm sm:text-base"
                       required
                     />
                   </div>
@@ -420,7 +420,7 @@ export default function JobApplication() {
                       name="education"
                       value={formData.education}
                       onChange={handleInputChange}
-                      className="w-full bg-background border-2 border-border text-foreground px-4 py-3 font-bold focus:outline-none focus:border-accent transition-colors duration-300"
+                      className="w-full bg-background border-2 border-border text-foreground px-3 sm:px-4 py-2.5 sm:py-3 font-bold focus:outline-none focus:border-accent transition-colors duration-300 text-sm sm:text-base"
                       required
                     >
                       <option value="">Select Education Level</option>
@@ -443,7 +443,7 @@ export default function JobApplication() {
                       value={formData.city}
                       onChange={handleInputChange}
                       placeholder="Enter your city"
-                      className="w-full bg-background border-2 border-border text-foreground px-4 py-3 font-bold placeholder-muted-foreground focus:outline-none focus:border-accent transition-colors duration-300"
+                      className="w-full bg-background border-2 border-border text-foreground px-3 sm:px-4 py-2.5 sm:py-3 font-bold placeholder-muted-foreground focus:outline-none focus:border-accent transition-colors duration-300 text-sm sm:text-base"
                       required
                     />
                   </div>
@@ -459,7 +459,7 @@ export default function JobApplication() {
                       onChange={handleInputChange}
                       placeholder="Describe your previous work experience (optional)"
                       rows={4}
-                      className="w-full bg-background border-2 border-border text-foreground px-4 py-3 font-bold placeholder-muted-foreground focus:outline-none focus:border-accent transition-colors duration-300 resize-none"
+                      className="w-full bg-background border-2 border-border text-foreground px-3 sm:px-4 py-2.5 sm:py-3 font-bold placeholder-muted-foreground focus:outline-none focus:border-accent transition-colors duration-300 resize-none text-sm sm:text-base"
                     />
                   </div>
 
