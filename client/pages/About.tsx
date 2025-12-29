@@ -155,7 +155,12 @@ export default function About() {
                     Founded on Military Excellence
                   </h3>
                   <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground font-bold leading-relaxed">
-                    Eagle Security Guards was established by military veterans with one clear mission: to bring military-grade discipline and professionalism to civilian security. We are more than a security company. We represent a legacy built directly from Pakistan's armed forces, carrying forward their values and standards.
+                    Eagle Security Guards was established by military veterans
+                    with one clear mission: to bring military-grade discipline
+                    and professionalism to civilian security. We are more than a
+                    security company. We represent a legacy built directly from
+                    Pakistan's armed forces, carrying forward their values and
+                    standards.
                   </p>
                 </div>
 
@@ -259,7 +264,9 @@ export default function About() {
                     Vision
                   </h3>
                   <p className="text-xs sm:text-sm lg:text-base font-bold text-muted-foreground leading-relaxed">
-                    To be the gold standard in professional security, recognized globally for our attention to detail, excellence, and commitment to our clients.
+                    To be the gold standard in professional security, recognized
+                    globally for our attention to detail, excellence, and
+                    commitment to our clients.
                   </p>
                 </div>
               </div>
@@ -1283,7 +1290,10 @@ export default function About() {
                   Strategic Security Solutions That Deliver Results
                 </h3>
                 <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-2xl leading-relaxed mb-6 sm:mb-8">
-                  We assess threats thoroughly and respond tactically when needed. Our military expertise, continuous training, and proven track record protecting Pakistan's most critical organizations ensure you receive the best security available.
+                  We assess threats thoroughly and respond tactically when
+                  needed. Our military expertise, continuous training, and
+                  proven track record protecting Pakistan's most critical
+                  organizations ensure you receive the best security available.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 lg:gap-6 flex-wrap">
                   <a

@@ -127,7 +127,10 @@ export default function Services() {
               </AnimatedFadeInDown>
               <AnimatedFadeInDown delay={200} duration="normal">
                 <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground font-bold mb-6 sm:mb-8 lg:mb-10 leading-relaxed max-w-2xl">
-                  We offer static guards, mobile escorts, and more to meet your security needs. Each service is delivered with professional expertise and the discipline you'd expect from our military-trained team.
+                  We offer static guards, mobile escorts, and more to meet your
+                  security needs. Each service is delivered with professional
+                  expertise and the discipline you'd expect from our
+                  military-trained team.
                 </p>
               </AnimatedFadeInDown>
               <AnimatedFadeInUp delay={300} duration="normal">
@@ -289,7 +292,10 @@ export default function Services() {
                       Static Security Guards
                     </h3>
                     <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
-                      Our security professionals come from the armed forces and work around the clock to protect your location. Every guard is thoroughly screened and trained before joining your site.
+                      Our security professionals come from the armed forces and
+                      work around the clock to protect your location. Every
+                      guard is thoroughly screened and trained before joining
+                      your site.
                     </p>
                     <a
                       href="/contact"
@@ -330,7 +336,10 @@ export default function Services() {
                       Elite Bodyguards
                     </h3>
                     <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
-                      Our bodyguards come from Pakistan's Special Services Group and provide experienced protection with tactical expertise. Each undergoes extensive training and thorough evaluation for high-risk situations.
+                      Our bodyguards come from Pakistan's Special Services Group
+                      and provide experienced protection with tactical
+                      expertise. Each undergoes extensive training and thorough
+                      evaluation for high-risk situations.
                     </p>
                     <a
                       href="/contact"
@@ -371,7 +380,10 @@ export default function Services() {
                       Mobile Escorts
                     </h3>
                     <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
-                      Our mobile escort teams handle your security during travel and transit. We plan your routes carefully, assess threats, and respond quickly with trained security personnel.
+                      Our mobile escort teams handle your security during travel
+                      and transit. We plan your routes carefully, assess
+                      threats, and respond quickly with trained security
+                      personnel.
                     </p>
                     <a
                       href="/contact"
@@ -412,7 +424,10 @@ export default function Services() {
                       Security Equipment
                     </h3>
                     <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
-                      We provide advanced surveillance and monitoring systems designed for your facility. Our solutions include CCTV networks and integrated platforms customized to your specific needs.
+                      We provide advanced surveillance and monitoring systems
+                      designed for your facility. Our solutions include CCTV
+                      networks and integrated platforms customized to your
+                      specific needs.
                     </p>
                     <a
                       href="/contact"
@@ -528,7 +543,10 @@ export default function Services() {
                   Military-Trained Personnel & Advanced Solutions
                 </h3>
                 <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-2xl leading-relaxed mb-6 sm:mb-8">
-                  We assess threats thoroughly and respond quickly when needed. Our team's military background, extensive training, and over 30 years of trusted service to Pakistan's leading organizations ensure protection you can depend on.
+                  We assess threats thoroughly and respond quickly when needed.
+                  Our team's military background, extensive training, and over
+                  30 years of trusted service to Pakistan's leading
+                  organizations ensure protection you can depend on.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 lg:gap-6 flex-wrap">
                   <a

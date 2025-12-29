@@ -163,7 +163,9 @@ export default function Contact() {
               </AnimatedFadeInDown>
               <AnimatedFadeInDown delay={200} duration="normal">
                 <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground font-bold mb-6 sm:mb-8 lg:mb-10 leading-relaxed max-w-2xl">
-                  Reach out to our professional team for consultations, inquiries, or to get a personalized quote for your security needs.
+                  Reach out to our professional team for consultations,
+                  inquiries, or to get a personalized quote for your security
+                  needs.
                 </p>
               </AnimatedFadeInDown>
               <AnimatedFadeInUp delay={300} duration="normal">
@@ -202,7 +204,10 @@ export default function Contact() {
                   </div>
                 )}
 
-                <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
+                <form
+                  onSubmit={handleSubmit}
+                  className="space-y-4 sm:space-y-6"
+                >
                   <div>
                     <label
                       htmlFor="name"

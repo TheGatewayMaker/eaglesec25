@@ -132,7 +132,10 @@ export default function Home() {
               </AnimatedFadeInDown>
               <AnimatedFadeInDown delay={200} duration="normal">
                 <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground font-bold mb-6 sm:mb-8 lg:mb-10 leading-relaxed max-w-2xl">
-                  Our team comes directly from Pakistan's armed forces, bringing military training and discipline to every job. We are committed to protecting what matters most to you with the highest professional standards.
+                  Our team comes directly from Pakistan's armed forces, bringing
+                  military training and discipline to every job. We are
+                  committed to protecting what matters most to you with the
+                  highest professional standards.
                 </p>
               </AnimatedFadeInDown>
               <AnimatedFadeInUp delay={300} duration="normal">
@@ -293,7 +296,10 @@ export default function Home() {
                       Professional Bodyguards
                     </h3>
                     <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
-                      Our bodyguards come from Pakistan's Special Services Group and provide experienced protection with tactical expertise. Each undergoes extensive training and thorough evaluation before assignments.
+                      Our bodyguards come from Pakistan's Special Services Group
+                      and provide experienced protection with tactical
+                      expertise. Each undergoes extensive training and thorough
+                      evaluation before assignments.
                     </p>
                     <a
                       href="/services"
@@ -334,7 +340,10 @@ export default function Home() {
                       Static Security Guards
                     </h3>
                     <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
-                      Our security professionals work around the clock to protect your facility. Every guard is thoroughly screened and trained to maintain the highest standards of protection and professionalism.
+                      Our security professionals work around the clock to
+                      protect your facility. Every guard is thoroughly screened
+                      and trained to maintain the highest standards of
+                      protection and professionalism.
                     </p>
                     <a
                       href="/services"
@@ -375,7 +384,9 @@ export default function Home() {
                       Mobile Escorts
                     </h3>
                     <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
-                      Our mobile escort teams handle your security during travel and transit. We plan your routes carefully and respond quickly to any potential threats with coordinated support.
+                      Our mobile escort teams handle your security during travel
+                      and transit. We plan your routes carefully and respond
+                      quickly to any potential threats with coordinated support.
                     </p>
                     <a
                       href="/services"
@@ -416,7 +427,10 @@ export default function Home() {
                       Security Equipment
                     </h3>
                     <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
-                      We provide advanced surveillance systems and security monitoring tailored to your specific needs. Our solutions include CCTV networks and integrated platforms designed for your facility.
+                      We provide advanced surveillance systems and security
+                      monitoring tailored to your specific needs. Our solutions
+                      include CCTV networks and integrated platforms designed
+                      for your facility.
                     </p>
                     <a
                       href="/services"
@@ -521,7 +535,9 @@ export default function Home() {
               </h2>
             </div>
             <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-3xl leading-relaxed">
-              In today's world, security is not optional. Professional protection is essential to keeping you and your assets safe from evolving threats.
+              In today's world, security is not optional. Professional
+              protection is essential to keeping you and your assets safe from
+              evolving threats.
             </p>
           </AnimatedFadeInUp>
 
@@ -671,7 +687,9 @@ export default function Home() {
                   Professional Security Is An Investment In Your Future
                 </h3>
                 <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-2xl leading-relaxed mb-6 sm:mb-8">
-                  We assess threats thoroughly and respond immediately when needed. Our military background and decades of experience ensure protection you can trust.
+                  We assess threats thoroughly and respond immediately when
+                  needed. Our military background and decades of experience
+                  ensure protection you can trust.
                 </p>
                 <WhatsAppButton
                   size="md"
