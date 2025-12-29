@@ -14,6 +14,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import LogoCarousel from "@/components/LogoCarousel";
 import {
   AnimatedFadeInUp,
   AnimatedFadeInDown,
