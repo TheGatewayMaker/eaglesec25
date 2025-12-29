@@ -5,6 +5,7 @@ import {
   AnimatedFadeInDown,
   AnimatedFadeInLeft,
   AnimatedFadeInRight,
+  AnimatedScaleInUp,
 } from "@/components/AnimationWrappers";
 
 export default function Services() {
