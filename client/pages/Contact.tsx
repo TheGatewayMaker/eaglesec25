@@ -278,7 +278,7 @@ export default function Contact() {
                       value={formData.subject}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 sm:px-5 py-2.5 sm:py-3 bg-input border-2 border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
+                      className="w-full px-3 sm:px-4 py-2 sm:py-3 bg-input border-2 border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
                     >
                       <option value="">Select a subject</option>
                       <option value="security-guards">
@@ -306,7 +306,7 @@ export default function Contact() {
                       onChange={handleChange}
                       required
                       rows={5}
-                      className="w-full px-4 sm:px-5 py-2.5 sm:py-3 bg-input border-2 border-border text-foreground text-sm placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent resize-none transition-all duration-300"
+                      className="w-full px-3 sm:px-4 py-2 sm:py-3 bg-input border-2 border-border text-foreground text-sm placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent resize-none transition-all duration-300"
                       placeholder="Tell us about your security needs..."
                     ></textarea>
                   </div>
