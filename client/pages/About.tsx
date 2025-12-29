@@ -155,11 +155,7 @@ export default function About() {
                     Founded on Military Excellence
                   </h3>
                   <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground font-bold leading-relaxed">
-                    Eagle Security Guards was established by military veterans
-                    with a singular vision: to bring military-grade discipline
-                    and professionalism to civilian security. We're not just a
-                    security company—we're a legacy built on the foundation of
-                    Pakistan's armed forces.
+                    Eagle Security Guards was established by military veterans with one clear mission: to bring military-grade discipline and professionalism to civilian security. We are more than a security company. We represent a legacy built directly from Pakistan's armed forces, carrying forward their values and standards.
                   </p>
                 </div>
 
