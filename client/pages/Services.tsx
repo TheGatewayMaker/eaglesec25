@@ -127,9 +127,7 @@ export default function Services() {
               </AnimatedFadeInDown>
               <AnimatedFadeInDown delay={200} duration="normal">
                 <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground font-bold mb-6 sm:mb-8 lg:mb-10 leading-relaxed max-w-2xl">
-                  From static guards to mobile escorts, our comprehensive
-                  security portfolio delivers world-class protection with
-                  military precision and professional excellence.
+                  We offer static guards, mobile escorts, and more to meet your security needs. Each service is delivered with professional expertise and the discipline you'd expect from our military-trained team.
                 </p>
               </AnimatedFadeInDown>
               <AnimatedFadeInUp delay={300} duration="normal">
@@ -291,11 +289,7 @@ export default function Services() {
                       Static Security Guards
                     </h3>
                     <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
-                      Our vetted security professionals drawn from armed forces
-                      provide round-the-clock on-site protection with military
-                      discipline and precision. Each guard undergoes
-                      comprehensive background screening and professional
-                      training.
+                      Our security professionals come from the armed forces and work around the clock to protect your location. Every guard is thoroughly screened and trained before joining your site.
                     </p>
                     <a
                       href="/contact"
@@ -336,10 +330,7 @@ export default function Services() {
                       Elite Bodyguards
                     </h3>
                     <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
-                      Our SSG-trained specialists deliver executive-level
-                      protection with tactical expertise and discretion. Every
-                      bodyguard undergoes rigorous military training and
-                      psychological evaluation for high-risk scenarios.
+                      Our bodyguards come from Pakistan's Special Services Group and provide experienced protection with tactical expertise. Each undergoes extensive training and thorough evaluation for high-risk situations.
                     </p>
                     <a
                       href="/contact"
@@ -380,10 +371,7 @@ export default function Services() {
                       Mobile Escorts
                     </h3>
                     <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
-                      Our mobile escort teams provide seamless protection during
-                      transit and travel. We offer route planning, threat
-                      assessment, and coordinated security response with fully
-                      trained defensive personnel.
+                      Our mobile escort teams handle your security during travel and transit. We plan your routes carefully, assess threats, and respond quickly with trained security personnel.
                     </p>
                     <a
                       href="/contact"
@@ -424,10 +412,7 @@ export default function Services() {
                       Security Equipment
                     </h3>
                     <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
-                      We deploy state-of-the-art surveillance, access control,
-                      and security monitoring systems. From CCTV networks to
-                      integrated platforms, every solution is tailored to your
-                      facility's unique requirements.
+                      We provide advanced surveillance and monitoring systems designed for your facility. Our solutions include CCTV networks and integrated platforms customized to your specific needs.
                     </p>
                     <a
                       href="/contact"
