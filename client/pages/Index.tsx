@@ -115,7 +115,7 @@ export default function Home() {
         </div>
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6 md:gap-8 lg:gap-12 items-center min-h-fit md:min-h-screen md:py-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6 md:gap-6 lg:gap-8 items-center min-h-fit md:min-h-screen md:py-8">
             {/* Left Content */}
             <AnimatedFadeInLeft
               className="md:col-span-1 lg:col-span-6 flex flex-col justify-center"
