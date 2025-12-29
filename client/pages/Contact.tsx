@@ -6,6 +6,7 @@ import {
   AnimatedFadeInDown,
   AnimatedFadeInLeft,
   AnimatedFadeInRight,
+  AnimatedSlideInFromBottom,
 } from "@/components/AnimationWrappers";
 
 export default function Contact() {
