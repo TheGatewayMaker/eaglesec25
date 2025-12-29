@@ -987,7 +987,7 @@ export default function Home() {
                 title: "Customized Solutions",
                 desc: "Tailored security plans for your specific requirements",
                 image:
-                  "https://i.ibb.co/Dfm7BDgy/Screenshot-2025-12-27-at-10-20-35-PM.png",
+                  "https://cdn.builder.io/api/v1/image/assets%2F051327c0785143dc908295d915c0f0c7%2F1e6d9a502fb44a9f94e3833b9a240392?format=webp&width=800",
               },
             ].map((item, i) => (
               <AnimationWrapper
