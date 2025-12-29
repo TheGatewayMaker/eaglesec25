@@ -975,7 +975,7 @@ export default function Home() {
                 title: "Thorough Vetting",
                 desc: "Comprehensive screening and background verification process",
                 image:
-                  "https://i.ibb.co/JRBrY058/Screenshot-2025-12-27-at-10-21-06-PM.png",
+                  "https://cdn.builder.io/api/v1/image/assets%2F051327c0785143dc908295d915c0f0c7%2Fcf12f62b3e924f65b8ecfb1260bdd4fb?format=webp&width=800",
               },
               {
                 title: "24/7 Availability",
