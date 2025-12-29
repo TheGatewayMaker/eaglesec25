@@ -105,7 +105,7 @@ export default function Home() {
           style={{
             backgroundImage:
               "url('https://cdn.builder.io/api/v1/image/assets%2Fb732abd60cc8411f87cab9bf793b658e%2Fdfceadf1639a4cdfab478fba82a99630?format=webp&width=1200')",
-            backgroundSize: "48%",
+            backgroundSize: "40%",
             backgroundPosition: "right 55%",
             backgroundRepeat: "no-repeat",
             backgroundAttachment: "fixed",
