@@ -957,7 +957,7 @@ export default function Home() {
               },
               {
                 title: "24/7 Availability",
-                desc: "Round-the-clock support and emergency response team",
+                desc: "Available day and night with emergency response support always ready",
                 image:
                   "https://i.ibb.co/QvZZ1D9z/Screenshot-2025-12-27-at-10-21-43-PM.png",
               },
