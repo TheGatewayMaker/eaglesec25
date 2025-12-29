@@ -122,7 +122,7 @@ export default function Home() {
               threshold={0.2}
             >
               <AnimatedFadeInDown delay={0} duration="normal">
-                <div className="flex items-center gap-3 sm:gap-4 mb-6 sm:mb-8 lg:mb-10">
+                <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4 lg:mb-5">
                   <div className="w-1.5 h-8 sm:h-10 md:h-12 lg:h-14 bg-accent rounded-full flex-shrink-0"></div>
                   <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black text-accent uppercase tracking-widest leading-tight">
                     Professional Security Since 1992
@@ -130,12 +130,12 @@ export default function Home() {
                 </div>
               </AnimatedFadeInDown>
               <AnimatedFadeInDown delay={100} duration="normal">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black mb-4 sm:mb-6 lg:mb-8 leading-tight text-foreground">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black mb-3 sm:mb-4 lg:mb-5 leading-tight text-foreground">
                   Elite Security Services For Your Peace of Mind
                 </h1>
               </AnimatedFadeInDown>
               <AnimatedFadeInDown delay={200} duration="normal">
-                <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground font-bold mb-6 sm:mb-8 lg:mb-10 leading-relaxed max-w-2xl">
+                <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground font-bold mb-5 sm:mb-6 lg:mb-7 leading-relaxed max-w-2xl">
                   Our team comes directly from Pakistan's armed forces, bringing
                   military training and discipline to every job. We are
                   committed to protecting what matters most to you with the
