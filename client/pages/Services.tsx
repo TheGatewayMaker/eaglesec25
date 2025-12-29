@@ -528,11 +528,7 @@ export default function Services() {
                   Military-Trained Personnel & Advanced Solutions
                 </h3>
                 <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-2xl leading-relaxed mb-6 sm:mb-8">
-                  From comprehensive threat assessment to rapid response
-                  protocols, our personnel deliver world-class security backed
-                  by military expertise, rigorous training standards, and proven
-                  track record spanning over 30 years of trusted service to
-                  Pakistan's leading organizations.
+                  We assess threats thoroughly and respond quickly when needed. Our team's military background, extensive training, and over 30 years of trusted service to Pakistan's leading organizations ensure protection you can depend on.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 lg:gap-6 flex-wrap">
                   <a
