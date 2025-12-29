@@ -62,6 +62,15 @@ export default function Footer() {
               </li>
               <li>
                 <a
+                  href="/jobs"
+                  className="font-bold text-white hover:text-green-300 transition-colors duration-300 inline-flex items-center gap-2"
+                >
+                  <span className="w-1.5 h-1.5 bg-green-300 rounded-full"></span>
+                  Jobs
+                </a>
+              </li>
+              <li>
+                <a
                   href="/contact"
                   className="font-bold text-white hover:text-green-300 transition-colors duration-300 inline-flex items-center gap-2"
                 >
@@ -158,7 +167,7 @@ export default function Footer() {
         <div className="border-t border-white/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <p className="font-bold text-white/80 text-center md:text-left">
-              © 2024 Eagle Security Guards (Pvt) Ltd. All rights reserved.
+              © 2025-2026 Eagle Security Guards (Pvt) Ltd. All rights reserved.
             </p>
             <div className="flex gap-6">
               <a
