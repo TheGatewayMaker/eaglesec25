@@ -1091,22 +1091,22 @@ export default function About() {
                   {/* Table Header */}
                   <div className="grid grid-cols-4 bg-gradient-to-r from-accent/20 to-accent/10 border-b border-border/80 sticky top-0 z-10">
                     <div className="px-4 sm:px-6 py-4 sm:py-5 border-r border-border/80">
-                      <p className="text-xs sm:text-sm font-black text-foreground uppercase tracking-wide whitespace-nowrap overflow-hidden text-ellipsis">
+                      <p className="text-xs sm:text-sm font-black text-foreground uppercase tracking-wide break-words">
                         Location
                       </p>
                     </div>
                     <div className="px-4 sm:px-6 py-4 sm:py-5 border-r border-border/80">
-                      <p className="text-xs sm:text-sm font-black text-foreground uppercase tracking-wide whitespace-nowrap overflow-hidden text-ellipsis">
+                      <p className="text-xs sm:text-sm font-black text-foreground uppercase tracking-wide break-words">
                         Team Member
                       </p>
                     </div>
                     <div className="px-4 sm:px-6 py-4 sm:py-5 border-r border-border/80">
-                      <p className="text-xs sm:text-sm font-black text-foreground uppercase tracking-wide whitespace-nowrap overflow-hidden text-ellipsis">
+                      <p className="text-xs sm:text-sm font-black text-foreground uppercase tracking-wide break-words">
                         Position
                       </p>
                     </div>
                     <div className="px-4 sm:px-6 py-4 sm:py-5">
-                      <p className="text-xs sm:text-sm font-black text-foreground uppercase tracking-wide whitespace-nowrap overflow-hidden text-ellipsis">
+                      <p className="text-xs sm:text-sm font-black text-foreground uppercase tracking-wide break-words">
                         Experience
                       </p>
                     </div>
@@ -1117,22 +1117,22 @@ export default function About() {
                     {/* Islamabad */}
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           Islamabad
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Mustabeen Ullah Baig
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           CEO
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           30y
                         </p>
                       </div>
@@ -1140,22 +1140,22 @@ export default function About() {
 
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           Islamabad
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Maj (R) K. N. Abbasi
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           GM Marketing & Ops
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           15y
                         </p>
                       </div>
@@ -1163,22 +1163,22 @@ export default function About() {
 
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           Islamabad
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Syed Rehan Waqar
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Company Secretary
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           20y
                         </p>
                       </div>
@@ -1186,22 +1186,22 @@ export default function About() {
 
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           Islamabad
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Sohail Amir
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           CFM
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           15y
                         </p>
                       </div>
@@ -1210,22 +1210,22 @@ export default function About() {
                     {/* Lahore */}
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           Lahore
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Maj (R) Abid Latif
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Regional Manager
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           16y
                         </p>
                       </div>
@@ -1233,22 +1233,22 @@ export default function About() {
 
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           Lahore
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Mansoor Amin
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Finance Manager
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           18y
                         </p>
                       </div>
@@ -1257,22 +1257,22 @@ export default function About() {
                     {/* Karachi */}
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           Karachi
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Hon Capt (R) M. Qurban
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Area Manager
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           13y
                         </p>
                       </div>
@@ -1280,22 +1280,22 @@ export default function About() {
 
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           Karachi
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Zakir Ur Rehman
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Area Manager
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           30y
                         </p>
                       </div>
@@ -1304,22 +1304,22 @@ export default function About() {
                     {/* Multan */}
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           Multan
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Capt (R) Mansoor
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Area Manager
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           5y
                         </p>
                       </div>
@@ -1328,22 +1328,22 @@ export default function About() {
                     {/* Gujranwala */}
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           Gujranwala
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Qaser Iftikhar
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Area Manager
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           8y
                         </p>
                       </div>
@@ -1352,22 +1352,22 @@ export default function About() {
                     {/* Quetta */}
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           Quetta
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Raheel Akbar Shah
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Area Manager
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           12y
                         </p>
                       </div>
@@ -1376,22 +1376,22 @@ export default function About() {
                     {/* AJK */}
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           AJK
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Sub (R) M. Iqbal
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Area Manager
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           18y
                         </p>
                       </div>
@@ -1400,22 +1400,22 @@ export default function About() {
                     {/* Chakwal */}
                     <div className="grid grid-cols-4 border-b border-border/50">
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50 bg-accent/5">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           Chakwal
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Sub (R) M. Aslam
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4 border-r border-border/50">
-                        <p className="text-xs sm:text-sm font-bold text-foreground whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-bold text-foreground break-words">
                           Regional Manager
                         </p>
                       </div>
                       <div className="px-4 sm:px-6 py-3 sm:py-4">
-                        <p className="text-xs sm:text-sm font-black text-accent whitespace-nowrap overflow-hidden text-ellipsis">
+                        <p className="text-xs sm:text-sm font-black text-accent break-words">
                           14y
                         </p>
                       </div>
