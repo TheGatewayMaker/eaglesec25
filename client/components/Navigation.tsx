@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { X } from "lucide-react";
 import WhatsAppButton from "./WhatsAppButton";
 
 export default function Navigation() {
@@ -37,6 +38,10 @@ export default function Navigation() {
   }, [mobileMenuOpen]);
 
   const handleNavLinkClick = () => {
+    setMobileMenuOpen(false);
+  };
+
+  const closeMenu = () => {
     setMobileMenuOpen(false);
   };
 
