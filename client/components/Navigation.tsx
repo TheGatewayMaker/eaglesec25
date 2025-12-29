@@ -9,6 +9,7 @@ export default function Navigation() {
     { href: "/", label: "HOME" },
     { href: "/services", label: "SERVICES" },
     { href: "/about", label: "ABOUT" },
+    { href: "/jobs", label: "JOBS" },
     { href: "/contact", label: "CONTACT" },
   ];
 
